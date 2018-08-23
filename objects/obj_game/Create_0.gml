@@ -2,7 +2,7 @@
 //also to make sure this object exists in the room as well
 
 
-scale = 1.5;
+scale = .75;
 global.spawn = 0;
 window_set_size((window_get_width()* scale), window_get_height() * scale);
 
