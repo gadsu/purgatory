@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "18edd37d-f7f0-4429-b966-1e95c85b3df5",
+            "Value": {
+                "id": "01b3b8cd-9880-4266-b7b9-6c0cedaa39ef",
+                "resourcePath": "sounds\\snd_menu_switch\\snd_menu_switch.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "20893b02-1dd1-4278-bf4c-2ca1b0063680",
             "Value": {
                 "id": "4ff8f0c4-d7e2-4c46-b390-91c89b5756aa",
@@ -207,6 +215,14 @@
             }
         },
         {
+            "Key": "635efa6c-32d8-457e-a7d6-0de54e40e179",
+            "Value": {
+                "id": "2376bd0b-c360-4bde-a783-5f678843e0a9",
+                "resourcePath": "objects\\obj_menu\\obj_menu.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "670ef9de-15e6-485b-a24c-fe3e0f15f169",
             "Value": {
                 "id": "ab2bc681-d3cb-4d99-a585-07fecde2aa4f",
@@ -227,6 +243,14 @@
             "Value": {
                 "id": "12bedeed-409c-4d3c-ab8e-f9ca0fb4a463",
                 "resourcePath": "views\\6a14c44c-bcdc-4b48-a5c5-5ae671fe5cc2.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6edce846-e47f-4836-a8f0-b4ea341057f3",
+            "Value": {
+                "id": "719e65af-49f5-4dea-a8cf-b7291dd51628",
+                "resourcePath": "views\\6edce846-e47f-4836-a8f0-b4ea341057f3.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -279,11 +303,27 @@
             }
         },
         {
+            "Key": "7fb180d3-473a-49cc-af9a-85b0dc2679d9",
+            "Value": {
+                "id": "fa487e05-b8c1-4dc2-8eb8-f49ad054317e",
+                "resourcePath": "rooms\\room_menu\\room_menu.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "869758e8-4567-42a2-9fb9-bbbbedc7baa5",
             "Value": {
                 "id": "8eda7e57-37f4-4c50-9f6f-072bb1659c4b",
                 "resourcePath": "objects\\obj_death_particle\\obj_death_particle.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8936af55-234a-4abf-a0fb-fcc6fe87f2a8",
+            "Value": {
+                "id": "92a12295-f184-41f8-b87c-c5df3eb65779",
+                "resourcePath": "fonts\\font_menu\\font_menu.yy",
+                "resourceType": "GMFont"
             }
         },
         {

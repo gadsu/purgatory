@@ -4,6 +4,7 @@
 
 scale = 1;
 global.spawn = 0;
+global.roomname = room;
 window_set_size((window_get_width()* scale), window_get_height() * scale);
 
 //create the input as well. It has to exist in order for movement to work, and for the game to not
