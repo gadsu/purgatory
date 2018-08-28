@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "4b76db8d-98ed-4fd5-beea-5296838d85c5",
+            "Value": {
+                "id": "cc5ef5b4-dac0-4036-b7ad-ed0f3d5ca890",
+                "resourcePath": "objects\\obj_menu_test\\obj_menu_test.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4cc97674-b35a-4053-93f0-b108573a7ef4",
             "Value": {
                 "id": "5ff6a1e2-b849-40a7-9600-a0e0729cde28",
@@ -487,6 +495,14 @@
             }
         },
         {
+            "Key": "cee98fba-0c7b-4b76-8d84-89f3dd41df66",
+            "Value": {
+                "id": "a720f8fe-10a2-4204-bbca-3331420db0f3",
+                "resourcePath": "sprites\\spr_menu_background\\spr_menu_background.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d111f672-6090-4e42-b3a6-454f661a311e",
             "Value": {
                 "id": "64036a40-716b-4c36-ae92-dda519c2481f",
@@ -543,6 +559,14 @@
             }
         },
         {
+            "Key": "f092724d-10a7-4e9e-9a7d-4ed7a61af796",
+            "Value": {
+                "id": "fbb4ceef-8226-4f78-b0a5-6b0cf394fd2b",
+                "resourcePath": "scripts\\scr_reach_between\\scr_reach_between.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f393206f-a5d1-4063-a197-14a9943edad9",
             "Value": {
                 "id": "9cb4cda7-2102-449b-a740-062c1095c8f3",
@@ -572,7 +596,8 @@
         "d95befdf-0420-4add-907e-1962ad8f2c2f",
         "55d1d405-82b4-4b0f-8c34-36ae25098ff5",
         "59892624-1132-4cc9-ba9b-915163c21a7c",
-        "32bc170a-7b01-485f-af28-400115e3bbee"
+        "32bc170a-7b01-485f-af28-400115e3bbee",
+        "f092724d-10a7-4e9e-9a7d-4ed7a61af796"
     ],
     "tutorial": ""
 }

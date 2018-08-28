@@ -7,7 +7,7 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "8a18c91a-a1e9-4288-bb8b-404cd6ece69f"
+        "a211b6ed-4867-4657-bb70-3d1a6dcefc4c"
     ],
     "IsDnD": false,
     "layers": [
@@ -25,7 +25,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_4EC7A4C5","id": "8a18c91a-a1e9-4288-bb8b-404cd6ece69f","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_4EC7A4C5","objId": "635efa6c-32d8-457e-a7d6-0de54e40e179","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 192,"y": 256}
+{"name": "inst_44D0371","id": "a211b6ed-4867-4657-bb70-3d1a6dcefc4c","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_44D0371","objId": "4b76db8d-98ed-4fd5-beea-5296838d85c5","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": -96,"y": 288}
             ],
             "layers": [
 
@@ -43,7 +43,7 @@
             "id": "6ae8adc3-d71a-491d-8fb7-b79c9b9141e9",
             "animationFPS": 15,
             "animationSpeedType": "0",
-            "colour": { "Value": 4283256141 },
+            "colour": { "Value": 4294967295 },
             "depth": 100,
             "grid_x": 32,
             "grid_y": 32,
@@ -62,7 +62,7 @@
             "m_serialiseFrozen": false,
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "spriteId": "00000000-0000-0000-0000-000000000000",
+            "spriteId": "cee98fba-0c7b-4b76-8d84-89f3dd41df66",
             "stretch": false,
             "userdefined_animFPS": false,
             "userdefined_depth": false,

@@ -17,6 +17,8 @@ if (menu_index > buttons - 1)
 	menu_index = 0;
 }
 var i = 0;
+
+/*
 repeat(buttons)
 {
 	if (unfold[i] == 1)
@@ -32,8 +34,32 @@ repeat(buttons)
 		unfold[i+1] = min(1, unfold[i+1] + .005);
 	}
 }
+*/
 
 
+
+//When the up arrow is pressed, the program takes the value at the end of the line and inserts it 
+//in front of the list, then deletes the same value from the end of the line
+if (keyboard_check_pressed(vk_up) == true)
+	{   
+		show_debug_message("You pressed up");
+		for (var i = 0; i > 10; i++)
+		{
+			please = please + 3;
+			show_debug_message(please);
+		}
+		
+		
+		ds_list_insert(menu_ids, 0, ds_list_find_value(menu_ids, (ds_list_size(menu_ids) - 1)));
+		ds_list_delete(menu_ids, (ds_list_size(menu_ids) - 1));		
+	}
+//When the down arrow is pressed, the program takes the value at the front of the line and inserts it
+//at the back of the list, then deletes the same value from the front of the list
+if (keyboard_check_pressed(vk_down) == true)
+	{
+		ds_list_insert(menu_ids,(ds_list_size(menu_ids)), ds_list_find_value(menu_ids, 0));
+		ds_list_delete(menu_ids, 0);		
+	}
 
 //This plays a sound once you switch menu icons, but right now there isnt a sound
 if (menu_index != last_selected)
