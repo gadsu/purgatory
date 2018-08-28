@@ -28,7 +28,7 @@ for (var i = 0; i < array_length_1d(menu_ids); i++)
 		draw_set_color(c_white);
 	}
 	//draw_text(x, y + ((i - anim_n) * 16), menu_ids[i]);
-	show_debug_message(i - anim);
+	//show_debug_message(i - anim);
 	switch( i - anim)
 	{
 		case 0:
@@ -43,13 +43,12 @@ for (var i = 0; i < array_length_1d(menu_ids); i++)
 			draw_set_alpha(0.15);
 			break;
 		default:
-			draw_set_alpha(0.1);
+			draw_set_alpha(0.01);
 	}
 	
 	//Draws the text in a rotated form
 	draw_text_transformed(
-	x+lengthdir_x(120,(i - anim_n)* 10), // x length of an ellispes
-	y+lengthdir_y(120,(i - anim_n)* 50), // y length of an ellispes
-	menu_ids[i],1,1,(i - anim_n)* 10); // Word Rotation
-	
+	x+lengthdir_x(120,(i - anim_n)* 0), // x length of an ellispes
+	y+lengthdir_y(120,(i - anim_n)* 25), // y length of an ellispes
+	menu_ids[i],1,1,(i - anim_n)* 0); // Word Rotation
 }
