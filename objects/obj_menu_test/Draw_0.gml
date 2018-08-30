@@ -50,5 +50,6 @@ for (var i = 0; i < array_length_1d(menu_ids); i++)
 	draw_text_transformed(
 	x+lengthdir_x(120,(i - anim_n)* 0), // x length of an ellispes
 	y+lengthdir_y(120,(i - anim_n)* 25), // y length of an ellispes
-	menu_ids[i],1,1,(i - anim_n)* 0); // Word Rotation
+	menu_ids[i],1,1,(i - anim_n)* 10); // Word Rotation
 }
+

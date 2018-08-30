@@ -10,6 +10,15 @@ if (instance_exists(obj_player))
 		draw_sprite_ext(spr_health, 0, xt, yt - (i * 20), 1, 1, 0, c_white, 1);
 	}
 }
+
+//drawing the score (TESTING)
+if(instance_exists(obj_spawner))
+{
+	draw_set_color(c_white);
+	draw_set_font(font_main);
+	draw_text(room_width/2 +40, 20, string(score));
+}
+
 //drawing the timer [DEBUG]
 if(instance_exists(obj_spawner))
 {

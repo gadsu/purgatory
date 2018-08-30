@@ -1,12 +1,11 @@
-
-//this spawns all the enemies
-
-
 //keeps track of the seconds passed by
 if( timer mod 30 == 0)
 	{
 		i++;
 	}
+	
+	
+//this spawns all the enemies
 if (spawned == false && i > 0 && i < 3)
 {
 	x_spawn = irandom_range(30, 150)

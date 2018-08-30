@@ -5,5 +5,5 @@ menu_ids[2] = "Practice Mode";
 menu_ids[3] = "Story Game";
 
 //Animation Variables
-anim = 2;
+anim = 3;
 anim_n = 0;

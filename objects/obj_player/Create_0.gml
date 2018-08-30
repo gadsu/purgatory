@@ -6,10 +6,12 @@ player_speed = 5;
 
 iframes = 0;
 
+instrument = 0
 hp = 3;
 global.dead = false;
 
 cooldown = false;
+instrument_cooldown = false
 
 state = "IDLE";
 
