@@ -73,7 +73,7 @@ if (Input.right == true)
 //Controls switching instruments
 if (Input.control == true && instrument_cooldown == false)
 {
-	show_debug_message(instrument);
+	//show_debug_message(instrument);
 	
 	instrument += 1;
 	if(instrument >= 3)
@@ -84,6 +84,63 @@ if (Input.control == true && instrument_cooldown == false)
 	alarm[1] = 40;
 }
 
+//Controls bombs
+if (Input.bomb_key == true && instrument_cooldown == false)
+{
+	//show_debug_message(bomb_count);
+	
+	
+	if(bomb_count >= 1 && bomb_cooldown == false)
+	{
+		//show_debug_message("IT WORKS")
+		
+		//Destroys all bullets
+		with(obj_shot)
+		{
+			instance_destroy(obj_shot);
+		}
+		with(obj_enemy_bullet_parent)
+		{
+			instance_destroy(obj_enemy_bullet_parent);
+		}
+		//Damages all enemies
+		if(instance_exists(obj_enemy_parent))
+		{
+			with (obj_enemy_parent)
+			{
+				hp -= 3		
+				if(hp <= 0)
+				{
+					score += 10;	
+					instance_create_depth(x,y,0,obj_particle_maker);
+					instance_destroy();
+				}
+			}
+		}
+		//Damages all bosses
+		if(instance_exists(obj_enemy_boss_parent))
+		{
+			with (obj_enemy_boss_parent)
+			{
+				hp -= 3		
+				if(hp <= 0)
+				{
+					score += 100;	
+					instance_create_depth(x,y,0,obj_particle_maker);
+					instance_destroy();
+				}
+			}
+		}
+		
+		//Subtracts bomb count
+		bomb_count -= 1;
+	}
+	//Ensure bomb isn't accidently pressed twice
+	bomb_cooldown = true;
+	alarm[2] = 5;
+}
+
+//Controls shooting
 if (Input.button_a == true && cooldown == false)
 {
 	var inst
@@ -101,7 +158,7 @@ if (Input.button_a == true && cooldown == false)
 //clamping the player to stay on the screen
 
 x = clamp(x, sprite_width/2, room_width - sprite_width/2);
-y = clamp(y, 400, room_height - sprite_height/2);
+y = clamp(y, 20, room_height - sprite_height/2);
 
 // if you collide with any enemy, loose hp
 if (hp <= 0)

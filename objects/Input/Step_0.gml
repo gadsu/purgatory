@@ -7,3 +7,5 @@ right = keyboard_check(vk_right);
 button_a = keyboard_check(vk_space);
 button_b = keyboard_check(vk_enter);
 control = keyboard_check(vk_control);
+bomb_key = keyboard_check(vk_alt);
+escape = keyboard_check(vk_escape);

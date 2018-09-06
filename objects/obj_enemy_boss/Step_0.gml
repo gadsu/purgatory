@@ -109,4 +109,18 @@ if(phase2 == true)
 	}
 	
 }
+if(hp <= 20 && path_started == false)
+{
+	
+	path_start(path_bosspath, 2, path_action_continue, 0);
+	path_started = true;
+}
+if (blendtime > 0)
+{
+	blendtime--;
+}
+else
+{
+	blend = c_white;
+}
 timer++

@@ -46,5 +46,13 @@ if (y > 632)
 {
 	instance_destroy();
 }
+if (blendtime > 0)
+{
+	blendtime--;
+}
+else
+{
+	blend = c_white;
+}
 
 timer++;

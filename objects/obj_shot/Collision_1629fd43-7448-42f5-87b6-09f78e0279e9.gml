@@ -3,5 +3,9 @@
 //add score
 //destroy bullet
 instance_create_depth(x,y - 5,0, obj_bullet_impact);
-score += 100 / int64(obj_spawner.i);
-instance_destroy();
+if (instance_exists(obj_spawner) == true)
+{
+	score += 100 / int64(obj_spawner.i);
+}
+
+//instance_destroy();

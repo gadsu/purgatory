@@ -14,5 +14,13 @@ if(hp <= 0)
 	instance_create_depth(x,y,0,obj_particle_maker);
 	instance_destroy();
 }
+hit_frames = true;
+
+//Make the thing flash white
+blend = c_red;
+blendtime = 3;
+
+
+
 
 instance_destroy(obj_shot.id);

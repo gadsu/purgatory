@@ -7,3 +7,12 @@ if (shot == false && instance_exists(obj_player))
 	shot = true;
 	alarm[0] = shooting_speed;
 }
+if (blendtime > 0)
+{
+	blendtime--;
+}
+else
+{
+	blend = c_white;
+}
+

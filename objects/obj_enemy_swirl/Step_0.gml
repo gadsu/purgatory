@@ -18,4 +18,12 @@ if (spawned == false && i > 3 && v < 8)
 	spawned = true;
 	alarm[0] = 5;
 }
+if (blendtime > 0)
+{
+	blendtime--;
+}
+else
+{
+	blend = c_white;
+}
 timer++;

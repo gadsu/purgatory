@@ -6,4 +6,6 @@ left = false;
 right = false;
 button_a = false;
 button_b = false;
-control = false
+control = false;
+bomb_key = false;
+escape = false;

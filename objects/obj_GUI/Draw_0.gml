@@ -19,6 +19,14 @@ if(instance_exists(obj_spawner))
 	draw_text(room_width/2 +40, 20, string(score));
 }
 
+//drawing the bomb count (TESTING)
+if(instance_exists(obj_spawner))
+{
+	draw_set_color(c_white);
+	draw_set_font(font_main);
+	draw_text(room_width/2 - 40, 20, string(obj_player.bomb_count));
+}
+
 //drawing the timer [DEBUG]
 if(instance_exists(obj_spawner))
 {
