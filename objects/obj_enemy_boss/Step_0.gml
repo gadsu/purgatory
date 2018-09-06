@@ -7,6 +7,7 @@ if (y >= 75)
 }
 if (hp <= 0)
 {
+	score += 100
 	instance_destroy();
 }
 if(timer mod 30 == 1)

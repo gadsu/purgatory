@@ -6,3 +6,4 @@ left = false;
 right = false;
 button_a = false;
 button_b = false;
+control = false

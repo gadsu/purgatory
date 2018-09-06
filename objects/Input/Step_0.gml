@@ -6,3 +6,4 @@ left = keyboard_check(vk_left);
 right = keyboard_check(vk_right);
 button_a = keyboard_check(vk_space);
 button_b = keyboard_check(vk_enter);
+control = keyboard_check(vk_control);
