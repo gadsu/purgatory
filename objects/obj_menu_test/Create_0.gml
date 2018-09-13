@@ -7,3 +7,4 @@ menu_ids[3] = "Story Game";
 //Animation Variables
 anim = 3;
 anim_n = 0;
+cooldown = false; // make sure that the sound doesnt repeatedly play

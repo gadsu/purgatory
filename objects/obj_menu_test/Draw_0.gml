@@ -1,7 +1,6 @@
 /// @description Draw the Menus
 
 anim += keyboard_check_pressed(vk_up) - keyboard_check_pressed(vk_down);
-//anim = clamp (anim, 0, array_length_1d(menu_ids) -1 );
 
 if (anim > array_length_1d(menu_ids) - 1)
 {

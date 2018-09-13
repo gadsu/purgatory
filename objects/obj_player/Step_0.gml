@@ -1,57 +1,5 @@
 /// @making the player move
-//input is checked on each step
-/*
-switch (state)
-{
 
-	case "IDLE":
-	{
-		vx = 0;
-		vy = 0;
-		
-		check_input_all();
-		break;
-	}
-	case "UP":
-	{
-		check_input_all();
-		
-		vy = -1 * player_speed;
-		
-		
-		break;
-	}
-	case "DOWN":
-	{
-		check_input_all();
-		
-		vy = 1 * player_speed;
-		
-		
-		break;
-	}
-	case "RIGHT":
-	{
-		check_input_all();
-		vx = 1 * player_speed;
-		
-		
-		
-		break;
-	}
-	case "LEFT":
-	{
-		check_input_all();
-		vx = -1 * player_speed;
-		
-		
-		
-		break;
-	}
-}
-check_collision_obj(vx,vy, obj_solid);
-
-*/
 
 if (Input.up == true)
 {
@@ -93,6 +41,8 @@ if (Input.bomb_key == true && instrument_cooldown == false)
 	if(bomb_count >= 1 && bomb_cooldown == false)
 	{
 		//show_debug_message("IT WORKS")
+		
+		audio_play_sound(edm_explode,10,false);
 		
 		//Destroys all bullets
 		with(obj_shot)
@@ -163,6 +113,7 @@ y = clamp(y, 20, room_height - sprite_height/2);
 // if you collide with any enemy, loose hp
 if (hp <= 0)
 {
+	audio_play_sound(death_sound_effect,10,false);
 	global.dead = true;
 	instance_destroy();
 	show_debug_message("NEW MENU");
