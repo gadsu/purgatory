@@ -11,6 +11,6 @@ y_cord = argument[3];
 //The bullet will used the global varible to move in  that direction
 global.angle = dir;
 
-instance_create_depth(x_cord,y_cord,0, bullet);
+instance_create_depth(x_cord,y_cord,-1, bullet);
 
 return;

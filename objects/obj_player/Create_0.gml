@@ -16,4 +16,5 @@ instrument_cooldown = false
 bomb_cooldown = false
 
 state = "IDLE";
+instance_create_depth(x,y,0,obj_playergraze_hitbox);
 

@@ -2,3 +2,6 @@
 // the enemy_bullet script
 direction = global.angle
 speed = 7;
+made_sound = false;
+hit_player = false;
+hit_graze  = false;

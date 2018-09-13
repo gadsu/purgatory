@@ -66,7 +66,7 @@
             "mvc": "1.0",
             "spriteId": "cee98fba-0c7b-4b76-8d84-89f3dd41df66",
             "stretch": false,
-            "userdefined_animFPS": false,
+            "userdefined_animFPS": true,
             "userdefined_depth": false,
             "visible": true,
             "vspeed": 0,

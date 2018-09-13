@@ -11,3 +11,6 @@ window_set_size((window_get_width()* scale), window_get_height() * scale);
 //crash
 
 instance_create_depth(0,0,0,Input);
+pause = false;
+drawn = false;
+current_room = room;
