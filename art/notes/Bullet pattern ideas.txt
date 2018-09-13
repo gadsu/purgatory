@@ -30,3 +30,12 @@ transition (maybe)
 third phase (If there's a long note MOB screams out, it charges up a giant bullet and hurls at you. Think Spirit Bomb)
 
 Stage gets more damaged with each phase (ties in with the songs)
+
+
+
+Classical instrument bullet patterns: 
+trumpet: tight shotgun like spread that moves rather quickly forcing player to get out fo the way
+trombone: wider spread than trumpet and bullets move slower but there is more of them forcing player to dodge and weave through them
+
+triangle: shoots out ten waves of bullets in a triangular shape that switch between two formations so the play cant just stand still and dodge it all
+ 
