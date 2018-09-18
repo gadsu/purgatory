@@ -8,7 +8,7 @@ if (anim > array_length_1d(menu_ids) - 1)
 }
 if (anim < 0)
 {
-	anim = 3;
+	anim = array_length_1d(menu_ids) - 1;
 }
 
 
@@ -16,6 +16,7 @@ anim_n = scr_reach_between(anim_n, anim, 4);
 
 draw_set_font(font_menu);
 draw_set_valign(fa_middle);
+draw_set_halign(fa_left);
 for (var i = 0; i < array_length_1d(menu_ids); i++)
 {
 	if (anim == i)
@@ -47,8 +48,8 @@ for (var i = 0; i < array_length_1d(menu_ids); i++)
 	
 	//Draws the text in a rotated form
 	draw_text_transformed(
-	x+lengthdir_x(120,(i - anim_n)* 0), // x length of an ellispes
-	y+lengthdir_y(120,(i - anim_n)* 25), // y length of an ellispes
+	x+lengthdir_x(length_x,(i - anim_n)* 0), // x length of an ellispes
+	y+lengthdir_y(length_y,(i - anim_n)* 25), // y length of an ellispes
 	menu_ids[i],1,1,(i - anim_n)* 10); // Word Rotation
 }
 

@@ -20,7 +20,7 @@ if(instance_exists(obj_spawner))
 }
 
 //drawing the bomb count (TESTING)
-if(instance_exists(obj_spawner))
+if(instance_exists(obj_spawner) && instance_exists(obj_player))
 {
 	draw_set_color(c_white);
 	draw_set_font(font_main);
