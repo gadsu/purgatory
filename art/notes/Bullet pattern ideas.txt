@@ -35,8 +35,10 @@ Stage gets more damaged with each phase (ties in with the songs)
 
 Classical instrument bullet patterns: 
 trumpet: after a short delay shotts a tight shotgun like spread that moves rather quickly forcing player to get out fo the way
-tuba: after a short delay shotts a wider spread than trumpet and bullets move slower but there is more of them forcing player to dodge and weave through them
+trombone: after a short delay shotts a wider spread than trumpet and bullets move slower but there is more of them forcing player to dodge and weave through them
+tuba: shoots slow moving bullets at the player that get larger in size over time 
 bassoon: shoots a somewhat fast bullet at the player every fifth of a second for 5 seconds
+
 
 triangle: shoots out ten waves of bullets in a triangular shape that switch between two formations so the play cant just stand still and dodge it all
  
