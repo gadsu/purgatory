@@ -22,3 +22,4 @@ if (keyboard_check_pressed(vk_escape))
 		layer_set_visible("Background", true);
 	}
 }
+

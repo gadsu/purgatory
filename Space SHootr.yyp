@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "0fcf7349-3410-46c4-91da-9280aab423bd",
+            "Value": {
+                "id": "f3a0f4d7-b1c3-409b-bbcb-76e9433a835d",
+                "resourcePath": "sprites\\spr_textbox\\spr_textbox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0fe23238-17fc-4bdb-93f3-9396a6453641",
             "Value": {
                 "id": "f8822a9c-a01c-4e31-8337-320532e20d46",
@@ -191,6 +199,14 @@
             }
         },
         {
+            "Key": "44276545-9071-4c95-9797-9f8ec3b10713",
+            "Value": {
+                "id": "58fd15d5-03dd-4b25-aadc-67778e272233",
+                "resourcePath": "objects\\obj_textbox\\obj_textbox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "47a77ab3-cbdb-4497-b634-8bc4ce434bfc",
             "Value": {
                 "id": "9b34ca77-926e-4596-8d54-60011204b710",
@@ -211,6 +227,14 @@
             "Value": {
                 "id": "5ff6a1e2-b849-40a7-9600-a0e0729cde28",
                 "resourcePath": "objects\\obj_GUI\\obj_GUI.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4d046e57-0bba-44c6-8f19-c4301d8c2634",
+            "Value": {
+                "id": "80e286e2-9047-44c0-b83e-61f8498953a0",
+                "resourcePath": "objects\\obj_highscores\\obj_highscores.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -252,6 +276,14 @@
                 "id": "24af2446-1a40-497d-bbe3-255eb81037f6",
                 "resourcePath": "objects\\obj_playergraze_hitbox\\obj_playergraze_hitbox.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "62cf3d72-78a8-420a-88a5-8414044cf7f0",
+            "Value": {
+                "id": "64b9d44f-235c-49e7-8177-74280725f5ca",
+                "resourcePath": "rooms\\room_highscore\\room_highscore.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -447,11 +479,27 @@
             }
         },
         {
+            "Key": "966ad282-14b1-4c18-bbea-67250ef7f983",
+            "Value": {
+                "id": "28c99e9f-5ee1-4cc2-9120-b67a4f917393",
+                "resourcePath": "timelines\\tl_BPMTEST\\tl_BPMTEST.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "9747984d-ecc3-41fc-8431-4e51043afc15",
             "Value": {
                 "id": "aaebba75-9fb3-4ef7-a4d2-1146f674ccde",
                 "resourcePath": "objects\\obj_player\\obj_player.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9a81d5b0-1443-4355-8d74-6b61db3c5759",
+            "Value": {
+                "id": "453d5c3d-6ee9-4f04-9aca-63bfc85d6dbc",
+                "resourcePath": "views\\9a81d5b0-1443-4355-8d74-6b61db3c5759.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -500,14 +548,6 @@
                 "id": "bdbf6b25-ce16-445e-bfe6-575f9af4ed2d",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
-            }
-        },
-        {
-            "Key": "aaaa0481-b9a2-498f-9fa3-11c98ec30aa2",
-            "Value": {
-                "id": "77f8001b-6c4b-4066-8713-2f01af6ea7b2",
-                "resourcePath": "objects\\obj_solid\\obj_solid.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -594,7 +634,7 @@
             "Key": "ce71cee8-abdb-4687-bf1c-4fcfd9d47beb",
             "Value": {
                 "id": "ede00e42-7be4-4ade-9f4c-a7568fa82161",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\room_game\\room_game.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -620,6 +660,14 @@
                 "id": "0839d67d-22b2-4f55-a383-5712aa06a1b5",
                 "resourcePath": "sounds\\bullet_graze_sound_effect\\bullet_graze_sound_effect.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "d51ae34c-d70b-4184-93ee-61b0300aab13",
+            "Value": {
+                "id": "65849203-bed6-40dd-b9e7-9553da8ab386",
+                "resourcePath": "fonts\\font_submenu\\font_submenu.yy",
+                "resourceType": "GMFont"
             }
         },
         {
