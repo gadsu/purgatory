@@ -14,6 +14,8 @@
 	{
 		score += 100;
 		instance_create_depth(x,y,0,obj_particle_maker);
+		show_debug_message(score);
+		instance_create_depth(room_width/2, room_height/2, -1, obj_textbox);
 		instance_destroy();
 	}
 

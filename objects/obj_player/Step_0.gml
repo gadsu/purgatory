@@ -1,23 +1,45 @@
 /// @making the player move
 
+if (!keyboard_check(vk_shift))
+{
+	if (Input.up == true)
+	{
+		y -= player_speed;
+	}
+	if (Input.down == true)
+	{
+		y += player_speed;
+	}
+	if (Input.left == true)
+	{
+		x -= player_speed;	
+	}
+	if (Input.right == true)
+	{
+		x += player_speed;
+	}
+}
 
-if (Input.up == true)
+//Controls precision movement
+if (keyboard_check(vk_shift))
 {
-	y -= player_speed;
+	if (Input.up == true)
+	{
+		y -= player_speed / 3;
+	}
+	if (Input.down == true)
+	{
+		y += player_speed / 3;
+	}
+	if (Input.left == true)
+	{
+		x -= player_speed / 3;	
+	}
+	if (Input.right == true)
+	{
+		x += player_speed / 3;
+	}
 }
-if (Input.down == true)
-{
-	y += player_speed;
-}
-if (Input.left == true)
-{
-	x -= player_speed;	
-}
-if (Input.right == true)
-{
-	x += player_speed;
-}
-
 //Controls switching instruments
 if (Input.control == true && instrument_cooldown == false)
 {
@@ -118,8 +140,6 @@ if (hp <= 0)
 	show_debug_message(score);
 	instance_create_depth(room_width/2, room_height/2, -1, obj_textbox);
 	instance_destroy();
-	
-	
 }
 
 

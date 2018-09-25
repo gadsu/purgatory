@@ -5,6 +5,7 @@
 scale = 1;
 global.spawn = 0;
 global.roomname = room;
+global.bossdead = false;
 
 window_set_size((window_get_width()* scale), window_get_height() * scale);
 

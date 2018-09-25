@@ -79,6 +79,22 @@
             }
         },
         {
+            "Key": "07a4626b-383e-4a2a-951f-0b37bd87c80a",
+            "Value": {
+                "id": "bcb7d539-02e3-4b36-89ec-176cee70869e",
+                "resourcePath": "views\\07a4626b-383e-4a2a-951f-0b37bd87c80a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "0dd7f6dd-3d64-44e4-8d1d-eddc0f8b0b8b",
+            "Value": {
+                "id": "017adcab-4292-4345-80c0-adeb465ff427",
+                "resourcePath": "objects\\obj_enemy_bullet_dec\\obj_enemy_bullet_dec.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0ea246df-9b2e-45af-9c30-caddf99282ce",
             "Value": {
                 "id": "325f6735-7a49-4158-9a34-04613f66ef53",
@@ -123,6 +139,14 @@
             "Value": {
                 "id": "4ff8f0c4-d7e2-4c46-b390-91c89b5756aa",
                 "resourcePath": "objects\\obj_enemy_boss_parent\\obj_enemy_boss_parent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "25bead93-d2d5-44cf-81d5-0105b479302c",
+            "Value": {
+                "id": "ff9997c6-7308-48d6-9606-ffcd32b4913f",
+                "resourcePath": "objects\\obj_enemy_bullet_rotate\\obj_enemy_bullet_rotate.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -239,6 +263,14 @@
             }
         },
         {
+            "Key": "5337f883-6730-4d1d-b8c3-a78b148914a8",
+            "Value": {
+                "id": "aad98709-4d47-4ec4-80c9-3b77f748d2d2",
+                "resourcePath": "sprites\\spr_enemy_bullet_turner\\spr_enemy_bullet_turner.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "55d1d405-82b4-4b0f-8c34-36ae25098ff5",
             "Value": {
                 "id": "0c0e437d-3517-4342-af6c-1fe73f1d31db",
@@ -291,6 +323,14 @@
             "Value": {
                 "id": "2376bd0b-c360-4bde-a783-5f678843e0a9",
                 "resourcePath": "objects\\obj_menu\\obj_menu.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "64fd745f-353f-4628-af73-fd8595bed987",
+            "Value": {
+                "id": "341cde3b-335a-4e1a-9cfe-dc6a56010eb2",
+                "resourcePath": "objects\\obj_enemy_bullet_turner\\obj_enemy_bullet_turner.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -487,6 +527,14 @@
             }
         },
         {
+            "Key": "96722bfb-19d9-40c7-9bc5-c3dd896f7146",
+            "Value": {
+                "id": "cb0b3463-4ab1-4dc7-9a29-73d8085608cc",
+                "resourcePath": "objects\\obj_enemy_bullet_acel\\obj_enemy_bullet_acel.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9747984d-ecc3-41fc-8431-4e51043afc15",
             "Value": {
                 "id": "aaebba75-9fb3-4ef7-a4d2-1146f674ccde",
@@ -599,6 +647,14 @@
             }
         },
         {
+            "Key": "c4b7d6c5-59ba-4018-a9fa-9d3999aadd64",
+            "Value": {
+                "id": "e7cf29c2-4da8-40b3-9101-01c265241773",
+                "resourcePath": "sprites\\spr_enemy_bullet_rotate\\spr_enemy_bullet_rotate.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c52c13c9-25c5-4154-9768-bc7649b649d2",
             "Value": {
                 "id": "209c7c51-c751-4079-8da2-11b547cbeaf8",
@@ -687,6 +743,14 @@
             }
         },
         {
+            "Key": "dccc2ea0-dd2a-4673-832b-31b14f0c0d76",
+            "Value": {
+                "id": "caaaddea-1699-409c-8e29-808aa880d8bc",
+                "resourcePath": "scripts\\scr_triangle_bullets\\scr_triangle_bullets.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e76ff1f8-3c18-40c2-a35c-eabc36e6227a",
             "Value": {
                 "id": "4ab8f6e9-13fc-490d-860a-d5b67b79a96e",
@@ -757,7 +821,8 @@
         "55d1d405-82b4-4b0f-8c34-36ae25098ff5",
         "59892624-1132-4cc9-ba9b-915163c21a7c",
         "32bc170a-7b01-485f-af28-400115e3bbee",
-        "f092724d-10a7-4e9e-9a7d-4ed7a61af796"
+        "f092724d-10a7-4e9e-9a7d-4ed7a61af796",
+        "dccc2ea0-dd2a-4673-832b-31b14f0c0d76"
     ],
     "tutorial": ""
 }

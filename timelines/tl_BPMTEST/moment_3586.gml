@@ -1,0 +1,1 @@
+enemy_bullet(oebw, 135, bx, by + 40);
