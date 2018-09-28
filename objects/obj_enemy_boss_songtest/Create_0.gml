@@ -5,3 +5,4 @@ spawned = false;
 angle = 0;
 num = 0;
 add = -5;
+timer = 0;

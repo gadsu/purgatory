@@ -495,6 +495,14 @@
             }
         },
         {
+            "Key": "912076d2-a779-4853-9f61-e41093a10429",
+            "Value": {
+                "id": "983906da-851b-491e-ba0b-41f16ff90db6",
+                "resourcePath": "objects\\obj_enemy_bullet_vector\\obj_enemy_bullet_vector.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "92ade45b-4019-493e-9dfd-64e6ce22c7d3",
             "Value": {
                 "id": "149d9a79-6e0f-45c9-be69-ad16907995c9",
@@ -596,6 +604,14 @@
                 "id": "bdbf6b25-ce16-445e-bfe6-575f9af4ed2d",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "abdee759-e4d6-43a5-98e6-3103e218ca6b",
+            "Value": {
+                "id": "d4a45bf5-3b66-4e2b-955f-b7916b3cf97b",
+                "resourcePath": "scripts\\enemy_bullet_vector\\enemy_bullet_vector.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -821,6 +837,7 @@
         "55d1d405-82b4-4b0f-8c34-36ae25098ff5",
         "59892624-1132-4cc9-ba9b-915163c21a7c",
         "32bc170a-7b01-485f-af28-400115e3bbee",
+        "abdee759-e4d6-43a5-98e6-3103e218ca6b",
         "f092724d-10a7-4e9e-9a7d-4ed7a61af796",
         "dccc2ea0-dd2a-4673-832b-31b14f0c0d76"
     ],

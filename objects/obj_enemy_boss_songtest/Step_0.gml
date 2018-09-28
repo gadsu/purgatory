@@ -1,12 +1,14 @@
-
-if (spawned == false and num < 5000 )
+timer++
+if (spawned == false and num < 30 and timer > 106)
 {
 	
 	
-	enemy_bullet(obj_enemy_bullet_dec, 270, x,y);
+	scr_triangle_bullets(angle, x, y, 20, 50, .15); //.002
 	
-//	enemy_bullet(obj_enemy_bullet_rotate, angle, x,y);
-//	enemy_bullet(obj_enemy_bullet_rotate, angle + 4, x,y);
+	
+	
+	//enemy_bullet(obj_enemy_bullet_acel ,270, x-20, y);
+	//enemy_bullet(obj_enemy_bullet_dec, 270, x+20, y);
 //	enemy_bullet(obj_enemy_bullet_rotate, angle + 8, x,y);
 //	enemy_bullet(obj_enemy_bullet_rotate, angle + 12, x,y);
 	
@@ -14,8 +16,7 @@ if (spawned == false and num < 5000 )
 //	enemy_bullet(obj_enemy_bullet_rotate, angle + 94, x,y);
 //	enemy_bullet(obj_enemy_bullet_rotate, angle + 98, x,y);
 //	enemy_bullet(obj_enemy_bullet_rotate, angle + 102, x,y);
-	
-	
+		
 //	enemy_bullet(obj_enemy_bullet_rotate, angle + 180, x,y);
 //	enemy_bullet(obj_enemy_bullet_rotate, angle + 184, x,y);
 //	enemy_bullet(obj_enemy_bullet_rotate, angle + 188, x,y);
@@ -28,20 +29,9 @@ if (spawned == false and num < 5000 )
 	
 	num++;
 	spawned = true;
-	alarm[2] = 5;
-//	//if(num mod 29 == 0)
-//	//{
-//	//	switch (add)
-//	//	{
-//	//		case -5:
-//	//			add = 5;
-//	//			break;
-//	//		case 5:
-//	//			add = -5;
-//	//			break;
-//	//	}
-//	//}
-//	angle = angle + add;
+	alarm[2] = 40;
+
+	angle = angle + pi/2
 	
 	
 }
