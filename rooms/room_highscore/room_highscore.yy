@@ -87,12 +87,12 @@
     },
     "roomSettings":     {
         "id": "f1040f71-636b-4af9-b1be-09d205f373cf",
-        "Height": 600,
+        "Height": 720,
         "inheritRoomSettings": false,
         "modelName": "GMRoomSettings",
         "persistent": false,
         "mvc": "1.0",
-        "Width": 400
+        "Width": 1280
     },
     "mvc": "1.0",
     "views": [

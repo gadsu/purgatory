@@ -132,7 +132,7 @@ if (Input.button_a == true && cooldown == false)
 x = clamp(x, sprite_width/2, room_width - sprite_width/2);
 y = clamp(y, 20, room_height - sprite_height/2);
 
-// if you collide with any enemy, loose hp
+// if you collide with any enemy, lose hp
 if (hp <= 0)
 {
 	audio_play_sound(death_sound_effect,10,false);
