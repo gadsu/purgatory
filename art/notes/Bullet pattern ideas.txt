@@ -39,7 +39,8 @@ trombone: after a short delay shoots a wider spread than trumpet and bullets mov
 tuba: shoots slow moving bullets at the player that get larger in size over time 
 bassoon: shoots a somewhat fast bullet at the player every fifth of a second for 5 seconds
 violins: shoots out bullets in a wavy pattern for a couple of seconds
-
+horns: shoots a large amount of bullets that are affected by gravity
+violas: shoots out bullets in a half wave pattern
 
 triangle: shoots out ten waves of bullets in a triangular shape that switch between two formations so the play cant just stand still and dodge it all
  
