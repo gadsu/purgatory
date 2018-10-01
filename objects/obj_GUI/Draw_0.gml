@@ -2,7 +2,7 @@
 
 if (instance_exists(obj_player))
 {
-	xt = 20;
+	xt = 340;
 	yt = 575;
 	
 	for(var i = 0; i <obj_player.hp; i++)
@@ -10,6 +10,8 @@ if (instance_exists(obj_player))
 		draw_sprite_ext(spr_health, 0, xt, yt - (i * 20), 1, 1, 0, c_white, 1);
 	}
 }
+
+
 
 //drawing the score (TESTING)
 if(instance_exists(obj_spawner))
