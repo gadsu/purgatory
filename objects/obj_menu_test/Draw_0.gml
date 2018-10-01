@@ -48,8 +48,8 @@ for (var i = 0; i < array_length_1d(menu_ids); i++)
 	
 	//Draws the text in a rotated form
 	draw_text_transformed(
-	x+lengthdir_x(length_x,(i - anim_n)* 0), // x length of an ellispes
-	y+lengthdir_y(length_y,(i - anim_n)* 25), // y length of an ellispes
+	x+lengthdir_x(length_x,(i - anim_n)* 10), // x length of an ellispes
+	y+lengthdir_y(length_y,(i - anim_n)* 40), // y length of an ellispes
 	menu_ids[i],1,1,(i - anim_n)* 10); // Word Rotation
 }
 
