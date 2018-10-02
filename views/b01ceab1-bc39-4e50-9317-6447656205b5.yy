@@ -15,12 +15,16 @@
         "670ef9de-15e6-485b-a24c-fe3e0f15f169",
         "60b174a9-ff8d-44e2-a09b-570d76ffcd80",
         "9a81d5b0-1443-4355-8d74-6b61db3c5759",
+<<<<<<< HEAD
         "44276545-9071-4c95-9797-9f8ec3b10713",
 <<<<<<< HEAD
         "76df625f-95e5-4e64-9fda-1977b18752c4"
 =======
         "3d4b26af-bbff-4f63-9e83-d70cc961a7ea"
 >>>>>>> 9a27dd1ce756c111f87e4166f63b7d95d2d55a74
+=======
+        "44276545-9071-4c95-9797-9f8ec3b10713"
+>>>>>>> parent of 9a27dd1... All of the rooms now are able to function with the new room sizes
     ],
     "filterType": "GMObject",
     "folderName": "objects",

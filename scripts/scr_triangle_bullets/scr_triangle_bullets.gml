@@ -75,7 +75,7 @@ for (var i = 0; i < num; i++)
 }
 
 
-return;
+
 //for (var i = 0; i < num; i++)
 //{
 //	enemy_bullet(obj_enemy_bullet_wonder, 210 + (i * angle), (x_cord - length/2) + (i * divide_x), ((length/2)*(sqrt(3))/2)); // buttom side of triangle
