@@ -10,7 +10,7 @@ anim_n = 0;
 cooldown = false; // make sure that the sound doesnt repeatedly play
 show_debug_message(x);
 show_debug_message(y);
-length_x = 120;
+length_x = 225;
 length_y = 120;
 
 show_debug_message(length_x);
