@@ -1,8 +1,8 @@
 {
-    "id": "815ecd0d-000e-4b7d-a23c-84115234e981",
+    "id": "8c296651-c031-4b1f-bd69-0a6b58852c62",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "create_text_event",
+    "name": "create_textevent",
     "IsCompatibility": false,
     "IsDnD": false
 }

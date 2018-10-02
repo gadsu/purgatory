@@ -1,5 +1,5 @@
 {
-    "id": "6196cd60-b80a-495d-87e7-ccafd499af98",
+    "id": "3617c53b-fbad-41c1-b107-7ab92fa8aaca",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "create_dialogue",

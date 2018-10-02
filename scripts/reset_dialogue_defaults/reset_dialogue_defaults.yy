@@ -1,5 +1,5 @@
 {
-    "id": "0f57d576-69ac-4bca-8709-5f1e7687bef0",
+    "id": "22c57393-d17c-4500-b428-2d67f27d9725",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "reset_dialogue_defaults",

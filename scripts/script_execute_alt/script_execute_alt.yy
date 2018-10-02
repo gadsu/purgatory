@@ -1,5 +1,5 @@
 {
-    "id": "f88e844e-ee4a-409f-83ae-90e24bec5d03",
+    "id": "d0cbf33f-2b88-430a-92bc-d8adabf7fd7e",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "script_execute_alt",

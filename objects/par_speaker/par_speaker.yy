@@ -1,28 +1,28 @@
 {
-    "id": "dea3b970-c9c1-49c7-a743-fbfdc37c3260",
+    "id": "bacfa89f-a1ce-4276-93c3-7cba4cb8ddb1",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "par_speaker",
     "eventList": [
         {
-            "id": "85038ae8-042d-40c0-bf7d-78aa56567795",
+            "id": "a491efb8-8df3-484f-97f8-a7052183e1e8",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "dea3b970-c9c1-49c7-a743-fbfdc37c3260"
+            "m_owner": "bacfa89f-a1ce-4276-93c3-7cba4cb8ddb1"
         },
         {
-            "id": "4d6d3f8c-a006-453a-8150-05167e57d860",
+            "id": "6581e32d-0a07-4f42-aad5-18ffd9650aaa",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "dea3b970-c9c1-49c7-a743-fbfdc37c3260"
+            "m_owner": "bacfa89f-a1ce-4276-93c3-7cba4cb8ddb1"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
