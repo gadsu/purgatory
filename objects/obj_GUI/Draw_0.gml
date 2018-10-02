@@ -2,32 +2,67 @@
 
 if (instance_exists(obj_player))
 {
-	xt = 340;
-	yt = 575;
+	xt = 60;
+	yt = 540;
 	
 	for(var i = 0; i <obj_player.hp; i++)
 	{
-		draw_sprite_ext(spr_health, 0, xt, yt - (i * 20), 1, 1, 0, c_white, 1);
+		draw_sprite_ext(spr_health, 0, xt + (i * 100), yt, 1, 1, 0, c_white, 1);
 	}
-}
-
-
-
-//drawing the score (TESTING)
-if(instance_exists(obj_spawner))
-{
-	draw_set_color(c_white);
-	draw_set_font(font_main);
-	draw_text(room_width/2 +40, 20, string(score));
 }
 
 //drawing the bomb count (TESTING)
 if(instance_exists(obj_spawner) && instance_exists(obj_player))
 {
+	
+	xt = 1020;
+	yt = 540;
+	
+	for(var i = 0; i < obj_player.bomb_count; i++)
+	{
+		draw_sprite_ext(spr_bombs, 0, xt + (i * 100), yt, 1, 1, 0, c_white, 1);
+	}
+}
+
+//drawing the Text UI (TESTING)
+if(instance_exists(obj_spawner))
+{
 	draw_set_color(c_white);
 	draw_set_font(font_main);
-	draw_text(room_width/2 - 40, 20, string(obj_player.bomb_count));
+	draw_set_halign(fa_center);
+	//Left Side
+	draw_text(160, 50, "Current Song:");
+	draw_text(160, 100, "Virtual Self");
+	draw_text(160, 140, "ANGEL VOICES");
+	
+	
+	draw_text(160, 220, "Phase: 1");
+	
+	
+	draw_text(160, 280, "Weapon Type:");
+	if (instance_exists(obj_player))
+	{
+		draw_text(160, 320, string(obj_player.instrument));
+	}
+	else
+	{
+		draw_text(160, 320, "0");
+	}
+	
+	
+	//Right Side
+	draw_text(1120, 50, "High Score");
+	draw_text(1120, 85, string(highscore_value(1)));
+	
+	draw_text(1120, 150, "Current Score");
+	draw_text(1120, 185, string(score));
+	
+	
+	draw_text(1120, 425, "Bomb Type: Null");
+	draw_text(1120, 475, "Bombs");
 }
+
+
 
 //drawing the timer [DEBUG]
 if(instance_exists(obj_spawner))

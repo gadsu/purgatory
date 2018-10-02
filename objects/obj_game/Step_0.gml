@@ -7,9 +7,9 @@ if (keyboard_check_pressed(vk_escape))
 		pause = true;
 		
 		layer_vspeed(layer_get_id("Background"), 0);
-		global.PauseBack=sprite_create_from_surface(application_surface,0,0,400,600,0,0,0,0);
+		//global.PauseBack=sprite_create_from_surface(application_surface,0,0,400,600,0,0,0,0);
 		layer_set_visible("Background", false);
-		screen_save("screenshot.png");
+		//screen_save("screenshot.png");
 		audio_pause_all();
 		
 		instance_deactivate_all(true);
