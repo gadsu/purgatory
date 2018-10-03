@@ -607,6 +607,14 @@
             }
         },
         {
+            "Key": "92597df0-36ef-4db2-a2a7-8ea187ca0905",
+            "Value": {
+                "id": "84d68b76-2418-43e1-9b3e-0850b75bef8e",
+                "resourcePath": "fonts\\font_dialogue\\font_dialogue.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "92ade45b-4019-493e-9dfd-64e6ce22c7d3",
             "Value": {
                 "id": "149d9a79-6e0f-45c9-be69-ad16907995c9",
@@ -932,6 +940,14 @@
                 "id": "18efed90-7d22-479a-85ba-d1ac442bc35e",
                 "resourcePath": "views\\e995e841-c95b-4c55-97c5-aa0cb5ed4836.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e9aba1ea-7d31-4926-8410-900e7da92e9f",
+            "Value": {
+                "id": "f8d3a151-8470-4f5d-a3fd-4283b5fd73f7",
+                "resourcePath": "objects\\obj_enemy_boss_dialogue_test\\obj_enemy_boss_dialogue_test.yy",
+                "resourceType": "GMObject"
             }
         },
         {
