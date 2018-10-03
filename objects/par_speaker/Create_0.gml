@@ -1,12 +1,10 @@
-
 //-----------Customise (FOR USER)
 playerobject = obj_player;
-interact_key = ord("E");
-detection_radius = 32;
+interact_key = ord("e");
+detection_radius = 1000;
 
-myVoice			= snd_voice1;
 myPortrait		= -1;
-myFont			= fnt_dialogue;
+myFont			= font_dialogue;
 myName			= "None";
 
 myPortraitTalk		= -1;
