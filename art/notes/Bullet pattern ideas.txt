@@ -41,6 +41,7 @@ bassoon: shoots a somewhat fast bullet at the player every fifth of a second for
 violins: shoots out bullets in a wavy pattern for a couple of seconds
 horns: shoots a large amount of bullets that are affected by gravity
 violas: shoots out bullets in a half wave pattern
+flute: shoots out bullets in windy swirl (may be running out of ides)
 
 triangle: shoots out ten waves of bullets in a triangular shape that switch between two formations so the play cant just stand still and dodge it all
  
