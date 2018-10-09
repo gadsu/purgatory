@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "60442e16-4113-46eb-9db7-181d87d2eaf4",
+            "Value": {
+                "id": "725cd08a-fb5d-42ab-a7da-2288432293e3",
+                "resourcePath": "objects\\obj_highscoretextbox\\obj_highscoretextbox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "60b174a9-ff8d-44e2-a09b-570d76ffcd80",
             "Value": {
                 "id": "24af2446-1a40-497d-bbe3-255eb81037f6",
@@ -548,14 +556,6 @@
                 "id": "8eda7e57-37f4-4c50-9f6f-072bb1659c4b",
                 "resourcePath": "objects\\obj_death_particle\\obj_death_particle.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "8936af55-234a-4abf-a0fb-fcc6fe87f2a8",
-            "Value": {
-                "id": "92a12295-f184-41f8-b87c-c5df3eb65779",
-                "resourcePath": "fonts\\font_menu\\font_menu.yy",
-                "resourceType": "GMFont"
             }
         },
         {
@@ -884,6 +884,14 @@
                 "id": "e28c7e53-78a0-442d-bcb3-57cb0840204d",
                 "resourcePath": "sprites\\spr_equalizer\\spr_equalizer.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d6cf0284-1e46-405f-8e30-0f040351c76f",
+            "Value": {
+                "id": "53338b90-6d75-4631-bfdc-745fa438989e",
+                "resourcePath": "fonts\\font_menu\\font_menu.yy",
+                "resourceType": "GMFont"
             }
         },
         {

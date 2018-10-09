@@ -11,7 +11,7 @@ if(instance_exists(obj_player))
 	//this spawns all the enemies
 	if (spawned == false && i > 0 && i < 3)
 	{
-		x_spawn = irandom_range(30, 150)
+		x_spawn = irandom_range(330, 640);
 
 		//unit spawner(type, enemy, path_set, x_cord, y_cord)
 		unit_spawner("drop", obj_enemy_scout, 0, x_spawn, 0);
@@ -24,14 +24,14 @@ if(instance_exists(obj_player))
 
 	if (spawned == false && i >= 7 && i < 10)
 	{
-		unit_spawner("path", obj_path_tester,path_Horizontal, 400, 100);
-		unit_spawner("path", obj_path_tester,path_Horizontal, 400, 140);
+		unit_spawner("path", obj_path_tester,path_Horizontal, 1060, 100);
+		unit_spawner("path", obj_path_tester,path_Horizontal, 1060, 140);
 		alarm[0] = 14;
 		spawned = true;
 	}
 	if (spawned == false && i >= 20 && i < 24)
 	{
-		x_spawn = choose(150, 250);
+		x_spawn = choose(400, 880);
 		unit_spawner("drop", obj_enemy_swirl, 0, x_spawn, 0);
 		spawned = true;
 		alarm[0] = 40;

@@ -138,7 +138,7 @@ if (hp <= 0)
 	audio_play_sound(death_sound_effect,10,false);
 	global.dead = true;
 	show_debug_message(score);
-	instance_create_depth(room_width/2, room_height/2, -1, obj_textbox);
+	instance_create_depth(room_width/2, room_height/2, -1, obj_highscoretextbox);
 	instance_destroy();
 }
 
