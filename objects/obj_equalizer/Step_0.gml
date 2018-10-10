@@ -13,7 +13,7 @@ if (image_index != 0)
 
 // start from the second one, the first will always have a hitbox
 // This will make sure the equalizer has hitboxes
-for (var i = 1; i < 9; i++)
+for (var i = 1; i < 10; i++)
 {
 	//If there are no Hitboxes at a new box location, make a new one
 	if(i <= image_index && if_hitboxplaced[i,0] == false)
@@ -36,22 +36,22 @@ key_pressed = keyboard_lastkey;
 
 switch (key_pressed)
 {
-	case 97: EQ1.image_index = 9;
+	case 97: EQ1.image_index = 10;
 		keyboard_lastkey = -1;
 		break;
-	case 98: EQ2.image_index = 9;
+	case 98: EQ2.image_index = 10;
 		keyboard_lastkey = -1;
 		break;
-	case 99: EQ3.image_index = 9;
+	case 99: EQ3.image_index = 10;
 		keyboard_lastkey = -1;
 		break;
-	case 100: EQ4.image_index = 9;
+	case 100: EQ4.image_index = 10;
 		keyboard_lastkey = -1;
 		break;
-	case 101: EQ5.image_index = 9;
+	case 101: EQ5.image_index = 10;
 		keyboard_lastkey = -1;
 		break;
-	case 102: EQ6.image_index = 9;
+	case 102: EQ6.image_index = 10;
 		keyboard_lastkey = -1;
 		break;
 }

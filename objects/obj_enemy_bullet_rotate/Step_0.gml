@@ -1,5 +1,5 @@
 /// @description Turn the Bullet
-
+event_inherited();
 if (timer mod 10 == 0 && timer != 0)
 {
 	dir_change = dir_change + 0.035 + ( .005 * dir_otherchange);

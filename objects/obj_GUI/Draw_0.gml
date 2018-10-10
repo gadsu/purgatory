@@ -12,7 +12,7 @@ if (instance_exists(obj_player))
 }
 
 //drawing the bomb count (TESTING)
-if(instance_exists(obj_spawner) && instance_exists(obj_player))
+if(instance_exists(obj_player))
 {
 	
 	xt = 1020;
@@ -25,7 +25,7 @@ if(instance_exists(obj_spawner) && instance_exists(obj_player))
 }
 
 //drawing the Text UI (TESTING)
-if(instance_exists(obj_spawner))
+if(instance_exists(obj_player))
 {
 	draw_set_color(c_white);
 	draw_set_font(font_main);
