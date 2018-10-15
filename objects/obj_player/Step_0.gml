@@ -129,7 +129,7 @@ if (Input.button_a == true && cooldown == false)
 
 //clamping the player to stay on the screen
 
-x = clamp(x, sprite_width/2, room_width - sprite_width/2);
+x = clamp(x, sprite_width/2 + room_width/4, room_width - sprite_width/2 - room_width/4);
 y = clamp(y, 20, room_height - sprite_height/2);
 
 // if you collide with any enemy, lose hp
