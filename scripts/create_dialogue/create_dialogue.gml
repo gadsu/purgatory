@@ -70,7 +70,6 @@ with(_textbox){
 	//Speaker's Variables
 	i = 0; repeat(text_len){
 		portrait[i]			= _speaker[i].myPortrait;
-		voice[i]			= _speaker[i].myVoice;
 		font[i]				= _speaker[i].myFont;
 		name[i]				= _speaker[i].myName;
 		speaker[i]			= _speaker[i];

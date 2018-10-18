@@ -1,6 +1,6 @@
 //-----------Customise (FOR USER)
 playerobject = obj_player;
-interact_key = ord("e");
+interact_key = vk_end;
 detection_radius = 1000;
 
 myPortrait		= -1;

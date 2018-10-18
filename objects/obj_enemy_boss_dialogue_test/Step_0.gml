@@ -1,5 +1,5 @@
 //Step code is in the parent file
-
+event_inherited();
 
 if (y >= 75) {
 	vspeed = 0;

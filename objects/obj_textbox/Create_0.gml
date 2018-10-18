@@ -3,11 +3,11 @@
 if(instance_number(obj_textevent)>1 or instance_number(obj_textbox)>1){ instance_destroy(); exit; }
 
 //-----------Customise (FOR USER)
-interact_key		= ord("e");
+interact_key		= vk_end;
 up_key				= vk_up;		//for dialogue choices
 down_key			= vk_down;		//for dialogue choices
 
-scale				= 3;
+scale				= 1.25;
 x_buffer			= 10 * scale;
 y_buffer			= 7 * scale;
 
