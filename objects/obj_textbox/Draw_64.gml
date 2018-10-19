@@ -134,7 +134,6 @@ else {
 					}
 				} 
 				#endregion
-				else if (charCount >= audio_c) { audio_play_sound(voice[page], 1, false); audio_c = charCount + audio_increment; }
 		}
 		#endregion
 		

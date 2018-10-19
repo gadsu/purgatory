@@ -12,7 +12,9 @@
         "64fd745f-353f-4628-af73-fd8595bed987",
         "25bead93-d2d5-44cf-81d5-0105b479302c",
         "9ed8ee9b-4ae7-4cd7-9d10-fd554f626b15",
-        "b9130bd4-6517-42e5-be31-0151c209cd6a"
+        "b9130bd4-6517-42e5-be31-0151c209cd6a",
+        "a527e086-a6e7-4bf1-9321-de0fae5a7022",
+        "1bf6d456-49f8-487b-b180-9b0e1f4d2113"
     ],
     "filterType": "GMObject",
     "folderName": "Enemy Bullets",

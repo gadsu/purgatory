@@ -1,3 +1,5 @@
+event_inherited(); //to get the Create event from the parent
+
 blend = image_blend; // the base color of the sprite
 blendtime = 0; // how long the blending will take
 
@@ -28,8 +30,6 @@ path_started = false;
 blend = image_blend; // the base color of the sprite
 blendtime = 0; // how long the blending will take
 
-///Dialogue stuff
-event_inherited();
 //setting the boss' information from the parent
 myName = "Test Boss";
 myPortrait = spr_boss;
