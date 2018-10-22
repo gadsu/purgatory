@@ -2,7 +2,7 @@
 //Create code is the the parent file
 
 
-vspeed = 2;
+
 hp = 40;
 timer = 0;
 i = 0;

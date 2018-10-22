@@ -2,7 +2,7 @@
     "id": "05f48e7c-36b0-45fc-ae41-b718017fe0c3",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_enemy_boss",
+    "name": "obj_enemy_boss_bullet_test",
     "eventList": [
         {
             "id": "b926e52f-c009-4ec0-8fed-89541d631020",

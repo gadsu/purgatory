@@ -1,4 +1,3 @@
-/// @description Accel Straight + 5
 enemy_bullet(oeba, 263, bx, by + 40);
 enemy_bullet(oeba, 249, bx, by + 40);
 enemy_bullet(oeba, 235, bx, by + 40);
