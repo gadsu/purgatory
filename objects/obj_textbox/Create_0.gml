@@ -51,7 +51,7 @@ portraitWidth	= sprite_get_width(portrait_frame) * scale;
 finishede_num	= sprite_get_number(finished_effect);
 finishede_spd	= (sprite_get_speed(spr_dialoguefinished)/room_speed);
 
-pos_x			= (gb_diff+portraitWidth)*scale;
+pos_x			= (gb_diff+portraitWidth)*scale + 100;
 pos_y			= gui_height-boxHeight-8;
 
 name_box_x		= pos_x + (8 * scale);
