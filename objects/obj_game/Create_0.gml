@@ -4,6 +4,7 @@
 
 scale = 1;
 global.spawn = 0;
+global.bullet_explode = false;
 global.roomname = room;
 global.bossdead = false;
 

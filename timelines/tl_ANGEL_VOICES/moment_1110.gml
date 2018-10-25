@@ -1,4 +1,9 @@
-enemy_bullet(oebw, 0, bx, by + 40);
-enemy_bullet(oebw, 90, bx, by + 40);
-enemy_bullet(oebw, 180, bx, by + 40);
-enemy_bullet(oebw, 270, bx, by + 40);
+/// @description Accel Straight + 5
+enemy_bullet(oeba, 263, bx, by + 40);
+enemy_bullet(oeba, 249, bx, by + 40);
+enemy_bullet(oeba, 235, bx, by + 40);
+enemy_bullet(oeba, 221, bx, by + 40);
+enemy_bullet(oeba, 277, bx, by + 40);
+enemy_bullet(oeba, 291, bx, by + 40);
+enemy_bullet(oeba, 305, bx, by + 40);
+enemy_bullet(oeba, 319, bx, by + 40);

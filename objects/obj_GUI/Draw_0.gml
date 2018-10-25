@@ -73,9 +73,9 @@ if(instance_exists(obj_spawner))
 }
 
 //drawing the direction for the boss [Debug]
-if(instance_exists(obj_enemy_boss))
-{
-	draw_set_color(c_blue);
-	draw_set_font(font_main);
-	draw_text(room_width/2, 75, string(obj_enemy_boss.dir));
-}
+//if(instance_exists(obj_enemy_boss_songtest))
+//{
+//	draw_set_color(c_blue);
+//	draw_set_font(font_main);
+//	draw_text(room_width/2, 75, string(obj_enemy_boss_songtest.dir));
+//}

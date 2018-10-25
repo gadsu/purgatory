@@ -4,9 +4,9 @@
 // Inherit the parent event
 event_inherited();
 
-if (timer mod 15 == 0)
+if (timer mod 12 == 0)
 {
-	speed_change += .015;
+	speed_change += .02;
 }
 
 
