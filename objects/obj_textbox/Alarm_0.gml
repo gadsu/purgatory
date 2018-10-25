@@ -61,16 +61,16 @@ if(type[page] == 0){
 }
 #endregion
 			
-#region Get the emotes
-if(emotes != -1 and emotes[page] != -1){
-	var sp = speaker[page]; var ep = emotes[page];
-	var obj = instance_create_layer(sp.x,sp.y-sp.sprite_height-2,"Text",obj_emote);
-	var spr = emote_sprite;
-	with(obj){
-		sprite_index = spr;
-		image_index = ep;
-		creator = sp;
-		mode = 1;
-	}
-}
-#endregion
+//#region Get the emotes
+//if(emotes != -1 and emotes[page] != -1){
+//	var sp = speaker[page]; var ep = emotes[page];
+//	var obj = instance_create_layer(sp.x,sp.y-sp.sprite_height-2,"Text",obj_emote);
+//	var spr = emote_sprite;
+//	with(obj){
+//		sprite_index = spr;
+//		image_index = ep;
+//		creator = sp;
+//		mode = 1;
+//	}
+//}
+//#endregion

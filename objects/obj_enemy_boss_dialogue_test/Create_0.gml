@@ -32,6 +32,6 @@ blendtime = 0; // how long the blending will take
 
 //setting the boss' information from the parent
 myName = "Test Boss";
-myPortrait = spr_boss;
+myPortrait = spr_boss_dialogue;
 myText[0] = "Prepare to face my wrath!";
 mySpeaker = -1;
