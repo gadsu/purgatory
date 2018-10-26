@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "41eefcfc-66d4-4e98-8cad-d006e8a056f2",
+            "Value": {
+                "id": "ff3409d5-67bd-488f-b332-c14434f6f2c3",
+                "resourcePath": "sprites\\spr_boss_dialogue\\spr_boss_dialogue.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "47a77ab3-cbdb-4497-b634-8bc4ce434bfc",
             "Value": {
                 "id": "9b34ca77-926e-4596-8d54-60011204b710",

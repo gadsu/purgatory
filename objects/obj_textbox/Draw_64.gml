@@ -1,26 +1,24 @@
-//Draw textbox
-draw_sprite_ext(dialogue_box, 0, pos_x,pos_y, scale,scale, 0, c_white, 1);
-
 //Draw portrait
 if(portrait[page] != -1){
-	draw_sprite_ext(portrait[page], emotion[page], pos_x-portraitWidth, pos_y, scale,scale, 0, c_white, 1);
+	draw_sprite_ext(portrait[page], emotion[page], pos_x-portraitWidth, pos_y, scale, scale, 0, c_white, 1);
 
 	#region Idle Animated Portrait
-if(type[page] == 1 or charCount >= str_len) {
-	if(portrait_idle[page] != -1){
-		var posx = pos_x-portraitWidth; var posy = pos_y;
-		if(portrait_idle_x[page] != -1){ posx += portrait_idle_x[page] * scale; }
-		if(portrait_idle_y[page] != -1){ posy += portrait_idle_y[page] * scale; }
+	if(type[page] == 1 or charCount >= str_len) {
+		if(portrait_idle[page] != -1){
+			var posx = pos_x-portraitWidth; var posy = pos_y;
+			if(portrait_idle_x[page] != -1){ posx += portrait_idle_x[page] * scale; }
+			if(portrait_idle_y[page] != -1){ posy += portrait_idle_y[page] * scale; }
 		
-		portrait_idle_c += portrait_idle_s[page];
-		if(portrait_idle_c >= portrait_idle_n[page]){ portrait_idle_c = 0; }
-		draw_sprite_ext(portrait_idle[page], portrait_idle_c, posx, posy, scale,scale, 0, c_white, 1);	
+			portrait_idle_c += portrait_idle_s[page];
+			if(portrait_idle_c >= portrait_idle_n[page]){ portrait_idle_c = 0; }
+			draw_sprite_ext(portrait_idle[page], portrait_idle_c, posx, posy, scale,scale, 0, c_white, 1);	
+		}
 	}
+	#endregion
 }
-#endregion
 
-	draw_sprite_ext(portrait_frame, 0, pos_x-portraitWidth, pos_y, scale,scale, 0, c_white, 1);
-}
+//Draw textbox
+draw_sprite_ext(dialogue_box, 0, pos_x,pos_y, scale,scale, 0, c_white, 1);
 
 #region Draw name and namebox
 var cname = name[page]
