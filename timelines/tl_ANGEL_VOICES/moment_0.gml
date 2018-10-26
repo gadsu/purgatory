@@ -7,4 +7,5 @@ oebt = obj_enemy_bullet_turner;
 oeba = obj_enemy_bullet_acel;
 
 
+
 dir_01 = 225;

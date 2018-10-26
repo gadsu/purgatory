@@ -1,4 +1,4 @@
-enemy_bullet(oebw, 0, bx, by + 40);
-enemy_bullet(oebw, 90, bx, by + 40);
-enemy_bullet(oebw, 180, bx, by + 40);
-enemy_bullet(oebw, 270, bx, by + 40);
+///@description CANT
+enemy_bullet(oebt, 270, bx - 60, by + 40);
+enemy_bullet(oebt, 270, bx - 85, by + 40);
+enemy_bullet(oebt, 270, bx - 110, by + 40);

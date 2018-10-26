@@ -6,3 +6,4 @@ enemy_bullet(oeba, 277, bx, by + 40);
 enemy_bullet(oeba, 291, bx, by + 40);
 enemy_bullet(oeba, 305, bx, by + 40);
 enemy_bullet(oeba, 319, bx, by + 40);
+
