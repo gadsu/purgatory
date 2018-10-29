@@ -34,4 +34,5 @@ blendtime = 0; // how long the blending will take
 myName = "Test Boss";
 myPortrait = spr_boss_dialogue;
 myText[0] = "Prepare to face my wrath!";
+myText[1] = "Now DIE!!!"
 mySpeaker = -1;

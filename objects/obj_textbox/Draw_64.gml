@@ -245,7 +245,7 @@ else {
 		var shift = sin((t+cc)*pi*freq/room_speed)*amplitude;
 		finishede_count += finishede_spd;
 		if(finishede_count >= finishede_num){ finishede_count = 0; }
-		draw_sprite(finished_effect, finishede_count, finishede_x + shift, finishede_y);
+		draw_sprite(finished_effect, finishede_count, finishede_x + shift - 40, finishede_y);
 	}
 	#endregion
 }
