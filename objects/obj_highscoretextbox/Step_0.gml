@@ -28,6 +28,7 @@ if (keyboard_check_pressed(vk_enter))
 		room_goto(0);
 		global.highscore = true;
 		score = 0;
+		audio_stop_all();
 		instance_destroy();
 		
 	

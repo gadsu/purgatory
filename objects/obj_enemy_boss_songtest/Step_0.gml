@@ -1,4 +1,19 @@
 timer++
+
+//If the player dies stop the timeline 
+// DEBUG MODE ON
+
+//if(instance_exists(obj_player) == false)
+//{
+//	timeline_running = false;
+//}
+
+
+
+
+
+
+
 //if (spawned == false and num < 30 and timer > 106)
 //{
 	
