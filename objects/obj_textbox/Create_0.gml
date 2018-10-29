@@ -8,7 +8,7 @@ up_key				= vk_up;		//for dialogue choices
 down_key			= vk_down;		//for dialogue choices
 
 scale				= 1.25;
-x_buffer			= 10 * scale;
+x_buffer			= 10 * scale - 40;
 y_buffer			= 7 * scale;
 
 portrait_frame		= spr_portraitframe;
@@ -51,10 +51,10 @@ portraitWidth	= sprite_get_width(portrait_frame) * scale;
 finishede_num	= sprite_get_number(finished_effect);
 finishede_spd	= (sprite_get_speed(spr_dialoguefinished)/room_speed);
 
-pos_x			= (gb_diff+portraitWidth)*scale + 100;
+pos_x			= (gb_diff+portraitWidth)*scale - 100;
 pos_y			= gui_height-boxHeight-8;
 
-name_box_x		= pos_x + (8 * scale);
+name_box_x		= pos_x + (8 * scale) + 200;
 name_box_y		= pos_y - (23 * scale);
 name_box_text_x = name_box_x + ((sprite_get_width(name_box)*scale)/2);
 name_box_text_y = name_box_y + y_buffer;
