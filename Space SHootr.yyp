@@ -106,7 +106,7 @@
             "Key": "0cb8098b-a691-425d-9322-2de6b4ff2025",
             "Value": {
                 "id": "4a1c356a-2190-408a-a483-94a343936937",
-                "resourcePath": "timelines\\tl_ANGEL_VOICES\\tl_ANGEL_VOICES.yy",
+                "resourcePath": "timelines\\tl_ANGEL_VOICES_01\\tl_ANGEL_VOICES_01.yy",
                 "resourceType": "GMTimeline"
             }
         },
@@ -671,6 +671,14 @@
             }
         },
         {
+            "Key": "92d849a3-ef0c-4872-ade5-a608b8fecd64",
+            "Value": {
+                "id": "ecb4c054-bc6b-49db-9afd-749b6ac5cc04",
+                "resourcePath": "timelines\\tl_ANGEL_VOICES_02\\tl_ANGEL_VOICES_02.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "93df0bf4-d660-43df-a326-4d18731c00ec",
             "Value": {
                 "id": "80dd4a91-e3a0-42ec-9c9d-a37892d77a55",
@@ -796,6 +804,14 @@
                 "id": "e5d2f0fc-51a7-4c37-af5e-5cc3fa752212",
                 "resourcePath": "sprites\\spr_enemy_bullet_explode\\spr_enemy_bullet_explode.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b3d30e65-b6ac-4f69-9bce-e4cc2d698535",
+            "Value": {
+                "id": "51a3e6c3-3a39-45d5-aa3c-07e5211da211",
+                "resourcePath": "paths\\path_squarewave\\path_squarewave.yy",
+                "resourceType": "GMPath"
             }
         },
         {
