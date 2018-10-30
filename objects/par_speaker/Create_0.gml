@@ -1,5 +1,4 @@
 //-----------Customise (FOR USER)
-playerobject = obj_player;
 interact_key = vk_end;
 detection_radius = 1000;
 
