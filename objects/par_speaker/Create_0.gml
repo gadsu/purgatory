@@ -12,6 +12,11 @@ myPortraitTalk_y	= -1;
 myPortraitIdle		= -1;
 myPortraitIdle_x	= -1;
 myPortraitIdle_y	= -1;
+var player_dead = 0;
+var boss_dead = 0;
+
+keyboard_key_press(vk_end);
+keyboard_key_release(vk_end);
 
 //-----------Defaults Setup (LEAVE THIS STUFF)
 reset_dialogue_defaults();
