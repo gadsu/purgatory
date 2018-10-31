@@ -17,3 +17,15 @@ if(point_in_rectangle(100,100, x-dr, y-dr, x+dr, y+dr)){
 		myTextbox = noone;
 	}
 }
+if(instance_exists(obj_enemy_boss_songtest)) {boss_dead = 0;}
+if(instance_exists(obj_player)) {player_dead = 0;}
+else if(!instance_exists(obj_enemy_boss_songtest) && boss_dead == 0) {
+	keyboard_key_press(vk_end);
+	keyboard_key_release(vk_end);
+	boss_dead++;
+}
+else if(!instance_exists(obj_player) && player_dead == 0) {
+	keyboard_key_press(vk_end);
+	keyboard_key_release(vk_end);
+	player_dead++;
+}
