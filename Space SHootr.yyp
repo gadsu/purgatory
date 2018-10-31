@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "18343294-2f40-4fe1-a196-42fe9e48cd67",
+            "Value": {
+                "id": "b35a9a3d-199c-4271-bd00-08115d1ba599",
+                "resourcePath": "objects\\obj_enemy_bullet_path\\obj_enemy_bullet_path.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "18edd37d-f7f0-4429-b966-1e95c85b3df5",
             "Value": {
                 "id": "01b3b8cd-9880-4266-b7b9-6c0cedaa39ef",
@@ -460,6 +468,14 @@
                 "id": "ab2bc681-d3cb-4d99-a585-07fecde2aa4f",
                 "resourcePath": "objects\\obj_particle_maker\\obj_particle_maker.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6791ab07-42cf-4f5a-8bfb-487fbdb18fac",
+            "Value": {
+                "id": "16534771-9e10-4ce1-8181-045ddc1e21bb",
+                "resourcePath": "scripts\\enemy_bullet_path\\enemy_bullet_path.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1167,6 +1183,7 @@
         "32bc170a-7b01-485f-af28-400115e3bbee",
         "686f92b6-4907-43d3-8b6e-d5f14ae8256f",
         "cc6df266-0751-4d6e-9680-aea8ad6a2147",
+        "6791ab07-42cf-4f5a-8bfb-487fbdb18fac",
         "131e869e-de75-4ff0-98fb-4c820a0ef6ad",
         "abdee759-e4d6-43a5-98e6-3103e218ca6b",
         "f092724d-10a7-4e9e-9a7d-4ed7a61af796",
