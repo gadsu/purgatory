@@ -19,13 +19,18 @@ if(point_in_rectangle(100,100, x-dr, y-dr, x+dr, y+dr)){
 }
 if(instance_exists(obj_enemy_boss_songtest)) {boss_dead = 0;}
 if(instance_exists(obj_player)) {player_dead = 0;}
+if(dialogue_start) {
+	keyboard_key_press(vk_enter);
+	keyboard_key_release(vk_enter);
+	dialogue_start = false;
+}
 else if(!instance_exists(obj_enemy_boss_songtest) && boss_dead == 0) {
-	keyboard_key_press(vk_end);
-	keyboard_key_release(vk_end);
+	keyboard_key_press(vk_enter);
+	keyboard_key_release(vk_enter);
 	boss_dead++;
 }
 else if(!instance_exists(obj_player) && player_dead == 0) {
-	keyboard_key_press(vk_end);
-	keyboard_key_release(vk_end);
+	keyboard_key_press(vk_enter);
+	keyboard_key_release(vk_enter);
 	player_dead++;
 }
