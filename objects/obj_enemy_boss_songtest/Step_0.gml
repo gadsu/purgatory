@@ -3,6 +3,38 @@ timer++
 //Step code is in the parent file
 event_inherited();
 
+if(dialog_start_started == false)
+{
+	reset_dialogue_defaults();
+	
+	myName = "D.0.T.";
+	myPortrait = spr_boss_dialogue;
+	myText[0] = "Taking the title defender on first?";
+	myText[1] = "I gotta say, kid, that takes a lot of balls.";
+	myText[2] = "You think you have what it takes to take me on?";
+	myText[3] = "Show me what you got, and hold nothing back!";
+	mySpeaker = -1;
+	
+}
+	
+	if(keyboard_check_pressed(vk_end) == true)
+	{
+		show_debug_message("pressed");
+		num++;
+		if(num == 5)
+		{
+			dialog_start_started = true;
+		}
+	}
+
+if (dialog_start_started == true && safeguard == false)
+{
+	alarm[0] = 60;
+	safeguard = true;
+}
+
+
+
 if(instance_exists(obj_player) == false) {
 	reset_dialogue_defaults();
 	myName = "D.0.T.";
@@ -25,6 +57,19 @@ else if(instance_exists(obj_enemy_boss_songtest) == false) {
 	myText[7] = "You gonna pay for this?";
 	mySpeaker = -1;
 }
+
+
+//Turn Red when hit
+if (blendtime > 0)
+{
+	blendtime--;
+}
+else
+{
+	blend = c_white;
+}
+
+
 //If the player dies stop the timeline 
 // DEBUG MODE ON
 
