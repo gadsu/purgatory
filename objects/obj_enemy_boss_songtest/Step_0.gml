@@ -53,8 +53,7 @@ else if(instance_exists(obj_enemy_boss_songtest) == false) {
 	myText[3] = "Don’t underestimate either of them.";
 	myText[4] = "Well, go ahead and overestimate MOB.";
 	myText[5] = "He ain’t as good as he says he is.";
-	myText[6] = "Now, I gotta repair this mask.";
-	myText[7] = "You gonna pay for this?";
+	myText[6] = "Now, I gotta repair this mask, so you gonna pay for this?";
 	mySpeaker = -1;
 }
 
