@@ -17,15 +17,15 @@ if(dialog_start_started == false)
 	
 }
 	
-	if(keyboard_check_pressed(vk_end) == true)
+if(keyboard_check_pressed(vk_enter) == true)
+{
+	show_debug_message("pressed");
+	num++;
+	if(num == 5)
 	{
-		show_debug_message("pressed");
-		num++;
-		if(num == 5)
-		{
-			dialog_start_started = true;
-		}
+		dialog_start_started = true;
 	}
+}
 
 if (dialog_start_started == true && safeguard == false)
 {
