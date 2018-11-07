@@ -18,7 +18,7 @@ if (keyboard_check_pressed(vk_backspace))
 	keyboard_string = "";
 	delete_timer = -4;
 }
-if (keyboard_check_pressed(vk_enter))
+if (keyboard_check_pressed(vk_enter) && safeguard == true)
 {
 	show_debug_message("pressed enter");
 	if (global.highscore == false && room == 1)
