@@ -17,7 +17,7 @@ safeguard = false;
 
 //setting the boss' information from the parent
 myName = "D.0.T.";
-myPortrait = spr_boss_dialogue;
+myPortrait = spr_dot_dialogue;
 myText[0] = "Taking the title defender on first?";
 myText[1] = "I gotta say, that takes some guts.";
 myText[2] = "You think you have what it takes to take me on?";

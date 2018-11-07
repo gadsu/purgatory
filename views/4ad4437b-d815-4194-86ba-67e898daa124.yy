@@ -9,7 +9,8 @@
         "24ea9cb3-836e-4274-b1dd-d0642b958409",
         "737014f7-fe43-4787-af15-308aabd39b98",
         "7c5d1900-a978-4628-9652-e23c92c5621e",
-        "0c7d51c4-ce7c-4014-93d4-b3674cca2f57"
+        "0c7d51c4-ce7c-4014-93d4-b3674cca2f57",
+        "1a6710d8-34a7-473b-9fcf-c6862af47928"
     ],
     "filterType": "GMSprite",
     "folderName": "Dialogue",

@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "1a6710d8-34a7-473b-9fcf-c6862af47928",
+            "Value": {
+                "id": "05048ca7-d74d-42dc-b4ae-d05458cde03b",
+                "resourcePath": "sprites\\spr_dot_dialogue\\spr_dot_dialogue.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1bf6d456-49f8-487b-b180-9b0e1f4d2113",
             "Value": {
                 "id": "46627db1-c4f4-4ac7-be48-1e9368ca28cd",
