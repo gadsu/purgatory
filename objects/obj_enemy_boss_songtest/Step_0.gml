@@ -48,13 +48,10 @@ else if(instance_exists(obj_enemy_boss_songtest) == false) {
 	myName = "D.0.T.";
 	myPortrait = spr_boss_dialogue;
 	myText[0] = "Well, damn. I don’t think anyone was expecting some nobody to come in and take out the reigning champ on his first go around.";
-	myText[1] = "Good job, but you’re not finished.";
-	myText[2] = "You’ve still got Klaus and MOB.";
-	myText[3] = "Don’t underestimate either of them.";
-	myText[4] = "Well, go ahead and overestimate MOB.";
-	myText[5] = "He ain’t as good as he says he is.";
-	myText[6] = "Now, I gotta repair this mask.";
-	myText[7] = "You gonna pay for this?";
+	myText[1] = "Good job, but you’re not finished. You’ve still got Klaus and MOB.";
+	myText[2] = "Don’t underestimate either of them. Well, go ahead and overestimate MOB.";
+	myText[3] = "He ain’t as good as he says he is.";
+	myText[4] = "Now, I gotta repair this mask, so you gonna pay for this?";
 	mySpeaker = -1;
 }
 
