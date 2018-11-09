@@ -24,4 +24,13 @@ myText[2] = "You think you have what it takes to take me on?";
 myText[3] = "Show me what you got, and hold nothing back!";
 mySpeaker = -1;
 
+
+// Flag Variables
+dialogue_1 = true;
+text_01 = false;
+dialogue_2 = false;
+dialogue_3 = false;
+
+
+
 hp = 400;

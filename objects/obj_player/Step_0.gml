@@ -113,7 +113,7 @@ if (Input.bomb_key == true && instrument_cooldown == false)
 }
 
 //Controls shooting
-if (Input.button_a == true && cooldown == false)
+if (Input.button_a == true && cooldown == false && !instance_exists(obj_textbox))
 {
 	var inst
 	inst = instance_create_depth(x,y,1,obj_shot);
@@ -130,7 +130,7 @@ if (Input.button_a == true && cooldown == false)
 //clamping the player to stay on the screen
 
 x = clamp(x, sprite_width/2 + room_width/4, room_width - sprite_width/2 - room_width/4);
-y = clamp(y, 20, room_height - sprite_height/2);
+y = clamp(y, 200, room_height - sprite_height/2);
 
 // if you collide with any enemy, lose hp
 if (hp <= 0)
@@ -139,7 +139,7 @@ if (hp <= 0)
 	global.dead = true;
 	show_debug_message(score);
 	instance_destroy();
-	instance_create_depth(room_width/2, room_height/2, -1, obj_highscoretextbox);
+	
 }
 
 

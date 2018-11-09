@@ -2,8 +2,12 @@
 
 if (keyboard_check(vk_anykey) and string_length(text) < 10)
 {
-	text = text + string(keyboard_string); // makes the key you pressed add on to the string itself
-	keyboard_string = ""; //makes the keyboard reset back to nothing when you press another button
+	if(!keyboard_check(vk_enter))
+	{
+		text = text + string(keyboard_string); // makes the key you pressed add on to the string itself
+		keyboard_string = ""; //makes the keyboard reset back to nothing when you press another button
+	}
+	
 }
 if (keyboard_check(vk_backspace) and !keyboard_check_pressed(vk_backspace) and delete_timer == 2) //  makes sure its not being held down
 {
@@ -19,19 +23,19 @@ if (keyboard_check_pressed(vk_backspace))
 	delete_timer = -4;
 }
 
-if(keyboard_check_pressed(vk_enter) == true){
-	show_debug_message("pressed");
-	num++;
-	if(num == 4 && !instance_exists(obj_player)){
-		dialogue = true;
-	}
-	else if(num == 7 && !instance_exists(obj_enemy_boss_songtest)){
-		dialogue = true;
-	}
-}
+//if(keyboard_check_pressed(vk_enter) == true){
+//	show_debug_message("pressed");
+//	num++;
+//	if(num == 4 && !instance_exists(obj_player)){
+//		dialogue = true;
+//	}
+//	else if(num == 7 && !instance_exists(obj_enemy_boss_songtest)){
+//		dialogue = true;
+//	}
+//}
 
-if (dialogue == true && dialogue_guard == false){
-	if (keyboard_check_pressed(vk_enter) && safeguard == true)
+
+if (keyboard_check_pressed(vk_enter) && !instance_exists(obj_textbox))
 {
 	show_debug_message("pressed enter");
 	if (global.highscore == false && room == 1)
@@ -48,8 +52,7 @@ if (dialogue == true && dialogue_guard == false){
 	}
 
 }
-	dialogue_guard = true;
-}
+
 
 //if (keyboard_check_pressed(vk_enter) && safeguard == true)
 //{

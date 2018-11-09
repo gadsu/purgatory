@@ -3,7 +3,7 @@ timer++
 //Step code is in the parent file
 event_inherited();
 
-if(dialog_start_started == false)
+if(dialogue_1 == true)
 {
 	reset_dialogue_defaults();
 	
@@ -15,34 +15,43 @@ if(dialog_start_started == false)
 	myText[3] = "Show me what you got, and hold nothing back!";
 	mySpeaker = -1;
 	
-}
 	
-if(keyboard_check_pressed(vk_enter) == true)
-{
-	show_debug_message("pressed");
-	num++;
-	if(num == 5)
-	{
-		dialog_start_started = true;
-	}
 }
-
-if (dialog_start_started == true && safeguard == false)
+if(!instance_exists(obj_textbox) && dialogue_1 == true && timer > 1)
 {
 	alarm[0] = 60;
-	safeguard = true;
+	dialogue_1 = false;
+	dialogue_2 = true;
+	par_speaker.detection_radius = 10;
 }
-
-
-
-if(instance_exists(obj_player) == false) {
+	
+if(!instance_exists(obj_player) && dialogue_2 == true )
+{
+	par_speaker.detection_radius = 1000;
+	
 	reset_dialogue_defaults();
 	myName = "D.0.T.";
 	myPortrait = spr_dot_dialogue;
 	myText[0] = "I would love to say you had a chance, but you just don’t have what it takes.";
 	myText[1] = "Not for a challenge like this.";
 	mySpeaker = -1;
+	
+	if(instance_exists(obj_textbox))
+	{
+		alarm[2] = 5;
+	}
+}	
+if(!instance_exists(obj_textbox) && dialogue_2 = true && text_01 = true)
+{
+	par_speaker.detection_radius = 10;
+	reset_dialogue_defaults();
+	show_debug_message("please work");
+	instance_create_depth(room_width/2, room_height/2, -1, obj_highscoretextbox);
+	text_01 = false;
+	dialogue_2 = false;
 }
+
+
 else if(instance_exists(obj_enemy_boss_songtest) == false) {
 	reset_dialogue_defaults();
 	myName = "D.0.T.";
@@ -70,8 +79,8 @@ else
 //If the player dies stop the timeline 
 // DEBUG MODE ON
 
-//if(instance_exists(obj_player) == false)
-//{
-//	timeline_running = false;
-//}
+if(instance_exists(obj_player) == false)
+{
+	timeline_running = false;
+}
 

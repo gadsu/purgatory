@@ -1,2 +1,2 @@
-spawned = false;
+text_01 = true;
 
