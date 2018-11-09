@@ -25,19 +25,19 @@ if (keyboard_check(vk_shift))
 {
 	if (Input.up == true)
 	{
-		y -= player_speed / 3;
+		y -= player_speed / 2.273;
 	}
 	if (Input.down == true)
 	{
-		y += player_speed / 3;
+		y += player_speed / 2.273;
 	}
 	if (Input.left == true)
 	{
-		x -= player_speed / 3;	
+		x -= player_speed / 2.273;	
 	}
 	if (Input.right == true)
 	{
-		x += player_speed / 3;
+		x += player_speed / 2.273;
 	}
 }
 //Controls switching instruments
