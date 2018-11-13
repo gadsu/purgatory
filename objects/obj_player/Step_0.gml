@@ -113,7 +113,7 @@ if (Input.bomb_key == true && instrument_cooldown == false)
 }
 
 //Controls shooting
-if (Input.button_a == true && cooldown == false && !instance_exists(obj_textbox))
+if (Input.button_a == true && cooldown == false && !instance_exists(obj_textbox) && !instance_exists(obj_highscoretextbox))
 {
 	var inst
 	inst = instance_create_depth(x,y,1,obj_shot);

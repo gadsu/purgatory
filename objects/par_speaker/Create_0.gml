@@ -12,8 +12,8 @@ myPortraitTalk_y	= -1;
 myPortraitIdle		= -1;
 myPortraitIdle_x	= -1;
 myPortraitIdle_y	= -1;
-var player_dead = 0;
-var boss_dead = 0;
+player_dead = 0;
+boss_dead = false;
 globalvar dialogue_start;
 dialogue_start = true;
 

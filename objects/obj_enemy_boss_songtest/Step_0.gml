@@ -25,6 +25,7 @@ if(!instance_exists(obj_textbox) && dialogue_1 == true && timer > 1)
 	par_speaker.detection_radius = 10;
 }
 	
+//Text for when the player dies
 if(!instance_exists(obj_player) && dialogue_2 == true )
 {
 	par_speaker.detection_radius = 1000;
@@ -41,18 +42,28 @@ if(!instance_exists(obj_player) && dialogue_2 == true )
 		alarm[2] = 5;
 	}
 }	
-if(!instance_exists(obj_textbox) && dialogue_2 = true && text_01 = true)
+if(!instance_exists(obj_textbox) && (dialogue_2 == true || dialogue_3 == true) && text_01 == true)
 {
 	par_speaker.detection_radius = 10;
 	reset_dialogue_defaults();
 	show_debug_message("please work");
 	instance_create_depth(room_width/2, room_height/2, -1, obj_highscoretextbox);
-	text_01 = false;
+	//text_01 = false;
 	dialogue_2 = false;
+	dialogue_3 = false;
+
 }
 
 
-else if(instance_exists(obj_enemy_boss_songtest) == false) {
+// For some reason the top thing doesnt like it when i add a clause for dialogue_3
+
+
+if(hp <= 0 && dialogue_3 != true && text_01 == false) {
+	
+	timeline_speed = 0;
+	par_speaker.detection_radius = 1000;
+	
+	
 	reset_dialogue_defaults();
 	myName = "D.0.T.";
 	myPortrait = spr_dot_dialogue;
@@ -62,6 +73,12 @@ else if(instance_exists(obj_enemy_boss_songtest) == false) {
 	myText[3] = "He ain’t as good as he says he is.";
 	myText[4] = "Now, I gotta repair this mask, so you gonna pay for this?";
 	mySpeaker = -1;
+	
+	
+	if(instance_exists(obj_textbox))
+	{
+		alarm[3] = 5;
+	}
 }
 
 

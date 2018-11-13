@@ -33,4 +33,4 @@ dialogue_3 = false;
 
 
 
-hp = 400;
+hp = 300;
