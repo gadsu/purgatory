@@ -25,19 +25,19 @@ if (keyboard_check(vk_shift))
 {
 	if (Input.up == true)
 	{
-		y -= player_speed / 3;
+		y -= player_speed / 2.273;
 	}
 	if (Input.down == true)
 	{
-		y += player_speed / 3;
+		y += player_speed / 2.273;
 	}
 	if (Input.left == true)
 	{
-		x -= player_speed / 3;	
+		x -= player_speed / 2.273;	
 	}
 	if (Input.right == true)
 	{
-		x += player_speed / 3;
+		x += player_speed / 2.273;
 	}
 }
 //Controls switching instruments
@@ -113,7 +113,7 @@ if (Input.bomb_key == true && instrument_cooldown == false)
 }
 
 //Controls shooting
-if (Input.button_a == true && cooldown == false)
+if (Input.button_a == true && cooldown == false && !instance_exists(obj_textbox) && !instance_exists(obj_highscoretextbox))
 {
 	var inst
 	inst = instance_create_depth(x,y,1,obj_shot);
@@ -130,7 +130,7 @@ if (Input.button_a == true && cooldown == false)
 //clamping the player to stay on the screen
 
 x = clamp(x, sprite_width/2 + room_width/4, room_width - sprite_width/2 - room_width/4);
-y = clamp(y, 20, room_height - sprite_height/2);
+y = clamp(y, 200, room_height - sprite_height/2);
 
 // if you collide with any enemy, lose hp
 if (hp <= 0)
@@ -138,8 +138,8 @@ if (hp <= 0)
 	audio_play_sound(death_sound_effect,10,false);
 	global.dead = true;
 	show_debug_message(score);
-	instance_create_depth(room_width/2, room_height/2, -1, obj_highscoretextbox);
 	instance_destroy();
+	
 }
 
 

@@ -1,1 +1,1 @@
-draw_highscore(100,100,room_width - 100, room_height - 100);
+draw_highscore(400,400,room_width - 400, room_height - 100);

@@ -1,6 +1,6 @@
 //Draw portrait
 if(portrait[page] != -1){
-	draw_sprite_ext(portrait[page], emotion[page], pos_x-portraitWidth, pos_y, scale, scale, 0, c_white, 1);
+	draw_sprite_ext(portrait[page], emotion[page], pos_x-portraitWidth + 50, pos_y, scale, scale, 0, c_white, 1);
 
 	#region Idle Animated Portrait
 	if(type[page] == 1 or charCount >= str_len) {

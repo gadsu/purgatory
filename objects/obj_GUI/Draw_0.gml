@@ -55,7 +55,7 @@ if(instance_exists(obj_player))
 	draw_text(1120, 85, string(highscore_value(1)));
 	
 	draw_text(1120, 150, "Current Score");
-	draw_text(1120, 185, string(score));
+	draw_text(1120, 185, score);
 	
 	
 	draw_text(1120, 425, "Bomb Type: Null");

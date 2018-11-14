@@ -3,7 +3,7 @@
 // if its touching the hitbox, flag it
 if (place_meeting(x,y, obj_playergraze_hitbox))
 {
-	show_debug_message("Touching player");
+	//show_debug_message("Touching player");
 	hit_graze = true;
 }
 // if it touches the player model center
