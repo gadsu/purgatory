@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "28aa9b02-2a1a-4e0e-a70c-11b878ffd0ee",
+            "Value": {
+                "id": "5f873dc3-652e-4680-9046-4bdee2d0414c",
+                "resourcePath": "sounds\\death_sound_effect_v2\\death_sound_effect_v2.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "28f7e2e2-953c-4256-8415-60f8ea7dff7f",
             "Value": {
                 "id": "1a991d04-d2af-4f2a-86a8-0ac0d4637c02",

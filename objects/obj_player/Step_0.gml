@@ -135,7 +135,7 @@ y = clamp(y, 200, room_height - sprite_height/2);
 // if you collide with any enemy, lose hp
 if (hp <= 0)
 {
-	audio_play_sound(death_sound_effect,10,false);
+	audio_play_sound(death_sound_effect_v2,10,false);
 	global.dead = true;
 	show_debug_message(score);
 	instance_destroy();
