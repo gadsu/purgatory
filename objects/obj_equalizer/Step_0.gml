@@ -20,6 +20,7 @@ for (var i = 1; i < 10; i++)
 	{
 		if_hitboxplaced[i,0] = true;
 		if_hitboxplaced[i,1] = instance_create_layer(x, y + 1 + (i * 60),"Instances", obj_equalizerhitbox);	
+		
 	}
 	// Makes sure that it deletes the other hitboxes if there is no bar there
 	if(i > image_index && if_hitboxplaced[i,0] == true)
