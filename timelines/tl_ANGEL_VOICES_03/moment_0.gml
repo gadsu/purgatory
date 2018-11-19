@@ -1,4 +1,4 @@
-///@description Start of third Box
+///@description Start of third Box, MB, Main Drum
 
 //USE IF SKIPPING TO THIS POINT, ELSE COMMENT OUT
 if!(variable_global_exists(skip))
@@ -21,3 +21,4 @@ dir_01 = 225;
 
 // END OF SKIP CODE
 enemy_bullet(oebw, 270, bx, by + 40);
+enemy_bullet(oebw, 270, bx - 49, by + 40);
