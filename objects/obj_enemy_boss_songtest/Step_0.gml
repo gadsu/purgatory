@@ -6,14 +6,33 @@ event_inherited();
 if(dialogue_1 == true)
 {
 	reset_dialogue_defaults();
+	myName = "Klaus";
 	
-	myName = "D.0.T.";
-	myPortrait = spr_dot_dialogue;
-	myText[0] = "Taking the title defender on first?";
-	myText[1] = "I gotta say, kid, that takes a lot of balls.";
-	myText[2] = "You think you have what it takes to take me on?";
-	myText[3] = "Show me what you got, and hold nothing back!";
-	mySpeaker = -1;
+	switch(myName) {
+		case "Klaus":
+			myPortrait = spr_boss_dialogue;
+			mySpeaker = -1;
+			myText[0] = "Another young upstart here to attempt to take the throne?";
+			myText[1] = "I will leave everything on the stage as I always do.";
+			myText[2] = "Good luck. You're going to need it, boy.";
+			break;
+		case "MOB":
+			myPortrait = spr_boss_dialogue;
+			mySpeaker = -1;
+			myText[0] = "Facing the best of us first? I’m harder than the rest of these clowns, so good luck.";
+			myText[1] = "I’ll give you the benefit of the doubt but will still kick your ass.";
+			myText[2] = "Well? Raise your instrument and let’s get started!";
+			break;
+		case "D.0.T.":
+			myPortrait = spr_dot_dialogue;
+			myText[0] = "Taking the title defender on first?";
+			myText[1] = "I gotta say, kid, that takes a lot of balls.";
+			myText[2] = "You think you have what it takes to take me on?";
+			myText[3] = "Show me what you got, and hold nothing back!";
+			mySpeaker = -1;
+			break;
+	}
+	
 	
 	
 }
