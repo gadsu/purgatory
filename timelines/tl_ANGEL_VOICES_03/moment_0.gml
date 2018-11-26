@@ -9,6 +9,14 @@ if!(variable_global_exists(skip))
 	EQ4 = instance_create_layer(768, 110, "Instances", obj_equalizer);
 	EQ5 = instance_create_layer(896, 110, "Instances", obj_equalizer);
 }
+
+EQ1.image_index = 0;
+EQ2.image_index = 0;
+EQ3.image_index = 0;
+EQ4.image_index = 0;
+EQ5.image_index = 0;
+
+
 by = obj_enemy_boss_songtest.y;
 bx = obj_enemy_boss_songtest.x;
 oebw = obj_enemy_bullet_wonder;

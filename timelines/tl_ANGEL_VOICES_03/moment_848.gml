@@ -1,2 +1,4 @@
-///@description Main Beat(MB)
+///@description Main Beat 
 enemy_bullet(oebw, 270, bx, by + 40);
+
+

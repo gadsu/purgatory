@@ -6,7 +6,7 @@ event_inherited();
 if(dialogue_1 == true)
 {
 	reset_dialogue_defaults();
-	myName = "Klaus";
+	myName = "D.0.T.";
 	
 	switch(myName) {
 		case "Klaus":
