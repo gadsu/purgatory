@@ -1,7 +1,7 @@
 /// This enemy is a boss and will have 2 firing patterns
 //Create code is the the parent file
 
-
+//enemy_bullet(obj_vinyl, 270, x-100, y + 40);
 
 hp = 40;
 timer = 0;

@@ -2,13 +2,13 @@
 
 
 
-if (timer mod 11 == 0 )
+if (timer mod 80 == 0 )
 {
 	
 	//show_debug_message("Shoot");
-	enemy_bullet_path(obj_enemy_bullet_path, 270, path_squarewave, x, y - 40, 43.7349398/16);
-	enemy_bullet_path(obj_enemy_bullet_path, 250, path_squarewave, x - 20, y - 40, 43.7349398/16);
-	enemy_bullet_path(obj_enemy_bullet_path, 290, path_squarewave, x + 20, y - 40, 43.7349398/16);
+	enemy_bullet_laser(x, y + 40, 5, 800, 0);
+	enemy_bullet_laser(x + 30, y + 40, 5, 800, 15);
+	enemy_bullet_laser(x - 30, y + 40, 5, 800, 345);
 	//enemy_bullet(obj_exploding, 270, x, y + 100);
 	
 	safeguard = true;
