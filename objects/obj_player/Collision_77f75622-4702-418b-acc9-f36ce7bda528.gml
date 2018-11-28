@@ -3,6 +3,10 @@ if (iframes == 0)
 {
 	if (place_meeting(x,y, obj_laser) == true)
 	{
+		if (obj_laser.fade == true)
+		{
+			return; // if you get the laser while its fading, quit the script
+		}
 		
 	}
 	

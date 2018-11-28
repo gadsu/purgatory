@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "354378a2-af98-4d09-9b1e-8f0978689c04",
+            "Value": {
+                "id": "cfec4d1a-5679-4f6d-83fb-8c7aa258fe0d",
+                "resourcePath": "objects\\obj_enemy_sinesquare\\obj_enemy_sinesquare.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3617c53b-fbad-41c1-b107-7ab92fa8aaca",
             "Value": {
                 "id": "d22936e8-ee99-4d6d-ac9c-1936b9624198",

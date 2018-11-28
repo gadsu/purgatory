@@ -2,14 +2,19 @@
 
 
 
-if (timer mod 80 == 0 )
+if (timer mod 86 == 0 )
 {
 	
-	//show_debug_message("Shoot");
-	enemy_bullet_laser(x, y + 40, 5, 800, 0);
-	enemy_bullet_laser(x + 30, y + 40, 5, 800, 15);
-	enemy_bullet_laser(x - 30, y + 40, 5, 800, 345);
-	//enemy_bullet(obj_exploding, 270, x, y + 100);
+
+	//enemy_bullet_laser(x, y + 40, 5, 800, 0);
+	//enemy_bullet_laser(x + 30, y + 40, 5, 800, 15);
+	//enemy_bullet_laser(x - 30, y + 40, 5, 800, 345);
+	for(var i = 0; i < 18; i++)
+	{
+		enemy_bullet(obj_enemy_sinesquare, 270 + (i * 20), x, room_height/2);
+	}
+	
+	
 	
 	safeguard = true;
 }
