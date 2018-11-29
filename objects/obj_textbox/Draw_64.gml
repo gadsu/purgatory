@@ -18,7 +18,7 @@ if(portrait[page] != -1){
 }
 
 //Draw textbox
-draw_sprite_ext(dialogue_box, 0, pos_x,pos_y, scale,scale, 0, c_white, 1);
+draw_sprite_ext(dialogue_box, 0, pos_x-12,pos_y, scale,scale, 0, c_white, 1);
 
 #region Draw name and namebox
 var cname = name[page]
@@ -31,7 +31,7 @@ if(cname != "None"){
 	c = name_col;
 	draw_set_halign(fa_center);
 	draw_set_font(name_font);
-	draw_text_color(name_box_text_x, name_box_text_y, cname, c,c,c,c, 1);
+	draw_text_color(name_box_text_x, name_box_text_y+1, cname, c,c,c,c, 1);
 	draw_set_halign(fa_left);
 }
 #endregion
