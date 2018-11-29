@@ -2,7 +2,7 @@
 menu_ids[0] = "Quit Game";
 menu_ids[1] = "Options";
 menu_ids[2] = "High Scores";
-menu_ids[3] = "Story Game";
+menu_ids[3] = "Story Mode";
 
 //Animation Variables
 anim = 3;
