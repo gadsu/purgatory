@@ -9,15 +9,15 @@
 //	EQ4 = instance_create_layer(768, 110, "Instances", obj_equalizer);
 //	EQ5 = instance_create_layer(896, 110, "Instances", obj_equalizer);
 //}
-//by = obj_enemy_boss_songtest.y;
-//bx = obj_enemy_boss_songtest.x;
-//oebw = obj_enemy_bullet_wonder;
-//oebt = obj_enemy_bullet_turner;
-//oeba = obj_enemy_bullet_acel;
+by = obj_enemy_boss_songtest.y;
+bx = obj_enemy_boss_songtest.x;
+oebw = obj_enemy_bullet_wonder;
+oebt = obj_enemy_bullet_turner;
+oeba = obj_enemy_bullet_acel;
 
 
 
-//dir_01 = 225;
+dir_01 = 225;
 
 // END OF SKIP CODE
 timeline_speed = 1.475555555555555555555;
