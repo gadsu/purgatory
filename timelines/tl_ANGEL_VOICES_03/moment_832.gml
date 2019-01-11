@@ -1,6 +1,6 @@
 ///@description Main Beat(MB), MD
 enemy_bullet(oebw, 270, bx, by + 40);
-enemy_bullet(oebw, 270, bx - 49, by + 40);
+//enemy_bullet(oebw, 270, bx - 49, by + 40);
 dir_01 = 200;
 for (var i = 0; i < 10; i++)
 {
