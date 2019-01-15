@@ -1,6 +1,6 @@
 /// Iniziatzing the game and stuff
 //also to make sure this object exists in the room as well
-
+randomise();
 
 scale = 1;
 global.spawn = 0;
