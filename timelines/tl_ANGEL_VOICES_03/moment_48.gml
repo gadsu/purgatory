@@ -1,2 +1,3 @@
 ///@description Main Beat(MB)
-enemy_bullet(oebw, 270, bx, by + 40);
+enemy_bullet(oebl, point_direction(bx,by, obj_player.x, obj_player.y), bx, by + 40);
+
