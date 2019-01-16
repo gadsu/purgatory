@@ -14,7 +14,7 @@ if (timer mod 86 == 0 )
 	//	enemy_bullet(obj_enemy_sinesquare, 270 + (i * 6), x, room_height/2);
 	//}
 	
-	enemy_bullet_vinyl(100, 800, 270, x - 60, y + 40, 4);
+	enemy_bullet_vinyl(100, 800, 270, x -200, y +100, 4);
 	
 	
 	
