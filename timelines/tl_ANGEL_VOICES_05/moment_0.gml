@@ -1,4 +1,4 @@
-///@description Start of third Box, MB, Main Drum
+///@description Start of fifth box
 
 //USE IF SKIPPING TO THIS POINT, ELSE COMMENT OUT
 //if!(variable_global_exists(skip))
@@ -16,27 +16,26 @@
 //EQ4.image_index = 0;
 //EQ5.image_index = 0;
 
-if(instance_exists(EQ1) == true)
-{
-	instance_deactivate_object(EQ1);
-}
-if(instance_exists(EQ2) == true)
-{
-	instance_deactivate_object(EQ2);
-}
-if(instance_exists(EQ3) == true)
-{
-	instance_deactivate_object(EQ3);
-}
-if(instance_exists(EQ4) == true)
-{
-	instance_deactivate_object(EQ4);
-}
-if(instance_exists(EQ5) == true)
-{
-	instance_deactivate_object(EQ5);
-}
-
+//if(instance_exists(EQ1) == true)
+//{
+//	instance_deactivate_object(EQ1);
+//}
+//if(instance_exists(EQ2) == true)
+//{
+//	instance_deactivate_object(EQ2);
+//}
+//if(instance_exists(EQ3) == true)
+//{
+//	instance_deactivate_object(EQ3);
+//}
+//if(instance_exists(EQ4) == true)
+//{
+//	instance_deactivate_object(EQ4);
+//}
+//if(instance_exists(EQ5) == true)
+//{
+//	instance_deactivate_object(EQ5);
+//}
 
 
 by = obj_enemy_boss_songtest.y;
@@ -52,20 +51,6 @@ dir_02 = 0; // this is used for the passing in the aim for the homing bullet.
 
 
 // END OF SKIP CODE
-// This code is for the main beat.
-//enemy_bullet(oebw, 270, bx, by + 40);
-
 
 
 enemy_bullet_vinyl(-120, 1075, 270, (bx - 193) - 40 , by + 100, 5);
-
-// the bx - 49 is the drum
-//enemy_bullet(oebw, 270, bx - 49, by + 40);
-
-dir_01 = 200;
-for (var i = 0; i < 10; i++)
-{
-	enemy_bullet(oebw, dir_01 + (i * 10), bx - 60 + (i * 4), by + 40);
-}
-	
-
