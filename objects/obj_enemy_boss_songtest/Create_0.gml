@@ -18,10 +18,9 @@ safeguard = false;
 //setting the boss' information from the parent
 myName = "D.0.T.";
 myPortrait = spr_dot_dialogue;
-myText[0] = "Taking the title defender on first?";
-myText[1] = "I gotta say, that takes some guts.";
-myText[2] = "You think you have what it takes to take me on?";
-myText[3] = "Show me what you got, and hold nothing back!";
+myText[0] = "So, the reigning champion meets her foe.";
+myText[0] = "I gotta say, that takes some guts.";
+myText[0] = "Now... I am truly sorry about this... but I’m gonna have to beat you to the ground.";
 mySpeaker = -1;
 
 

@@ -24,11 +24,11 @@ if(dialogue_1 == true)
 			myText[2] = "Well? Raise your instrument and let’s get started!";
 			break;
 		case "D.0.T.":
+			myName = "D.0.T.";
 			myPortrait = spr_dot_dialogue;
-			myText[0] = "Taking the title defender on first?";
-			myText[1] = "I gotta say, kid, that takes a lot of balls.";
-			myText[2] = "You think you have what it takes to take me on?";
-			myText[3] = "Show me what you got, and hold nothing back!";
+			myText[0] = "So, the reigning champion meets her foe.";
+			myText[1] = "I gotta say, that takes some guts.";
+			myText[2] = "Now... I am truly sorry about this... but I'm gonna have to beat you to the ground.";
 			mySpeaker = -1;
 			break;
 	}
@@ -52,7 +52,7 @@ if(!instance_exists(obj_player) && dialogue_2 == true )
 	reset_dialogue_defaults();
 	myName = "D.0.T.";
 	myPortrait = spr_dot_dialogue;
-	myText[0] = "I would love to say you had a chance, but you just don’t have what it takes.";
+	myText[0] = "I would love to say you had a chance, but you just do not have what it takes.";
 	myText[1] = "Not for a challenge like this.";
 	mySpeaker = -1;
 	

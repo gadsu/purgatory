@@ -879,6 +879,14 @@
             }
         },
         {
+            "Key": "adae2563-4f15-4318-afdf-5dde8e01595a",
+            "Value": {
+                "id": "432a2a71-849e-48a1-acf5-3737f44c5d9d",
+                "resourcePath": "timelines\\tl_ANGEL_VOICES_05\\tl_ANGEL_VOICES_05.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "b01ceab1-bc39-4e50-9317-6447656205b5",
             "Value": {
                 "id": "82d5064b-1496-4c9d-be1c-3789861cdc3d",
