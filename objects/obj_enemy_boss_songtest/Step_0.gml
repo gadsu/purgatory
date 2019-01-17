@@ -5,7 +5,7 @@ event_inherited();
 
 if(dialogue_1 == true)
 {
-	reset_dialogue_defaults();
+/*	reset_dialogue_defaults();
 	myName = "D.0.T.";
 	
 	switch(myName) {
@@ -23,15 +23,15 @@ if(dialogue_1 == true)
 			myText[1] = "I’ll give you the benefit of the doubt but will still kick your ass.";
 			myText[2] = "Well? Raise your instrument and let’s get started!";
 			break;
-		case "D.0.T.":
+		case "D.0.T.":*/
 			myName = "D.0.T.";
 			myPortrait = spr_dot_dialogue;
 			myText[0] = "So, the reigning champion meets her foe.";
 			myText[1] = "I gotta say, that takes some guts.";
 			myText[2] = "Now... I am truly sorry about this... but I'm gonna have to beat you to the ground.";
 			mySpeaker = -1;
-			break;
-	}
+//			break;
+//	}
 	
 	
 	
@@ -86,11 +86,11 @@ if(hp <= 0 && dialogue_3 != true && text_01 == false) {
 	reset_dialogue_defaults();
 	myName = "D.0.T.";
 	myPortrait = spr_dot_dialogue;
-	myText[0] = "Well, damn. I don’t think anyone was expecting some nobody to come in and take out the reigning champ on his first go around.";
-	myText[1] = "Good job, but you’re not finished. You’ve still got Klaus and MOB.";
-	myText[2] = "Don’t underestimate either of them. Well, go ahead and overestimate MOB.";
-	myText[3] = "He ain’t as good as he says he is.";
-	myText[4] = "Now, I gotta repair this mask, so you gonna pay for this?";
+	myText[0] = "Well, damn.";
+    myText[1] = "I don’t think anyone was expecting some nobody to come in and take out the reigning champ the first time around.";
+    myText[2] = "Good job.";
+    myText[3] = "Well, you’re in charge now.";
+    myText[4] = "Make the most of it, and do not screw it up.";
 	mySpeaker = -1;
 	
 	
