@@ -25,8 +25,8 @@ if(instance_exists(obj_player))
 }
 
 //drawing the Text UI (TESTING)
-if(instance_exists(obj_player))
-{
+//if(instance_exists(obj_player))
+//{
 	draw_set_color(c_white);
 	draw_set_font(font_main);
 	draw_set_halign(fa_center);
@@ -36,7 +36,10 @@ if(instance_exists(obj_player))
 	draw_text(160, 140, "ANGEL VOICES");
 	
 	
-	draw_text(160, 220, "Phase: 1");
+	draw_text(160, 220, "Phase: " + string(global.phase));
+	
+	
+	draw_text(160, 425, "Lives");
 	
 	
 	draw_text(160, 280, "Weapon Type:");
@@ -60,7 +63,7 @@ if(instance_exists(obj_player))
 	
 	draw_text(1120, 425, "Bomb Type: Null");
 	draw_text(1120, 475, "Bombs");
-}
+//}
 
 
 

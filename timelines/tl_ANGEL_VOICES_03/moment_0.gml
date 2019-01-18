@@ -16,26 +16,26 @@
 //EQ4.image_index = 0;
 //EQ5.image_index = 0;
 
-if(instance_exists(EQ1) == true)
-{
-	instance_deactivate_object(EQ1);
-}
-if(instance_exists(EQ2) == true)
-{
-	instance_deactivate_object(EQ2);
-}
-if(instance_exists(EQ3) == true)
-{
-	instance_deactivate_object(EQ3);
-}
-if(instance_exists(EQ4) == true)
-{
-	instance_deactivate_object(EQ4);
-}
-if(instance_exists(EQ5) == true)
-{
-	instance_deactivate_object(EQ5);
-}
+//if(instance_exists(EQ1) == true)
+//{
+//	instance_deactivate_object(EQ1);
+//}
+//if(instance_exists(EQ2) == true)
+//{
+//	instance_deactivate_object(EQ2);
+//}
+//if(instance_exists(EQ3) == true)
+//{
+//	instance_deactivate_object(EQ3);
+//}
+//if(instance_exists(EQ4) == true)
+//{
+//	instance_deactivate_object(EQ4);
+//}
+//if(instance_exists(EQ5) == true)
+//{
+//	instance_deactivate_object(EQ5);
+//}
 
 
 
@@ -48,7 +48,7 @@ oebl = obj_enemy_bullet; // this one aims for the player
 dir_02 = 0; // this is used for the passing in the aim for the homing bullet.
 
 
-
+global.phase = 3;
 
 
 // END OF SKIP CODE

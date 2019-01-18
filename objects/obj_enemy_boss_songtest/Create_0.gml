@@ -33,3 +33,5 @@ dialogue_3 = false;
 
 
 hp = 300;
+image_xscale = .13888888888;
+image_yscale = .13888888888;

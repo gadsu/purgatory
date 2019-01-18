@@ -1467,6 +1467,23 @@
             "moment": 1984
         },
         {
+            "id": "0930b86c-ef95-43d9-921e-d6ca13bfd3fa",
+            "modelName": "GMMoment",
+            "mvc": "1.0",
+            "name": "",
+            "evnt": {
+                "id": "bbaa0040-432e-470b-8e79-8a867baec93d",
+                "modelName": "GMEvent",
+                "mvc": "1.0",
+                "IsDnD": false,
+                "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+                "enumb": 2000,
+                "eventtype": 0,
+                "m_owner": "41799363-502c-493d-9c94-d810b30c68ed"
+            },
+            "moment": 2000
+        },
+        {
             "id": "7876aa00-687c-47a8-b1ec-e25acbe93321",
             "modelName": "GMMoment",
             "mvc": "1.0",

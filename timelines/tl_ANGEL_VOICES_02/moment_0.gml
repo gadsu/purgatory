@@ -15,7 +15,7 @@ oebw = obj_enemy_bullet_wonder;
 oebt = obj_enemy_bullet_turner;
 oeba = obj_enemy_bullet_acel;
 
-
+global.phase = 2;
 
 dir_01 = 225;
 
