@@ -26,10 +26,10 @@ oeba = obj_enemy_bullet_acel;
 
 
 //Placeholder for the lights
-L1 = instance_create_layer(400, 120, "Instances", obj_static_Sqaure);
-L2 = instance_create_layer(500, 50, "Instances", obj_static_Sqaure);
-L3 = instance_create_layer(780, 50, "Instances", obj_static_Sqaure);
-L4 = instance_create_layer(880, 120, "Instances", obj_static_Sqaure);
+L1 = instance_create_layer(400, 120, "Instances", obj_Spotlight);
+L2 = instance_create_layer(500, 50, "Instances", obj_Spotlight);
+L3 = instance_create_layer(780, 50, "Instances", obj_Spotlight);
+L4 = instance_create_layer(880, 120, "Instances", obj_Spotlight);
 
 global.phase = 4;
 
@@ -43,4 +43,4 @@ enemy_bullet(oebw, 180, bx, by + 40);
 enemy_bullet(oebw, 270, bx, by + 40);
 
 
-enemy_bullet_laser(bx + 75, by + 40, 8, 720, 10);
+enemy_bullet_laser(L3.x, L3.y + 20, 8, 720, 10);

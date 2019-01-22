@@ -2,9 +2,18 @@
     "id": "f24a70c5-c8e8-48ad-ab35-d5a03ed5c46a",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_static_Sqaure",
+    "name": "obj_Spotlight",
     "eventList": [
-        
+        {
+            "id": "ccc247e1-35c6-44e0-bd97-e181225975bd",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "f24a70c5-c8e8-48ad-ab35-d5a03ed5c46a"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

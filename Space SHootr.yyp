@@ -1178,7 +1178,7 @@
             "Key": "eae0e282-7600-40ff-bfaf-97e0e1927779",
             "Value": {
                 "id": "f0c7c46f-c03d-47d2-aa59-c2c81cead109",
-                "resourcePath": "sprites\\spr_static_Square\\spr_static_Square.yy",
+                "resourcePath": "sprites\\spr_spotlight\\spr_spotlight.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1234,7 +1234,7 @@
             "Key": "f24a70c5-c8e8-48ad-ab35-d5a03ed5c46a",
             "Value": {
                 "id": "2bcc3d0a-93e3-4339-9444-58dc3ba17f9b",
-                "resourcePath": "objects\\obj_static_Sqaure\\obj_static_Sqaure.yy",
+                "resourcePath": "objects\\obj_Spotlight\\obj_Spotlight.yy",
                 "resourceType": "GMObject"
             }
         },
