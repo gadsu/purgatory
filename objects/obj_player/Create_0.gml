@@ -8,7 +8,7 @@ iframes = 0;
 
 bomb_count = 2
 instrument = 0
-hp = 10;
+hp =3;
 global.dead = false;
 
 cooldown = false;

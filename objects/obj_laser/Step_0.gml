@@ -25,6 +25,7 @@ if (timer == 15)
 if(fade == true)
 {
 	image_alpha = image_alpha - 1/16;
+	image_blend = c_olive;
 	if (image_alpha == 0)
 	{
 		instance_destroy();
