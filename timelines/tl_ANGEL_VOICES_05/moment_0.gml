@@ -37,6 +37,7 @@
 //	instance_deactivate_object(EQ5);
 //}
 
+//instance_deactivate_object(obj_equalizerhitbox)
 
 global.phase = 5;
 

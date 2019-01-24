@@ -14,6 +14,6 @@ global.int_width = int_x;
 global.int_height = int_y;
 global.rotation = rotate;
 
-instance_create_layer(x_cord,y_cord,"Bullets", obj_laser);
+instance_create_layer(x_cord,y_cord,"Instances_1", obj_laser);
 
 return;

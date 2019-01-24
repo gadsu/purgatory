@@ -10,12 +10,28 @@
 //	EQ5 = instance_create_layer(896, 110, "Instances", obj_equalizer);
 //}
 
-//EQ1.image_index.visible = false
-//EQ2.image_index.visible = false
-//EQ3.image_index.visible = false
-//EQ4.image_index.visible = false
-//EQ5.image_index.visible = false
+//if(instance_exists(EQ1) == true)
+//{
+//	instance_deactivate_object(EQ1);
+//}
+//if(instance_exists(EQ2) == true)
+//{
+//	instance_deactivate_object(EQ2);
+//}
+//if(instance_exists(EQ3) == true)
+//{
+//	instance_deactivate_object(EQ3);
+//}
+//if(instance_exists(EQ4) == true)
+//{
+//	instance_deactivate_object(EQ4);
+//}
+//if(instance_exists(EQ5) == true)
+//{
+//	instance_deactivate_object(EQ5);
+//}
 
+//instance_deactivate_object(obj_equalizerhitbox)
 
 by = obj_enemy_boss_songtest.y;
 bx = obj_enemy_boss_songtest.x;
@@ -43,4 +59,4 @@ enemy_bullet(oebw, 180, bx, by + 40);
 enemy_bullet(oebw, 270, bx, by + 40);
 
 
-enemy_bullet_laser(L3.x, L3.y + 20, 8, 720, 10);
+enemy_bullet_laser(L3.x -4, L3.y, 7.5, 720, 10);
