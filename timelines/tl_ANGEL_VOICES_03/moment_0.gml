@@ -16,28 +16,28 @@
 //EQ4.image_index = 0;
 //EQ5.image_index = 0;
 
-//if(instance_exists(EQ1) == true)
-//{
-//	instance_deactivate_object(EQ1);
-//}
-//if(instance_exists(EQ2) == true)
-//{
-//	instance_deactivate_object(EQ2);
-//}
-//if(instance_exists(EQ3) == true)
-//{
-//	instance_deactivate_object(EQ3);
-//}
-//if(instance_exists(EQ4) == true)
-//{
-//	instance_deactivate_object(EQ4);
-//}
-//if(instance_exists(EQ5) == true)
-//{
-//	instance_deactivate_object(EQ5);
-//}
+if(instance_exists(EQ1) == true)
+{
+	instance_deactivate_object(EQ1);
+}
+if(instance_exists(EQ2) == true)
+{
+	instance_deactivate_object(EQ2);
+}
+if(instance_exists(EQ3) == true)
+{
+	instance_deactivate_object(EQ3);
+}
+if(instance_exists(EQ4) == true)
+{
+	instance_deactivate_object(EQ4);
+}
+if(instance_exists(EQ5) == true)
+{
+	instance_deactivate_object(EQ5);
+}
 
-//instance_deactivate_object(obj_equalizerhitbox)
+instance_deactivate_object(obj_equalizerhitbox)
 
 by = obj_enemy_boss_songtest.y;
 bx = obj_enemy_boss_songtest.x;
