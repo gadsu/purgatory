@@ -1,4 +1,5 @@
 ///@description WARNING L1 , L2
-
-area_warning(L1.x, L1.y + 20, 13, 720, 44, 20);
-area_warning(L2.x, L2.y + 20, 13, 720, 44, 10);
+L1.image_angle = 20;
+L2.image_angle = 10;
+area_warning(L1.x - 6, L1.y , 13, 720, 44, 20);
+area_warning(L2.x - 6, L2.y , 13, 720, 44, 10);

@@ -38,15 +38,19 @@ bx = obj_enemy_boss_songtest.x;
 oebw = obj_enemy_bullet_wonder;
 oebt = obj_enemy_bullet_turner;
 oeba = obj_enemy_bullet_acel;
+oebl = obj_enemy_bullet;
 
 
 
 //Placeholder for the lights
-L1 = instance_create_layer(400, 120, "Instances", obj_Spotlight);
-L2 = instance_create_layer(500, 50, "Instances", obj_Spotlight);
-L3 = instance_create_layer(780, 50, "Instances", obj_Spotlight);
-L4 = instance_create_layer(880, 120, "Instances", obj_Spotlight);
-
+if (global.spawnedlights != true)
+{
+	L1 = instance_create_layer(400, 120, "Instances", obj_Spotlight);
+	L2 = instance_create_layer(500, 50, "Instances", obj_Spotlight);
+	L3 = instance_create_layer(780, 50, "Instances", obj_Spotlight);
+	L4 = instance_create_layer(880, 120, "Instances", obj_Spotlight);
+}
+global.spawnedlights = true;
 global.phase = 4;
 
 dir_01 = 225;
@@ -58,5 +62,5 @@ enemy_bullet(oebw, 90, bx, by + 40);
 enemy_bullet(oebw, 180, bx, by + 40);
 enemy_bullet(oebw, 270, bx, by + 40);
 
-
+//Warning has to be in box 3
 enemy_bullet_laser(L3.x -4, L3.y, 7.5, 720, 10);

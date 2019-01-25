@@ -39,6 +39,16 @@
 
 //instance_deactivate_object(obj_equalizerhitbox)
 
+
+if (global.spawnedlights != true)
+{
+	L1 = instance_create_layer(400, 120, "Instances", obj_Spotlight);
+	L2 = instance_create_layer(500, 50, "Instances", obj_Spotlight);
+	L3 = instance_create_layer(780, 50, "Instances", obj_Spotlight);
+	L4 = instance_create_layer(880, 120, "Instances", obj_Spotlight);
+}
+global.spawnedlights = true;
+
 global.phase = 5;
 
 by = obj_enemy_boss_songtest.y;

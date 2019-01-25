@@ -1,7 +1,7 @@
 ///@description Main Beat(MB), MD, Laser
-enemy_bullet(oebw, 270, bx, by + 40);
+enemy_bullet_speed(oebl, dir_02 + random_range(-5, 5), bx, by + 40, 6);
 
-//enemy_bullet(oebw, 270, bx - 49, by + 40);
+
 dir_01 = 200;
 for (var i = 0; i < 6; i++)
 {

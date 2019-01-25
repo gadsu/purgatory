@@ -1,3 +1,2 @@
-///@description Main Beat(MB), MD
-enemy_bullet(oebw, 270, bx, by + 40);
-//enemy_bullet(oebw, 270, bx - 49, by + 40);
+///@description Main Beat(MB)
+enemy_bullet_speed(oebl, dir_02 + random_range(-5, 5), bx, by + 40, 6);
