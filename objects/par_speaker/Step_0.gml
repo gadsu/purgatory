@@ -27,13 +27,18 @@ if(dialogue_start) {
 	keyboard_key_release(vk_enter);
 	dialogue_start = false;
 }
-else if(obj_enemy_boss_songtest.hp <= 0 && boss_dead == false) 
+
+else if(instance_exists(obj_enemy_boss_songtest))
+{
+	if(obj_enemy_boss_songtest.hp <= 0 && boss_dead == false )
 	{
 		keyboard_key_press(vk_enter);
 		keyboard_key_release(vk_enter);
 		show_debug_message(boss_dead);
 		boss_dead = true;
 	}
+}
+
 else if(!instance_exists(obj_player) && player_dead == 0) {
 	keyboard_key_press(vk_enter);
 	keyboard_key_release(vk_enter);

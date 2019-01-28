@@ -1,14 +1,23 @@
-/// Drawing the health of the player
+/// Drawing the health of the player (Outdated)
+//if (instance_exists(obj_player))
+//{
+//	xt = 60;
+//	yt = 540;
+	
+//	for(var i = 0; i <obj_player.hp; i++)
+//	{
+//		draw_sprite_ext(spr_health, 0, xt + (i * 100), yt, 1, 1, 0, c_white, 1);
+//	}
+//}
 
+
+//drawing the favor bar (TESTING)
 if (instance_exists(obj_player))
 {
-	xt = 60;
-	yt = 540;
+	xt = 60
+	yt = 540
 	
-	for(var i = 0; i <obj_player.hp; i++)
-	{
-		draw_sprite_ext(spr_health, 0, xt + (i * 100), yt, 1, 1, 0, c_white, 1);
-	}
+	draw_healthbar(xt, yt, xt + 200, yt + 50, health, c_lime, c_fuchsia, c_fuchsia, 0, true, true)
 }
 
 //drawing the bomb count (TESTING)

@@ -98,3 +98,8 @@ if(instance_exists(obj_player) == false)
 	timeline_running = false;
 }
 
+//Boss gains favor
+if(!instance_exists(obj_textbox) && timer mod 25 == 0)
+{
+	health = health - 0.1;
+}
