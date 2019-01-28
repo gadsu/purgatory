@@ -5,37 +5,14 @@ event_inherited();
 
 if(dialogue_1 == true)
 {
-/*	reset_dialogue_defaults();
 	myName = "D.0.T.";
-	
-	switch(myName) {
-		case "Klaus":
-			myPortrait = spr_boss_dialogue;
-			mySpeaker = -1;
-			myText[0] = "Another young upstart here to attempt to take the throne?";
-			myText[1] = "I will leave everything on the stage as I always do.";
-			myText[2] = "Good luck. You're going to need it, boy.";
-			break;
-		case "MOB":
-			myPortrait = spr_boss_dialogue;
-			mySpeaker = -1;
-			myText[0] = "Facing the best of us first? I’m harder than the rest of these clowns, so good luck.";
-			myText[1] = "I’ll give you the benefit of the doubt but will still kick your ass.";
-			myText[2] = "Well? Raise your instrument and let’s get started!";
-			break;
-		case "D.0.T.":*/
-			myName = "D.0.T.";
-			myPortrait = spr_dot_dialogue;
-			myText[0] = "So, the reigning champion meets her foe.";
-			myText[1] = "I gotta say, that takes some guts.";
-			myText[2] = "Now... I am truly sorry about this... but I'm gonna have to beat you to the ground.";
-			mySpeaker = -1;
-//			break;
-//	}
-	
-	
-	
+	myPortrait = spr_dot_dialogue;
+	myText[0] = "So, the reigning champion meets her foe.";
+	myText[1] = "I gotta say, that takes some guts.";
+	myText[2] = "Now... I truly am sorry about this... but I gotta beat you into the ground.";
+	mySpeaker = -1;
 }
+
 if(!instance_exists(obj_textbox) && dialogue_1 == true && timer > 1)
 {
 	alarm[0] = 60;
@@ -52,7 +29,8 @@ if(!instance_exists(obj_player) && dialogue_2 == true )
 	reset_dialogue_defaults();
 	myName = "D.0.T.";
 	myPortrait = spr_dot_dialogue;
-	myText[0] = "I would love to say you had a chance, but you just do not have what it takes.";
+	myText[0] = "I would love to say you had a chance, but you simply do not have what it takes.";
+	myEffects[0] = [57,1,60,0];
 	myText[1] = "Not for a challenge like this.";
 	mySpeaker = -1;
 	
@@ -87,10 +65,10 @@ if(hp <= 0 && dialogue_3 != true && text_01 == false) {
 	myName = "D.0.T.";
 	myPortrait = spr_dot_dialogue;
 	myText[0] = "Well, damn.";
-    myText[1] = "I don’t think anyone was expecting some nobody to come in and take out the reigning champ the first time around.";
+    myText[1] = "No one was expecting some nobody to get in and take out the reigning champ the first time around, especially me.";
     myText[2] = "Good job.";
-    myText[3] = "Well, you’re in charge now.";
-    myText[4] = "Make the most of it, and do not screw it up.";
+    myText[3] = "Well, you have the reins now.";
+    myText[4] = "Make the most of it, and please, for the love of music, do not screw it up.";
 	mySpeaker = -1;
 	
 	
