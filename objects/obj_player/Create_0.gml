@@ -11,7 +11,7 @@ instrument = 0
 hp = 3;
 global.dead = false;
 
-cooldown = false;
+cooldown = true;
 instrument_cooldown = false
 bomb_cooldown = false
 
@@ -21,3 +21,4 @@ safeguard = false;
 state = "IDLE";
 instance_create_depth(x,y,0,obj_playergraze_hitbox);
 
+alarm[0] = 5

@@ -40,19 +40,19 @@ if (keyboard_check(vk_shift))
 		x += player_speed / 2.273;
 	}
 }
-//Controls switching instruments
-if (Input.control == true && instrument_cooldown == false)
-{
-	//show_debug_message(instrument);
+//Controls switching instruments (OUTDATED)
+//if (Input.control == true && instrument_cooldown == false)
+//{
+//	//show_debug_message(instrument);
 	
-	instrument += 1;
-	if(instrument >= 3)
-	{
-		instrument = 0;
-	}
-	instrument_cooldown = true;
-	alarm[1] = 40;
-}
+//	instrument += 1;
+//	if(instrument >= 3)
+//	{
+//		instrument = 0;
+//	}
+//	instrument_cooldown = true;
+//	alarm[1] = 40;
+//}
 
 //Controls bombs
 if (Input.bomb_key == true && instrument_cooldown == false)
@@ -113,14 +113,13 @@ if (Input.bomb_key == true && instrument_cooldown == false)
 }
 
 //Controls shooting
-if (Input.button_a == true && cooldown == false && !instance_exists(obj_textbox) && !instance_exists(obj_highscoretextbox))
+if (cooldown == false && !instance_exists(obj_textbox) && !instance_exists(obj_highscoretextbox))
 {
-	var inst
-	inst = instance_create_depth(x,y,1,obj_shot);
-	with (inst)
-		{
-			instrument = other.instrument;
-		}
+	instance_create_depth(x,y,1,obj_shot);
+	//with (inst)
+	//	{
+	//		instrument = other.instrument;
+	//	}
 	cooldown = true;
 	alarm[0] = 10;
 }
@@ -133,7 +132,7 @@ x = clamp(x, sprite_width/2 + room_width/4, room_width - sprite_width/2 - room_w
 y = clamp(y, 200, room_height - sprite_height/2);
 
 // if you collide with any enemy, lose hp
-if (hp <= 0)
+if (health <= 0)
 {
 	audio_play_sound(death_sound_effect_v2,10,false);
 	global.dead = true;

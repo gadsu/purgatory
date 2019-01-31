@@ -48,18 +48,19 @@ if(instance_exists(obj_player))
 	draw_text(160, 220, "Phase: " + string(global.phase));
 	
 	
-	draw_text(160, 425, "Lives");
+	draw_text(160, 425, "Crowd Favor");
 	
+	//Used for changing bullet type (OUTDATED)
+	//draw_text(160, 280, "Weapon Type:");
+	//if (instance_exists(obj_player))
+	//{
+	//	draw_text(160, 320, string(obj_player.instrument));
+	//}
 	
-	draw_text(160, 280, "Weapon Type:");
-	if (instance_exists(obj_player))
-	{
-		draw_text(160, 320, string(obj_player.instrument));
-	}
-	else
-	{
-		draw_text(160, 320, "0");
-	}
+	//else
+	//{
+	//	draw_text(160, 320, "0");
+	//}
 	
 	
 	//Right Side

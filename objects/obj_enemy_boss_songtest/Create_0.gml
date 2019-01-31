@@ -35,6 +35,6 @@ dialogue_3 = false;
 timer = 0
 //Used for old HP system (WIP)(Outdated)
 //Currenty (1/298/2019) needs to be replaced by favor system
-hp = 300000;
+hp = 10000;
 image_xscale = .13888888888;
 image_yscale = .13888888888;
