@@ -33,6 +33,8 @@ if(!instance_exists(obj_player) && dialogue_2 == true )
 	myEffects[0] = [57,1,60,0];
 	myText[1] = "Not for a challenge like this.";
 	mySpeaker = -1;
+	//Needed to solve weird issue of not spawning the text box
+	keyboard_key_press(vk_enter);
 	
 	if(instance_exists(obj_textbox))
 	{

@@ -39,16 +39,6 @@
 
 //instance_deactivate_object(obj_equalizerhitbox)
 
-
-if (global.spawnedlights != true)
-{
-	L1 = instance_create_layer(400, 120, "Instances", obj_Spotlight);
-	L2 = instance_create_layer(500, 50, "Instances", obj_Spotlight);
-	L3 = instance_create_layer(780, 50, "Instances", obj_Spotlight);
-	L4 = instance_create_layer(880, 120, "Instances", obj_Spotlight);
-}
-global.spawnedlights = true;
-
 global.phase = 5;
 
 by = obj_enemy_boss_songtest.y;
@@ -60,10 +50,17 @@ oebl = obj_enemy_bullet; // this one aims for the player
 dir_02 = 0; // this is used for the passing in the aim for the homing bullet.
 
 
-
+if (global.spawnedlights != true)
+{
+	L1 = instance_create_layer(400, 120, "Instances", obj_Spotlight);
+	L2 = instance_create_layer(500, 50, "Instances", obj_Spotlight);
+	L3 = instance_create_layer(780, 50, "Instances", obj_Spotlight);
+	L4 = instance_create_layer(880, 120, "Instances", obj_Spotlight);
+}
+global.spawnedlights = true;
 
 
 // END OF SKIP CODE
 
 
-enemy_bullet_vinyl(-120, 1075, 270, (bx - 193) - 40 , by + 100, 5);
+enemy_bullet(oebw, random_range(200, 340),bx - random_range(-100, 100), by + 40);

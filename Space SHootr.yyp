@@ -882,7 +882,7 @@
             "Key": "adae2563-4f15-4318-afdf-5dde8e01595a",
             "Value": {
                 "id": "432a2a71-849e-48a1-acf5-3737f44c5d9d",
-                "resourcePath": "timelines\\tl_ANGEL_VOICES_05\\tl_ANGEL_VOICES_05.yy",
+                "resourcePath": "timelines\\tl_ANGEL_VOICES_06\\tl_ANGEL_VOICES_06.yy",
                 "resourceType": "GMTimeline"
             }
         },
@@ -1138,7 +1138,7 @@
             "Key": "dd2dc24d-18a9-441b-b74e-6588d348f234",
             "Value": {
                 "id": "fca28352-dc60-4947-9456-a3856402f792",
-                "resourcePath": "timelines\\tl_ANGEL_VOICES_05subA\\tl_ANGEL_VOICES_05subA.yy",
+                "resourcePath": "timelines\\tl_ANGEL_VOICES_05\\tl_ANGEL_VOICES_05.yy",
                 "resourceType": "GMTimeline"
             }
         },

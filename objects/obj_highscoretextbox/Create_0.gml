@@ -8,3 +8,4 @@ alarm[0] = 60;
 dialogue = false;
 dialogue_guard = false;
 num = 0;
+keyboard_string = "";

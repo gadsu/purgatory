@@ -1,6 +1,1 @@
-///@description SAY
-
-enemy_bullet(oebw, 0, bx, by + 40);
-//enemy_bullet(oebw, 90, bx, by + 40);
-//enemy_bullet(oebw, 180, bx, by + 40);
-//enemy_bullet(oebw, 270, bx, by + 40);
+enemy_bullet(oebw, random_range(200, 340),bx - random_range(-100, 100), by + 40);
