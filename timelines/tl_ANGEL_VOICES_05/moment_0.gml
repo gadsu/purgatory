@@ -59,7 +59,8 @@ if (global.spawnedlights != true)
 }
 global.spawnedlights = true;
 
-
+//used for line stream at 1028
+section = 3.5;
 // END OF SKIP CODE
 
 

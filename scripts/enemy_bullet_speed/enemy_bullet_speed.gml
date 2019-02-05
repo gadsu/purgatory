@@ -12,6 +12,7 @@ spd = argument[4];
 //The bullet will used the global varible to move in  that direction
 global.angle = dir;
 global.bullet_speed = spd;
+global.speedset = true;
 
 instance_create_layer(x_cord,y_cord,"Bullets", bullet);
 
