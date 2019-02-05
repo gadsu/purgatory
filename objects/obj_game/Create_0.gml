@@ -7,6 +7,7 @@ global.spawn = 0;
 global.bullet_explode = false;
 global.roomname = room;
 global.bossdead = false;
+global.timer = 0;
 
 
 window_set_size((window_get_width()* scale), window_get_height() * scale);
