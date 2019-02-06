@@ -1,4 +1,8 @@
-///@description Line Bullets
+///@description Line Bullets TIMES
+
+
+
+enemy_bullet_laser(L4.x -4 , L4.y, 7.5, 720, -30);
 
 dir_01 += section;
 dir_02 -= section;
