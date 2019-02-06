@@ -1,4 +1,4 @@
-///@description Start of fifth box
+///@description Start of sifth box
 
 //USE IF SKIPPING TO THIS POINT, ELSE COMMENT OUT
 //if!(variable_global_exists(skip))
