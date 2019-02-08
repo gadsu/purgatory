@@ -1,2 +1,9 @@
+///@desc End of Piano
+
+
+//Spawn a triangle bullet
+scr_triangle_bullets(pi, bx, by+50, 20, 10, .75);
+
+
 enemy_bullet_speed(obj_enemy_bullet_wonder, dir_01, bx - 40, by +40,6);
 enemy_bullet_speed(obj_enemy_bullet_wonder, dir_02, bx + 40, by +40,6);

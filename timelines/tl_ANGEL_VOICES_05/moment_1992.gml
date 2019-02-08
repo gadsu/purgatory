@@ -1,4 +1,8 @@
-///@description Line Bullets
+///@description Line Bullets, Piano
+
+
+enemy_bullet_explode(obj_exploding, 260, bx +20, by + 40, 10, 13, 49);
+
 
 dir_01 += section;
 dir_02 -= section;

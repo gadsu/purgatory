@@ -20,3 +20,5 @@ enemy_bullet(oebt, 280, bx + 110, by + 40);
 enemy_bullet(oebt, 285, bx + 110, by + 40);
 enemy_bullet(oebt, 290, bx + 110, by + 40);
 
+
+enemy_bullet_explode(obj_exploding, 270, bx - 40, by + 40, 14, 19, 22);

@@ -1868,11 +1868,11 @@
                 "mvc": "1.0",
                 "IsDnD": false,
                 "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-                "enumb": 2304,
+                "enumb": 2296,
                 "eventtype": 0,
                 "m_owner": "41799363-502c-493d-9c94-d810b30c68ed"
             },
-            "moment": 2304
+            "moment": 2296
         }
     ]
 }

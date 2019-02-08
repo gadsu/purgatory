@@ -1,44 +1,49 @@
-///@description Start of sifth box
+///@description Start of fifth box
 
 //USE IF SKIPPING TO THIS POINT, ELSE COMMENT OUT
-//if!(variable_global_exists(skip))
-//{
-//	EQ1 = instance_create_layer(384, 110, "Instances", obj_equalizer);
-//	EQ2 = instance_create_layer(512, 110, "Instances", obj_equalizer);
-//	EQ3 = instance_create_layer(room_width/2, 110, "Instances", obj_equalizer);
-//	EQ4 = instance_create_layer(768, 110, "Instances", obj_equalizer);
-//	EQ5 = instance_create_layer(896, 110, "Instances", obj_equalizer);
-//}
+if!(variable_global_exists(skip))
+{
+	EQ1 = instance_create_layer(384, 110, "Instances", obj_equalizer);
+	EQ2 = instance_create_layer(512, 110, "Instances", obj_equalizer);
+	EQ3 = instance_create_layer(room_width/2, 110, "Instances", obj_equalizer);
+	EQ4 = instance_create_layer(768, 110, "Instances", obj_equalizer);
+	EQ5 = instance_create_layer(896, 110, "Instances", obj_equalizer);
+}
 
-//EQ1.image_index = 0;
-//EQ2.image_index = 0;
-//EQ3.image_index = 0;
-//EQ4.image_index = 0;
-//EQ5.image_index = 0;
+	EQ1.image_index = 0;
+	EQ2.image_index = 0;
+	EQ3.image_index = 0;
+	EQ4.image_index = 0;
+	EQ5.image_index = 0;
 
-//if(instance_exists(EQ1) == true)
-//{
-//	instance_deactivate_object(EQ1);
-//}
-//if(instance_exists(EQ2) == true)
-//{
-//	instance_deactivate_object(EQ2);
-//}
-//if(instance_exists(EQ3) == true)
-//{
-//	instance_deactivate_object(EQ3);
-//}
-//if(instance_exists(EQ4) == true)
-//{
-//	instance_deactivate_object(EQ4);
-//}
-//if(instance_exists(EQ5) == true)
-//{
-//	instance_deactivate_object(EQ5);
-//}
+	if(instance_exists(EQ1) == true)
+	{
+		instance_activate_object(EQ1);
+	}
+	if(instance_exists(EQ2) == true)
+	{
+		instance_activate_object(EQ2);
+	}
+	if(instance_exists(EQ3) == true)
+	{
+		instance_activate_object(EQ3);
+	}
+	if(instance_exists(EQ4) == true)
+	{
+		instance_activate_object(EQ4);
+	}
+	if(instance_exists(EQ5) == true)
+	{
+		instance_activate_object(EQ5);
+	}
 
-//instance_deactivate_object(obj_equalizerhitbox)
+	instance_activate_object(obj_equalizerhitbox)
 
+EQ1.image_index = 10;
+EQ2.image_index = 0;
+EQ3.image_index = 0;
+EQ4.image_index = 0;
+EQ5.image_index = 10;
 
 if (global.spawnedlights != true)
 {

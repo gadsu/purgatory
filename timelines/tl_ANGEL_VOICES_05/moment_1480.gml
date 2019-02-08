@@ -1,4 +1,4 @@
-///@description Line Bullets, DAYS
+///@description Line Bullets, DAYS L2
 
 
 enemy_bullet_laser(L2.x -4 , L2.y, 7.5, 720, 0);

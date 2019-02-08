@@ -23,3 +23,5 @@ enemy_bullet(oebt, 286, bx + 110, by + 40);
 
 enemy_bullet_speed(obj_enemy_bullet_wonder, dir_01, bx - 40, by +40,6);
 enemy_bullet_speed(obj_enemy_bullet_wonder, dir_02, bx + 40, by +40,6);
+
+enemy_bullet_explode(obj_exploding, 270, bx + 40, by + 40, 14, 19, 11);
