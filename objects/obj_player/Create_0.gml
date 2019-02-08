@@ -26,5 +26,5 @@ alarm[0] = 5;
 timesHit = 0;
 
 //Set player size
-//image_xscale = .5;
-//image_yscale = .5;
+image_xscale = .5;
+image_yscale = .5;

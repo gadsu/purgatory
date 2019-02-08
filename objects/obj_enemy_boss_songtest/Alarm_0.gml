@@ -28,14 +28,14 @@ timeline_speed = 1;
 //timeline_speed = 1.475555555555555555555;
 
 //Skip to fourth box
-globalvar skip;
-skip = audio_play_sound(Virtual_Self___ANGEL_VOICES, 10, false);
-audio_sound_set_track_position(skip, 92.210);
-audio_play_sound(skip, 0, false);
-timeline_index = tl_ANGEL_VOICES_04;
-timeline_position = 0;
-timeline_running = true;
-timeline_speed = 1.475555555555555555555;
+//globalvar skip;
+//skip = audio_play_sound(Virtual_Self___ANGEL_VOICES, 10, false);
+//audio_sound_set_track_position(skip, 92.210);
+//audio_play_sound(skip, 0, false);
+//timeline_index = tl_ANGEL_VOICES_04;
+//timeline_position = 0;
+//timeline_running = true;
+//timeline_speed = 1.475555555555555555555;
 
 //Skip to fifth box
 //globalvar skip;

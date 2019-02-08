@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "1d79156f-9df7-4183-b9b2-a9cd4be8847f",
+            "Value": {
+                "id": "025350e6-fad3-4b0f-8b09-2d4b0c75e99b",
+                "resourcePath": "sprites\\background_D0T\\background_D0T.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "20893b02-1dd1-4278-bf4c-2ca1b0063680",
             "Value": {
                 "id": "4ff8f0c4-d7e2-4c46-b390-91c89b5756aa",
@@ -236,6 +244,14 @@
                 "id": "ff9997c6-7308-48d6-9606-ffcd32b4913f",
                 "resourcePath": "objects\\obj_enemy_bullet_rotate\\obj_enemy_bullet_rotate.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "25d85021-e4c6-4861-98c1-0550015f6b30",
+            "Value": {
+                "id": "9a2dbfec-1cd8-498b-91f8-d04c6b7de0ba",
+                "resourcePath": "sprites\\spr_player_grazebox\\spr_player_grazebox.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -887,6 +903,14 @@
             }
         },
         {
+            "Key": "af93b0ae-bcaa-4c7d-bade-6cd7d7e2dacd",
+            "Value": {
+                "id": "53965bb2-1256-489e-9f50-5fe949248c43",
+                "resourcePath": "views\\af93b0ae-bcaa-4c7d-bade-6cd7d7e2dacd.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b01ceab1-bc39-4e50-9317-6447656205b5",
             "Value": {
                 "id": "82d5064b-1496-4c9d-be1c-3789861cdc3d",
@@ -1252,6 +1276,14 @@
                 "id": "2bcc3d0a-93e3-4339-9444-58dc3ba17f9b",
                 "resourcePath": "objects\\obj_Spotlight\\obj_Spotlight.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f27afe55-610b-4fad-84fb-c86b27f94f04",
+            "Value": {
+                "id": "0c46024d-6e80-4a43-8590-6177dba24323",
+                "resourcePath": "views\\f27afe55-610b-4fad-84fb-c86b27f94f04.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
