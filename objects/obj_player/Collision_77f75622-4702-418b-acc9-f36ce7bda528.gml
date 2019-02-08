@@ -15,4 +15,6 @@ if (iframes == 0)
 	health = health - 1.5;
 	iframes = 120;
 	show_debug_message("HIT");
+	timesHit += 1;
+	show_debug_message(timesHit);
 }

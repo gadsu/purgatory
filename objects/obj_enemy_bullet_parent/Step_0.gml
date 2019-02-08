@@ -16,6 +16,7 @@ if (!place_meeting(x,y, obj_playergraze_hitbox) && hit_graze == true && hit_play
 {
 	made_sound = true;
 	audio_play_sound(bullet_graze_sound_effect, 1, false);
+	health += 0.1;
 }
 if (x < 300 || x > 980)
 {

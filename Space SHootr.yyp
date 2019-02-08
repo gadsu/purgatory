@@ -650,7 +650,7 @@
             "Key": "7690d09c-d16d-4d50-9043-9a3f8bee82e2",
             "Value": {
                 "id": "bd2f7b14-44fc-47c7-bbce-aac2a2140b34",
-                "resourcePath": "sprites\\spr_player\\spr_player.yy",
+                "resourcePath": "sprites\\spr_player_old\\spr_player_old.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1004,6 +1004,14 @@
                 "id": "3ed66b54-954a-4e1c-bad0-cab282c49f59",
                 "resourcePath": "objects\\obj_spawner\\obj_spawner.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c92c1172-020b-4e3d-ad9a-f266508c58d1",
+            "Value": {
+                "id": "717998bd-9d26-4f1c-a683-9b1c09fcf319",
+                "resourcePath": "sprites\\spr_player\\spr_player.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
