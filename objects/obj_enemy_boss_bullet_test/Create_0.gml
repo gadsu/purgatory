@@ -3,7 +3,7 @@
 
 //enemy_bullet(obj_vinyl, 270, x-100, y + 40);
 
-hp = 40;
+hp = 4000000000;
 timer = 0;
 i = 0;
 
