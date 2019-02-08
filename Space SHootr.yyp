@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "25d85021-e4c6-4861-98c1-0550015f6b30",
+            "Value": {
+                "id": "9a2dbfec-1cd8-498b-91f8-d04c6b7de0ba",
+                "resourcePath": "sprites\\spr_player_grazebox\\spr_player_grazebox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "271b1d79-6fb8-41b3-ad0e-253154e3fb55",
             "Value": {
                 "id": "512d355c-1888-4af6-9287-c6db6947cd25",
