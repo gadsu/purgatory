@@ -1047,6 +1047,14 @@
             }
         },
         {
+            "Key": "c9e50523-0064-4b87-aeae-8e532322d639",
+            "Value": {
+                "id": "335ff4b6-13aa-48f4-9e84-2edea924cddc",
+                "resourcePath": "sprites\\blue_trail_v3\\blue_trail_v3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc6df266-0751-4d6e-9680-aea8ad6a2147",
             "Value": {
                 "id": "1a98e178-5946-482c-afee-f42faa22f567",
@@ -1172,6 +1180,14 @@
                 "id": "fca28352-dc60-4947-9456-a3856402f792",
                 "resourcePath": "timelines\\tl_ANGEL_VOICES_05\\tl_ANGEL_VOICES_05.yy",
                 "resourceType": "GMTimeline"
+            }
+        },
+        {
+            "Key": "e14f2525-9db5-433a-a5e0-baf498b671bc",
+            "Value": {
+                "id": "836b52c1-6754-46c4-bc22-b4b7ce5c6601",
+                "resourcePath": "sprites\\green_bullet_v2\\green_bullet_v2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
