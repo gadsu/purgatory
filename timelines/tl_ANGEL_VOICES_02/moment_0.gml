@@ -1,7 +1,7 @@
 ///@description Start of second Box
 
 //USE IF SKIPPING TO THIS POINT, ELSE COMMENT OUT
-//if!(variable_global_exists(skip))
+//if!(variable_global_exists(AngelVoices))
 //{
 //	EQ1 = instance_create_layer(384, 110, "Instances", obj_equalizer);
 //	EQ2 = instance_create_layer(512, 110, "Instances", obj_equalizer);
@@ -28,4 +28,4 @@ EQ4.image_index = 0;
 EQ5.image_index = 10;
 
 //Bullets
-enemy_bullet(oebw, 270, 448, by + 40);
+enemy_bullet(oebw, 270, 440, by + 40);

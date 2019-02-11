@@ -16,5 +16,5 @@ path_start(mypath, myspd, path_action_stop, 0);
 
 image_speed = 1.75;
 
-show_debug_message(x);
-show_debug_message(y);
+//show_debug_message(x);
+//show_debug_message(y);

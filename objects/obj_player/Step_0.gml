@@ -139,6 +139,8 @@ if (health <= 0)
 	show_debug_message(score);
 	instance_destroy();
 	
+	show_debug_message(timesHit);
+	show_debug_message(health);
 }
 
 

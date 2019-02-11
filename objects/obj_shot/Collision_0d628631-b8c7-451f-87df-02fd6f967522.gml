@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description
 instance_create_depth(x,y - 5,0, obj_bullet_impact);
 
 audio_play_sound(hit_effect,10,false);
@@ -6,5 +6,6 @@ audio_play_sound(hit_effect,10,false);
 if (instance_exists(obj_player) == true)
 {
 	score += 20;
-	health = health + 0.1
+	health = health + 0.1;
+	show_debug_message(health);
 }

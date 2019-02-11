@@ -1,7 +1,7 @@
 ///@description Start of fifth box
 
 //USE IF SKIPPING TO THIS POINT, ELSE COMMENT OUT
-//if!(variable_global_exists(skip))
+//if!(variable_global_exists(AngelVoices))
 //{
 //	EQ1 = instance_create_layer(384, 110, "Instances", obj_equalizer);
 //	EQ2 = instance_create_layer(512, 110, "Instances", obj_equalizer);

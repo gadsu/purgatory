@@ -18,8 +18,13 @@ if (keyboard_check_pressed(vk_escape))
 	else if(pause == true)
 	{
 		pause = false;
-		layer_vspeed(layer_get_id("Background"), 2);
+		layer_vspeed(layer_get_id("Background"), 0);
 		instance_activate_all();
+		if(global.phase >= 3 && global.phase <= 5)
+		{
+			instance_deactivate_object(obj_equalizer);
+			instance_deactivate_object(obj_equalizerhitbox);
+		}
 		layer_set_visible("Background", true);
 		audio_resume_all();
 	}

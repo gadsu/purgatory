@@ -1,4 +1,4 @@
-audio_play_sound(Virtual_Self___ANGEL_VOICES, 10, false);
+global.AngelVoices = audio_play_sound(Virtual_Self___ANGEL_VOICES, 10, false);
 global.phase = 1;
 
 by = obj_enemy_boss_songtest.y;

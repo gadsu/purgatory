@@ -1,49 +1,49 @@
 ///@description Start of fifth box
 
-//USE IF SKIPPING TO THIS POINT, ELSE COMMENT OUT
-if!(variable_global_exists(skip))
-{
-	EQ1 = instance_create_layer(384, 110, "Instances", obj_equalizer);
-	EQ2 = instance_create_layer(512, 110, "Instances", obj_equalizer);
-	EQ3 = instance_create_layer(room_width/2, 110, "Instances", obj_equalizer);
-	EQ4 = instance_create_layer(768, 110, "Instances", obj_equalizer);
-	EQ5 = instance_create_layer(896, 110, "Instances", obj_equalizer);
-}
+show_debug_message("TIME SHOULD BE 2:32.862")
+show_debug_message(audio_sound_get_track_position(global.AngelVoices));
 
-	EQ1.image_index = 0;
-	EQ2.image_index = 0;
-	EQ3.image_index = 0;
-	EQ4.image_index = 0;
-	EQ5.image_index = 0;
+	//EQ1 = instance_create_layer(384, 110, "Instances", obj_equalizer);
+	//EQ2 = instance_create_layer(512, 110, "Instances", obj_equalizer);
+	//EQ3 = instance_create_layer(room_width/2, 110, "Instances", obj_equalizer);
+	//EQ4 = instance_create_layer(768, 110, "Instances", obj_equalizer);
+	//EQ5 = instance_create_layer(896, 110, "Instances", obj_equalizer);
 
-	if(instance_exists(EQ1) == true)
-	{
+
+//	EQ1.image_index = 0;
+//	EQ2.image_index = 0;
+//	EQ3.image_index = 0;
+//	EQ4.image_index = 0;
+//	EQ5.image_index = 0;
+
+	//if(instance_exists(EQ1) == true)
+	//{
 		instance_activate_object(EQ1);
-	}
-	if(instance_exists(EQ2) == true)
-	{
+	//}
+	//if(instance_exists(EQ2) == true)
+	//{
 		instance_activate_object(EQ2);
-	}
-	if(instance_exists(EQ3) == true)
-	{
+	//}
+	//if(instance_exists(EQ3) == true)
+	//{
 		instance_activate_object(EQ3);
-	}
-	if(instance_exists(EQ4) == true)
-	{
+	//}
+	//if(instance_exists(EQ4) == true)
+	//{
 		instance_activate_object(EQ4);
-	}
-	if(instance_exists(EQ5) == true)
-	{
+	//}
+	//if(instance_exists(EQ5) == true)
+	//{
 		instance_activate_object(EQ5);
-	}
+	//}
 
 	instance_activate_object(obj_equalizerhitbox)
 
-EQ1.image_index = 10;
-EQ2.image_index = 0;
-EQ3.image_index = 0;
-EQ4.image_index = 0;
-EQ5.image_index = 10;
+//EQ1.image_index = 10;
+//EQ2.image_index = 0;
+//EQ3.image_index = 0;
+//EQ4.image_index = 0;
+//EQ5.image_index = 10;
 
 if (global.spawnedlights != true)
 {
@@ -54,7 +54,7 @@ if (global.spawnedlights != true)
 }
 global.spawnedlights = true;
 
-global.phase = 5;
+global.phase = 6;
 
 by = obj_enemy_boss_songtest.y;
 bx = obj_enemy_boss_songtest.x;
@@ -70,5 +70,3 @@ dir_02 = 0; // this is used for the passing in the aim for the homing bullet.
 
 // END OF SKIP CODE
 
-
-enemy_bullet_vinyl(-120, 1075, 270, (bx - 193) - 40 , by + 100, 5);

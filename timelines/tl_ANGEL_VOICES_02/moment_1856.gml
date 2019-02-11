@@ -1,5 +1,5 @@
 ///@description TIMES
-enemy_bullet(oebw, 270, 448, by + 40);
+enemy_bullet(oebw, 270, 440, by + 40);
 dir_01 = 200;
 for (var i = 0; i < 10; i++)
 {
