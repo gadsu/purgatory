@@ -1,4 +1,4 @@
-///@description Start of fifth box
+///@description Start of sixth box
 
 show_debug_message("TIME SHOULD BE 2:32.862")
 show_debug_message(audio_sound_get_track_position(global.AngelVoices));
@@ -39,6 +39,11 @@ show_debug_message(audio_sound_get_track_position(global.AngelVoices));
 
 	instance_activate_object(obj_equalizerhitbox)
 
+instance_deactivate_object(L1);
+instance_deactivate_object(L2);
+instance_deactivate_object(L3);
+instance_deactivate_object(L4);
+
 EQ1.image_index = 10;
 EQ2.image_index = 0;
 EQ3.image_index = 0;
@@ -69,4 +74,6 @@ dir_02 = 0; // this is used for the passing in the aim for the homing bullet.
 
 
 // END OF SKIP CODE
+
+enemy_bullet(oebw, 270, 448, by + 40);
 

@@ -703,6 +703,14 @@
             }
         },
         {
+            "Key": "81e32241-5cfe-45e1-9cff-9f73c75d2d1e",
+            "Value": {
+                "id": "daa031d9-4f6c-4750-90e1-ce270aa2b0a1",
+                "resourcePath": "objects\\obj_blue_trail\\obj_blue_trail.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "869758e8-4567-42a2-9fb9-bbbbedc7baa5",
             "Value": {
                 "id": "8eda7e57-37f4-4c50-9f6f-072bb1659c4b",

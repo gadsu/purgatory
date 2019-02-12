@@ -13,3 +13,11 @@ else
 made_sound = false;
 hit_player = false;
 hit_graze  = false;
+
+outline = instance_create_layer(x, y, "Instances", obj_blue_trail);
+with (outline)
+	{
+		speed = other.speed;
+		direction = other.direction;
+		image_angle = other.direction + 90;
+	}
