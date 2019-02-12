@@ -3,11 +3,11 @@
 show_debug_message("TIME SHOULD BE 2:32.862")
 show_debug_message(audio_sound_get_track_position(global.AngelVoices));
 
-	//EQ1 = instance_create_layer(384, 110, "Instances", obj_equalizer);
-	//EQ2 = instance_create_layer(512, 110, "Instances", obj_equalizer);
-	//EQ3 = instance_create_layer(room_width/2, 110, "Instances", obj_equalizer);
-	//EQ4 = instance_create_layer(768, 110, "Instances", obj_equalizer);
-	//EQ5 = instance_create_layer(896, 110, "Instances", obj_equalizer);
+	EQ1 = instance_create_layer(384, 110, "Instances", obj_equalizer);
+	EQ2 = instance_create_layer(512, 110, "Instances", obj_equalizer);
+	EQ3 = instance_create_layer(room_width/2, 110, "Instances", obj_equalizer);
+	EQ4 = instance_create_layer(768, 110, "Instances", obj_equalizer);
+	EQ5 = instance_create_layer(896, 110, "Instances", obj_equalizer);
 
 
 //	EQ1.image_index = 0;
@@ -39,11 +39,11 @@ show_debug_message(audio_sound_get_track_position(global.AngelVoices));
 
 	instance_activate_object(obj_equalizerhitbox)
 
-//EQ1.image_index = 10;
-//EQ2.image_index = 0;
-//EQ3.image_index = 0;
-//EQ4.image_index = 0;
-//EQ5.image_index = 10;
+EQ1.image_index = 10;
+EQ2.image_index = 0;
+EQ3.image_index = 0;
+EQ4.image_index = 0;
+EQ5.image_index = 10;
 
 if (global.spawnedlights != true)
 {

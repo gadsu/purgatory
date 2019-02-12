@@ -479,6 +479,14 @@
             }
         },
         {
+            "Key": "591cfc46-2a75-472b-ad26-f2c0b1babf1c",
+            "Value": {
+                "id": "a4046b62-d725-4db7-97b4-e85878cdd2c3",
+                "resourcePath": "timelines\\tl_ANGEL_VOICES_07a\\tl_ANGEL_VOICES_07a.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "59892624-1132-4cc9-ba9b-915163c21a7c",
             "Value": {
                 "id": "15eb0482-4b7e-4057-a718-339dc907b72c",
@@ -735,6 +743,14 @@
             }
         },
         {
+            "Key": "8ea9af7c-1481-47ae-9e7f-5712724cc0b9",
+            "Value": {
+                "id": "e09772de-308d-4652-8306-1ed42f738ef8",
+                "resourcePath": "objects\\obj_worker\\obj_worker.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "912076d2-a779-4853-9f61-e41093a10429",
             "Value": {
                 "id": "983906da-851b-491e-ba0b-41f16ff90db6",
@@ -844,6 +860,14 @@
                 "id": "48f07172-6ad6-46fe-b754-0fbf44cfdbbd",
                 "resourcePath": "objects\\obj_shot\\obj_shot.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a2177a83-df37-45ea-b686-9f7f1e8a603f",
+            "Value": {
+                "id": "a35f8bff-b2fe-426b-a523-2c465ec54034",
+                "resourcePath": "timelines\\tl_ANGEL_VOICES_07b\\tl_ANGEL_VOICES_07b.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
