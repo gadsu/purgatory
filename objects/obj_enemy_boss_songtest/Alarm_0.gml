@@ -7,14 +7,14 @@ show_debug_message("timeline started");
 
 
 ////Skip to second box
-globalvar AngelVoices;
-global.AngelVoices = audio_play_sound(Virtual_Self___ANGEL_VOICES, 10, false);
-audio_sound_set_track_position(global.AngelVoices, 48.766);
-audio_play_sound(global.AngelVoices, 0, false);
-timeline_index = tl_ANGEL_VOICES_02;
-timeline_position = 0;
-timeline_running = true;
-timeline_speed = 1.475555555555555555555;
+//globalvar AngelVoices;
+//global.AngelVoices = audio_play_sound(Virtual_Self___ANGEL_VOICES, 10, false);
+//audio_sound_set_track_position(global.AngelVoices, 48.766);
+//audio_play_sound(global.AngelVoices, 0, false);
+//timeline_index = tl_ANGEL_VOICES_02;
+//timeline_position = 0;
+//timeline_running = true;
+//timeline_speed = 1.475555555555555555555;
 
 //Skip to third box
 //globalvar AngelVoices;
@@ -55,3 +55,13 @@ timeline_speed = 1.475555555555555555555;
 //timeline_position = 0;
 //timeline_running = true;
 //timeline_speed = 1.475555555555555555555;
+
+//Skip to seventh box
+globalvar AngelVoices;
+global.AngelVoices = audio_play_sound(Virtual_Self___ANGEL_VOICES, 10, false);
+audio_sound_set_track_position(global.AngelVoices, 199.127);
+audio_play_sound(global.AngelVoices, 0, false);
+timeline_index = tl_ANGEL_VOICES_07a;
+timeline_position = 0;
+timeline_running = true;
+timeline_speed = 1.475555555555555555555;
