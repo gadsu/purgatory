@@ -1,0 +1,14 @@
+After Character
+m -1 is good
+i -16 is good
+t,f -12 is good
+r -11 is good
+c -10 is good
+e,a -9 is good
+_ -13 is good
+j,l -13
+a-z -8 base is good
+A-Z -7 base
+
+
+Before Charater

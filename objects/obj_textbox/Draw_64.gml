@@ -141,8 +141,7 @@ else {
 	#region
 	var col = default_col, cc = 1, yy = pos_y+y_buffer, xx = pos_x+x_buffer, cx = 0, cy = 0, lineswidth;
 	var ty = 0, by = 0, bp_len = -1, effect = 0, next_space, breakpoint = 0, effects_c = 0, text_col_c = 0;
-	var bp_array = breakpoints, txtwidth = boxWidth-(2*x_buffer), char_max = txtwidth div charSize; 
-	var charSizeMod = 1;
+	var bp_array = breakpoints, txtwidth = boxWidth-(2*x_buffer), char_max = txtwidth div charSize;
 	
 	//Check if there are breakpoints in this string, if there are save their lengths
 	if(bp_array != -1){ bp_len = array_length_1d(bp_array); next_space = breakpoints[by]; by++; }
@@ -174,209 +173,32 @@ else {
 		
 		//Get next space, deal with new lines
 		if(bp_len != -1 and cc == next_space){
-			cy += 1; cx = 0;
+			cy += 1; cx = 0; xx = pos_x+x_buffer;
 			if(by < bp_len){
 				next_space = breakpoints[by];
 				by++;
 			}
 		}
 		
-		switch(letter) {
-			case "a":
-				charSizeMod = .5;
-				break;
-			case "b":
-				charSizeMod = .5;
-				break;
-			case "c":
-				charSizeMod = .5;
-				break;
-			case "d":
-				charSizeMod = .5;
-				break;
-			case "e":
-				charSizeMod = .5;
-				break;
-			case "f":
-				charSizeMod = .5;
-				break;
-			case "g":
-				charSizeMod = .5;
-				break;
-			case "h":
-				charSizeMod = .5;
-				break;
-			case "i":
-				charSizeMod = .5;
-				break;
-			case "j":
-				charSizeMod = .5;
-				break;
-			case "k":
-				charSizeMod = .5;
-				break;
-			case "l":
-				charSizeMod = .5;
-				break;
-			case "m":
-				charSizeMod = .5;
-				break;
-			case "n":
-				charSizeMod = .5;
-				break;
-			case "o":
-				charSizeMod = .5;
-				break;
-			case "p":
-				charSizeMod = .5;
-				break;
-			case "q":
-				charSizeMod = .5;
-				break;
-			case "r":
-				charSizeMod = .5;
-				break;
-			case "s":
-				charSizeMod = .5;
-				break;
-			case "t":
-				charSizeMod = .5;
-				break;
-			case "u":
-				charSizeMod = .5;
-				break;
-			case "v":
-				charSizeMod = .5;
-				break;
-			case "w":
-				charSizeMod = .5;
-				break;
-			case "x":
-				charSizeMod = .5;
-				break;
-			case "y":
-				charSizeMod = .5;
-				break;
-			case "z":
-				charSizeMod = .5;
-				break;
-			case "A":
-				charSizeMod = 1;
-				break;
-			case "B":
-				charSizeMod = 1;
-				break;
-			case "C":
-				charSizeMod = 1;
-				break;
-			case "D":
-				charSizeMod = 1;
-				break;
-			case "E":
-				charSizeMod = 1;
-				break;
-			case "F":
-				charSizeMod = 1;
-				break;
-			case "G":
-				charSizeMod = 1;
-				break;
-			case "H":
-				charSizeMod = 1;
-				break;
-			case "I":
-				charSizeMod = 1;
-				break;
-			case "J":
-				charSizeMod = 1;
-				break;
-			case "K":
-				charSizeMod = 1;
-				break;
-			case "L":
-				charSizeMod = 1;
-				break;
-			case "M":
-				charSizeMod = 1;
-				break;
-			case "N":
-				charSizeMod = 1;
-				break;
-			case "O":
-				charSizeMod = 1;
-				break;
-			case "P":
-				charSizeMod = 1;
-				break;
-			case "Q":
-				charSizeMod = 1;
-				break;
-			case "R":
-				charSizeMod = 1;
-				break;
-			case "S":
-				charSizeMod = 1;
-				break;
-			case "T":
-				charSizeMod = 1;
-				break;
-			case "U":
-				charSizeMod = 1;
-				break;
-			case "V":
-				charSizeMod = 1;
-				break;
-			case "W":
-				charSizeMod = 1;
-				break;
-			case "X":
-				charSizeMod = 1;
-				break;
-			case "Y":
-				charSizeMod = 1;
-				break;
-			case "Z":
-				charSizeMod = 1;
-				break;
-			case ",":
-				charSizeMod = 1;
-				break;
-			case ".":
-				charSizeMod = 1;
-				break;
-			case "!":
-				charSizeMod = 1;
-				break;
-			case "?":
-				charSizeMod = 1;
-				break;
-			case "'":
-				charSizeMod = 1;
-				break;
-			case " ":
-				charSizeMod = 1;
-				break;
-		}
-		
 		switch(effect){
 			case 0:	//normal
-				draw_text_color(xx + (cx*charSize*charSizeMod), yy+(cy*stringHeight), letter, col, col, col, col, 1);
+				draw_text_color(xx + (cx*charSize), yy+(cy*stringHeight), letter, col, col, col, col, 1);
 				break;
 			
 			case 1:	//shakey
-				draw_text_color(xx + (cx*charSize*charSizeMod)+random_range(-1,1), yy+(cy*stringHeight)+random_range(-1,1), letter, col, col, col, col, 1);
+				draw_text_color(xx + (cx*charSize)+random_range(-1,1), yy+(cy*stringHeight)+random_range(-1,1), letter, col, col, col, col, 1);
 				break;
 			
 			case 2:	//wave
 				var so = t;
 				var shift = sin(so*pi*freq/room_speed)*amplitude;
-				draw_text_color(xx + (cx*charSize*charSizeMod), yy+(cy*stringHeight)+shift, letter, col, col, col, col, 1);
+				draw_text_color(xx + (cx*charSize), yy+(cy*stringHeight)+shift, letter, col, col, col, col, 1);
 				break; 
 			
 			case 3: //colour shift
 				var c1 = make_colour_hsv(t+cc, 255, 255);
 				var c2 = make_colour_hsv(t+cc+34, 255, 255);
-				draw_text_color(xx + (cx*charSize*charSizeMod), yy+(cy*stringHeight), letter, c1, c1, c2, c2, 1);
+				draw_text_color(xx + (cx*charSize), yy+(cy*stringHeight), letter, c1, c1, c2, c2, 1);
 				break;
 		
 			case 4: //wave AND colour shift
@@ -384,7 +206,7 @@ else {
 				var shift = sin(so*pi*freq/room_speed)*amplitude;
 				var c1 = make_colour_hsv(t+cc, 255, 255);
 				var c2 = make_colour_hsv(t+cc+45, 255, 255);
-				draw_text_color(xx + (cx*charSize*charSizeMod), yy+(cy*stringHeight)+shift, letter, c1, c1, c2, c2, 1);
+				draw_text_color(xx + (cx*charSize), yy+(cy*stringHeight)+shift, letter, c1, c1, c2, c2, 1);
 				break; 
 		
 			case 5: //spin
@@ -392,7 +214,7 @@ else {
 				var shift = sin(so*pi*freq/room_speed);
 				var mv = charSize/2;
 				draw_set_valign(fa_middle); draw_set_halign(fa_middle);
-				draw_text_transformed_color(xx + (cx*charSize*charSizeMod)+mv, yy+(cy*stringHeight)+(stringHeight/2), letter, 1, 1, shift*20, col, col, col, col, 1);
+				draw_text_transformed_color(xx + (cx*charSize)+mv, yy+(cy*stringHeight)+(stringHeight/2), letter, 1, 1, shift*20, col, col, col, col, 1);
 				draw_set_valign(fa_top); draw_set_halign(fa_left);
 				break;
 				
@@ -401,15 +223,192 @@ else {
 				var shift = abs(sin(so*pi*freq/room_speed));
 				var mv = charSize/2;
 				draw_set_valign(fa_middle); draw_set_halign(fa_middle);
-				draw_text_transformed_color(xx + (cx*charSize*charSizeMod)+mv, yy+(cy*stringHeight)+(stringHeight/2), letter, shift, shift, 0, col, col, col, col, 1);
+				draw_text_transformed_color(xx + (cx*charSize)+mv, yy+(cy*stringHeight)+(stringHeight/2), letter, shift, shift, 0, col, col, col, col, 1);
 				draw_set_valign(fa_top); draw_set_halign(fa_left);
 				break;
 				
 			case 7:	//flicker
 				var so = t + cc;
 				var shift = sin(so*pi*freq/room_speed);
-				draw_text_color(xx + (cx*charSize*charSizeMod), yy+(cy*stringHeight), letter, col, col, col, col, shift+random_range(-1,1));
+				draw_text_color(xx + (cx*charSize), yy+(cy*stringHeight), letter, col, col, col, col, shift+random_range(-1,1));
 				break; 
+		}
+		
+		switch(letter) {
+			case "a":
+				xx -= 9;
+				break;
+			case "b":
+				xx -= 8;
+				break;
+			case "c":
+				xx -= 10;
+				break;
+			case "d":
+				xx -= 8;
+				break;
+			case "e":
+				xx -= 9;
+				break;
+			case "f":
+				xx -= 12;
+				break;
+			case "g":
+				xx -= 8;
+				break;
+			case "h":
+				xx -= 8;
+				break;
+			case "i":
+				xx -= 16;
+				break;
+			case "j":
+				xx -= 8;
+				break;
+			case "k":
+				xx -= 8;
+				break;
+			case "l":
+				xx -= 8;
+				break;
+			case "m":
+				xx -= 1;
+				break;
+			case "n":
+				xx -= 8;
+				break;
+			case "o":
+				xx -= 8;
+				break;
+			case "p":
+				xx -= 8;
+				break;
+			case "q":
+				xx -= 8;
+				break;
+			case "r":
+				xx -= 11;
+				break;
+			case "s":
+				xx -= 8;
+				break;
+			case "t":
+				xx -= 12;
+				break;
+			case "u":
+				xx -= 8;
+				break;
+			case "v":
+				xx -= 8;
+				break;
+			case "w":
+				xx -= 8;
+				break;
+			case "x":
+				xx -= 8;
+				break;
+			case "y":
+				xx -= 8;
+				break;
+			case "z":
+				xx -= 8;
+				break;
+			case "A":
+				xx -= 8;
+				break;
+			case "B":
+				xx -= 8;
+				break;
+			case "C":
+				xx -= 8;
+				break;
+			case "D":
+				xx -= 8;
+				break;
+			case "E":
+				xx -= 8;
+				break;
+			case "F":
+				xx -= 8;
+				break;
+			case "G":
+				xx -= 8;
+				break;
+			case "H":
+				xx -= 8;
+				break;
+			case "I":
+				xx -= 8;
+				break;
+			case "J":
+				xx -= 8;
+				break;
+			case "K":
+				xx -= 8;
+				break;
+			case "L":
+				xx -= 8;
+				break;
+			case "M":
+				xx -= 8;
+				break;
+			case "N":
+				xx -= 8;
+				break;
+			case "O":
+				xx -= 8;
+				break;
+			case "P":
+				xx -= 8;
+				break;
+			case "Q":
+				xx -= 8;
+				break;
+			case "R":
+				xx -= 8;
+				break;
+			case "S":
+				xx -= 8;
+				break;
+			case "T":
+				xx -= 8;
+				break;
+			case "U":
+				xx -= 8;
+				break;
+			case "V":
+				xx -= 8;
+				break;
+			case "W":
+				xx -= 8;
+				break;
+			case "X":
+				xx -= 8;
+				break;
+			case "Y":
+				xx -= 8;
+				break;
+			case "Z":
+				xx -= 8;
+				break;
+			case ",":
+				xx -= 8;
+				break;
+			case ".":
+				xx -= 8;
+				break;
+			case "!":
+				xx -= 8;
+				break;
+			case "?":
+				xx -= 8;
+				break;
+			case "'":
+				xx -= 8;
+				break;
+			case " ":
+				xx -= 13;
+				break;
 		}
 		
 		//Increment variables for next letter
