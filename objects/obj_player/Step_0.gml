@@ -75,6 +75,10 @@ if (Input.bomb_key == true && instrument_cooldown == false)
 		{
 			instance_destroy(obj_enemy_bullet_parent);
 		}
+		with(obj_blue_trail)
+		{
+			instance_destroy(obj_blue_trail);
+		}
 		//Damages all enemies
 		if(instance_exists(obj_enemy_parent))
 		{

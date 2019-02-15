@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "47b0de1d-da45-4ef5-a2d8-ed80b6ca8cf5",
+            "Value": {
+                "id": "4ae74b9d-8275-4466-8c88-4473a7b2eacf",
+                "resourcePath": "sprites\\spr_D0T_icon\\spr_D0T_icon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4ad4437b-d815-4194-86ba-67e898daa124",
             "Value": {
                 "id": "a9bd1bdb-48f0-43e4-a29e-d4df335c2c2b",
@@ -444,6 +452,14 @@
                 "id": "42ab1248-132e-4ba8-a6d6-f02b921b87ad",
                 "resourcePath": "timelines\\tl_ANGEL_VOICES_03\\tl_ANGEL_VOICES_03.yy",
                 "resourceType": "GMTimeline"
+            }
+        },
+        {
+            "Key": "52666469-5b76-47fc-a385-0893b9dbfbbb",
+            "Value": {
+                "id": "d8d57a47-8056-4599-a3be-34f52b9763f4",
+                "resourcePath": "sprites\\spr_bombs\\spr_bombs.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1378,7 +1394,7 @@
             "Key": "fde21f71-3d91-417f-b9b4-7d09e2b7fe7c",
             "Value": {
                 "id": "1de0ea15-146b-4595-98aa-1cd5926bbd4c",
-                "resourcePath": "sprites\\spr_bombs\\spr_bombs.yy",
+                "resourcePath": "sprites\\spr_bombs_old\\spr_bombs_old.yy",
                 "resourceType": "GMSprite"
             }
         },
