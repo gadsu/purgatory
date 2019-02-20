@@ -1,14 +1,28 @@
-After Character
-m -1 is good
-i -16 is good
-t,f -12 is good
-r -11 is good
-c -10 is good
-e,a -9 is good
-_ -13 is good
-j,l -13
+m,w -1 is good
+v,u -7 is good
+e,k -9 is good
+a,c -10 is good
+s -11 is good
+t,r -12 is good
+_,f -13 is good
+i,j,l -16 is good
 a-z -8 base is good
-A-Z -7 base
 
+A,D -5 is good
+E,F -8 is good
+I -15 is good
+J -13 is good
+K,L -7 is good
+M -1 is good
+N -4 is good
+O,Q -3 is good
+R,S,T -7 is good
+U,V -4 is good
+W +3 is good
+A-Z -6 base is good
 
-Before Charater
+. -14 is good
+, -15 is good
+! -14 is good
+? -9 is good
+' -14 is good

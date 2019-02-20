@@ -236,7 +236,7 @@ else {
 		
 		switch(letter) {
 			case "a":
-				xx -= 9;
+				xx -= 10;
 				break;
 			case "b":
 				xx -= 8;
@@ -251,7 +251,7 @@ else {
 				xx -= 9;
 				break;
 			case "f":
-				xx -= 12;
+				xx -= 13;
 				break;
 			case "g":
 				xx -= 8;
@@ -263,13 +263,13 @@ else {
 				xx -= 16;
 				break;
 			case "j":
-				xx -= 8;
+				xx -= 16;
 				break;
 			case "k":
-				xx -= 8;
+				xx -= 9;
 				break;
 			case "l":
-				xx -= 8;
+				xx -= 16;
 				break;
 			case "m":
 				xx -= 1;
@@ -287,22 +287,22 @@ else {
 				xx -= 8;
 				break;
 			case "r":
-				xx -= 11;
+				xx -= 12;
 				break;
 			case "s":
-				xx -= 8;
+				xx -= 11;
 				break;
 			case "t":
 				xx -= 12;
 				break;
 			case "u":
-				xx -= 8;
+				xx -= 7;
 				break;
 			case "v":
-				xx -= 8;
+				xx -= 7;
 				break;
 			case "w":
-				xx -= 8;
+				xx -= 1;
 				break;
 			case "x":
 				xx -= 8;
@@ -314,16 +314,16 @@ else {
 				xx -= 8;
 				break;
 			case "A":
-				xx -= 8;
+				xx -= 5;
 				break;
 			case "B":
-				xx -= 8;
+				xx -= 6;
 				break;
 			case "C":
-				xx -= 8;
+				xx -= 6;
 				break;
 			case "D":
-				xx -= 8;
+				xx -= 5;
 				break;
 			case "E":
 				xx -= 8;
@@ -332,79 +332,79 @@ else {
 				xx -= 8;
 				break;
 			case "G":
-				xx -= 8;
+				xx -= 6;
 				break;
 			case "H":
-				xx -= 8;
+				xx -= 6;
 				break;
 			case "I":
-				xx -= 8;
+				xx -= 15;
 				break;
 			case "J":
-				xx -= 8;
+				xx -= 13;
 				break;
 			case "K":
-				xx -= 8;
+				xx -= 7;
 				break;
 			case "L":
-				xx -= 8;
+				xx -= 7;
 				break;
 			case "M":
-				xx -= 8;
+				xx -= 1;
 				break;
 			case "N":
-				xx -= 8;
+				xx -= 4;
 				break;
 			case "O":
-				xx -= 8;
+				xx -= 3;
 				break;
 			case "P":
-				xx -= 8;
+				xx -= 6;
 				break;
 			case "Q":
-				xx -= 8;
+				xx -= 3;
 				break;
 			case "R":
-				xx -= 8;
+				xx -= 7;
 				break;
 			case "S":
-				xx -= 8;
+				xx -= 7;
 				break;
 			case "T":
-				xx -= 8;
+				xx -= 7;
 				break;
 			case "U":
-				xx -= 8;
+				xx -= 4;
 				break;
 			case "V":
-				xx -= 8;
+				xx -= 4;
 				break;
 			case "W":
-				xx -= 8;
+				xx += 3;
 				break;
 			case "X":
-				xx -= 8;
+				xx -= 6;
 				break;
 			case "Y":
-				xx -= 8;
+				xx -= 6;
 				break;
 			case "Z":
-				xx -= 8;
+				xx -= 6;
 				break;
 			case ",":
-				xx -= 8;
+				xx -= 15;
 				break;
 			case ".":
-				xx -= 8;
+				xx -= 14;
 				break;
 			case "!":
-				xx -= 8;
+				xx -= 14;
 				break;
 			case "?":
-				xx -= 8;
+				xx -= 9;
 				break;
 			case "'":
-				xx -= 8;
+				xx -= 14;
 				break;
 			case " ":
 				xx -= 13;
