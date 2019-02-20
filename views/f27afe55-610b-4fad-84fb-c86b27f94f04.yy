@@ -4,11 +4,9 @@
     "mvc": "1.1",
     "name": "f27afe55-610b-4fad-84fb-c86b27f94f04",
     "children": [
-        "93df0bf4-d660-43df-a326-4d18731c00ec",
         "fd3caec7-3ab9-4e64-bfe8-aae38860e42f",
         "6fe4c970-5579-40db-be26-323e62f78f44",
         "92ade45b-4019-493e-9dfd-64e6ce22c7d3",
-        "28f7e2e2-953c-4256-8415-60f8ea7dff7f",
         "5337f883-6730-4d1d-b8c3-a78b148914a8",
         "c4b7d6c5-59ba-4018-a9fa-9d3999aadd64",
         "d111f672-6090-4e42-b3a6-454f661a311e",
@@ -20,7 +18,12 @@
         "f6838aee-498c-4366-93b8-d89ac6f5ba70",
         "e96f7ed6-e257-4847-9b32-cee9dbf33b8f",
         "c9e50523-0064-4b87-aeae-8e532322d639",
-        "e14f2525-9db5-433a-a5e0-baf498b671bc"
+        "e14f2525-9db5-433a-a5e0-baf498b671bc",
+        "d83e2664-6f9f-4264-8dbd-76d90eff4dc4",
+        "c89fbfb4-5904-4219-bbc8-bcdff8ee9ee1",
+        "3385dc2a-728b-40bb-a86a-8d8908c9a0d4",
+        "ccd07293-94be-421a-9ffb-01a983c12a25",
+        "3fdc6bd7-d525-4897-8a16-59f864390921"
     ],
     "filterType": "GMSprite",
     "folderName": "Bullets",

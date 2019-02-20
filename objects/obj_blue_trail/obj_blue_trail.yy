@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_blue_trail",
     "eventList": [
-        
+        {
+            "id": "1fda6e84-d451-4c6e-b1e1-c0987f110d77",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 7,
+            "m_owner": "81e32241-5cfe-45e1-9cff-9f73c75d2d1e"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

@@ -1,9 +1,11 @@
 ///@description MB, MD
+//????|????
+//???\_/???
 
-L1 = global.Iarray[0];
-L2 = global.Iarray[1];
-L3 = global.Iarray[2];
-L4 = global.Iarray[3];
+//L1 = global.Iarray[0];
+//L2 = global.Iarray[1];
+//L3 = global.Iarray[2];
+//L4 = global.Iarray[3];
 
 
 by = obj_enemy_boss_songtest.y;

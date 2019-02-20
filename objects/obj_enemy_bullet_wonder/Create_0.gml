@@ -14,7 +14,7 @@ made_sound = false;
 hit_player = false;
 hit_graze  = false;
 
-show_debug_message(speed);
+//show_debug_message(speed);
 
 outline = instance_create_layer(x, y, "Trails", obj_blue_trail);
 with (outline)
