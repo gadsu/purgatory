@@ -1,4 +1,11 @@
-///@description Start of fourth box
+///@description Start of seventh box (A)
+
+
+
+
+
+
+
 
 //USE IF SKIPPING TO THIS POINT, ELSE COMMENT OUT
 if!(variable_global_exists(AngelVoices))
@@ -9,27 +16,53 @@ if!(variable_global_exists(AngelVoices))
 	EQ4 = instance_create_layer(768, 110, "Instances", obj_equalizer);
 	EQ5 = instance_create_layer(896, 110, "Instances", obj_equalizer);
 }
+EQ1.image_index = 0;
+EQ2.image_index = 0;
+EQ3.image_index = 0;
+EQ4.image_index = 0;
+EQ5.image_index = 0;
 
-//if(instance_exists(EQ1) == true)
-//{
-//	instance_deactivate_object(EQ1);
-//}
-//if(instance_exists(EQ2) == true)
-//{
-//	instance_deactivate_object(EQ2);
-//}
-//if(instance_exists(EQ3) == true)
-//{
-//	instance_deactivate_object(EQ3);
-//}
-//if(instance_exists(EQ4) == true)
-//{
-//	instance_deactivate_object(EQ4);
-//}
-//if(instance_exists(EQ5) == true)
-//{
-//	instance_deactivate_object(EQ5);
-//}
+//Placeholder for the lights
+if (global.spawnedlights != true)
+{
+	
+	L1 = instance_create_layer(400, 120, "Instances", obj_Spotlight);
+	L2 = instance_create_layer(500, 50, "Instances", obj_Spotlight);
+	L3 = instance_create_layer(780, 50, "Instances", obj_Spotlight);
+	L4 = instance_create_layer(880, 120, "Instances", obj_Spotlight);
+	
+	for(var i = 0; i < 4; i++)
+	{
+		global.Iarray[i] = instance_find(obj_Spotlight, i);
+	}
+}
+global.spawnedlights = true;
+
+
+//END OF SKIP CODE
+
+
+
+if(instance_exists(EQ1) == true)
+{
+	instance_activate_object(EQ1);
+}
+if(instance_exists(EQ2) == true)
+{
+	instance_activate_object(EQ2);
+}
+if(instance_exists(EQ3) == true)
+{
+	instance_activate_object(EQ3);
+}
+if(instance_exists(EQ4) == true)
+{
+	instance_activate_object(EQ4);
+}
+if(instance_exists(EQ5) == true)
+{
+	instance_activate_object(EQ5);
+}
 
 //instance_deactivate_object(obj_equalizerhitbox)
 
@@ -42,23 +75,11 @@ oebl = obj_enemy_bullet;
 
 
 
-//Placeholder for the lights
-if (global.spawnedlights != true)
-{
-	L1 = instance_create_layer(400, 120, "Instances", obj_Spotlight);
-	L2 = instance_create_layer(500, 50, "Instances", obj_Spotlight);
-	L3 = instance_create_layer(780, 50, "Instances", obj_Spotlight);
-	L4 = instance_create_layer(880, 120, "Instances", obj_Spotlight);
-}
-global.spawnedlights = true;
+
 global.phase = 7;
 
 dir_01 = 225;
 
 // END OF SKIP CODE
 
-enemy_bullet(oebw, 0, bx, by + 40);
-enemy_bullet(oebw, 90, bx, by + 40);
-enemy_bullet(oebw, 180, bx, by + 40);
-enemy_bullet(oebw, 270, bx, by + 40);
 

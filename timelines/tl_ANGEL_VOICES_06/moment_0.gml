@@ -38,11 +38,13 @@ show_debug_message(audio_sound_get_track_position(global.AngelVoices));
 	//}
 
 	instance_activate_object(obj_equalizerhitbox)
-
-instance_deactivate_object(L1);
-instance_deactivate_object(L2);
-instance_deactivate_object(L3);
-instance_deactivate_object(L4);
+if (global.spawnedlights == true)
+{
+	instance_deactivate_object(L1);
+	instance_deactivate_object(L2);
+	instance_deactivate_object(L3);
+	instance_deactivate_object(L4);
+}
 
 EQ1.image_index = 10;
 EQ2.image_index = 0;
@@ -50,14 +52,14 @@ EQ3.image_index = 0;
 EQ4.image_index = 0;
 EQ5.image_index = 10;
 
-if (global.spawnedlights != true)
-{
-	L1 = instance_create_layer(400, 120, "Instances", obj_Spotlight);
-	L2 = instance_create_layer(500, 50, "Instances", obj_Spotlight);
-	L3 = instance_create_layer(780, 50, "Instances", obj_Spotlight);
-	L4 = instance_create_layer(880, 120, "Instances", obj_Spotlight);
-}
-global.spawnedlights = true;
+//if (global.spawnedlights != true)
+//{
+//	L1 = instance_create_layer(400, 120, "Instances", obj_Spotlight);
+//	L2 = instance_create_layer(500, 50, "Instances", obj_Spotlight);
+//	L3 = instance_create_layer(780, 50, "Instances", obj_Spotlight);
+//	L4 = instance_create_layer(880, 120, "Instances", obj_Spotlight);
+//}
+//global.spawnedlights = true;
 
 global.phase = 6;
 

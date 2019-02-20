@@ -18,7 +18,18 @@ if (instance_exists(obj_player))
 	yt = 540
 	
 	draw_healthbar(xt, yt, xt + 200, yt + 50, health, c_lime, c_fuchsia, c_fuchsia, 0, true, true)
+	
+	//drawing the player/boss icons
+	
+	scale = .1
+	
+	
+	
+	draw_sprite_ext(spr_D0T_icon, 0, xt + 200 + (xt/ 2) + scale, yt, scale, scale, 0, c_white, 1);
+	draw_sprite_ext(spr_player, 0, xt - (xt / 2), yt + 30, .333, .333, 0, c_white, 1);
 }
+
+
 
 //drawing the bomb count (TESTING)
 if(instance_exists(obj_player))

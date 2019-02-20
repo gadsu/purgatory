@@ -1,3 +1,5 @@
-///@description EQ2
+///@description WOO
 
-EQ2.image_index = 10;
+
+enemy_bullet_laser(L4.x -4 , L4.y, 7.5, 720, -30);
+

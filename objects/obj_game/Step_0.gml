@@ -25,6 +25,11 @@ if (keyboard_check_pressed(vk_escape))
 			instance_deactivate_object(obj_equalizer);
 			instance_deactivate_object(obj_equalizerhitbox);
 		}
+		if(global.phase >= 5)
+		{
+			instance_deactivate_object(obj_Spotlight);
+			instance_deactivate_object(obj_Spotlight);
+		}
 		layer_set_visible("Background", true);
 		audio_resume_all();
 	}

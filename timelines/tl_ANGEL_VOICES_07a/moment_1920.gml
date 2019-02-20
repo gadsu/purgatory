@@ -1,6 +1,7 @@
-///@description EQ2, WARNING EQ4
-
-EQ2.image_index = 10;
+///@description WEE, Warning L3
 
 
-area_warning(752, 111, 110/3.5, 600, 44, 0);
+enemy_bullet_laser(L2.x -4 , L2.y, 7.5, 1000, 30);
+
+area_warning(L3.x - 6 , L3.y, 13, 1000, 44, -30);
+
