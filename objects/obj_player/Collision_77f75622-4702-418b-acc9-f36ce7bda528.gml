@@ -12,7 +12,7 @@ if (iframes == 0)
 	
 	//losing hp will only occur when the iframes hits 0 if its inside
 	// the if function
-	health = health - 1.5;
+	health = health - 10;
 	iframes = 120;
 	show_debug_message("HIT");
 	show_debug_message(timesHit);

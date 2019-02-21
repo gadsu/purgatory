@@ -89,7 +89,7 @@ else {
 			case ",":
 			case ".":
 				pause = true;
-				alarm[1] = 10;	//how many frames we wait if we detect a fullstop or comma
+				alarm[1] = 30;	//how many frames we wait if we detect a fullstop or comma
 				break;
 			
 			case "?":
