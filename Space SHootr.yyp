@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "17936921-0349-4a21-9bf0-e1c6a879397a",
+            "Value": {
+                "id": "373b0ef8-597e-4fc9-ab3d-458e7996119f",
+                "resourcePath": "sounds\\William_Tell_Overture\\William_Tell_Overture.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "17d7436f-ad32-4c1e-a15f-03c8995428cd",
             "Value": {
                 "id": "d8161605-9ad0-406f-88b3-8aca46f991af",
@@ -276,6 +284,14 @@
                 "id": "5f873dc3-652e-4680-9046-4bdee2d0414c",
                 "resourcePath": "sounds\\death_sound_effect_v2\\death_sound_effect_v2.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "28bd23fb-2e88-40cd-930c-7e793c086666",
+            "Value": {
+                "id": "80f52277-dc19-49a3-a34e-eecb28ee2c02",
+                "resourcePath": "timelines\\tl_WTOF_01\\tl_WTOF_01.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
@@ -863,6 +879,14 @@
             }
         },
         {
+            "Key": "92a62f9d-ec9c-45fe-83d2-388f24080813",
+            "Value": {
+                "id": "43ca6b67-801d-451e-80cd-0cac8e87e20c",
+                "resourcePath": "objects\\obj_enemy_boss_klaus\\obj_enemy_boss_klaus.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "92ade45b-4019-493e-9dfd-64e6ce22c7d3",
             "Value": {
                 "id": "149d9a79-6e0f-45c9-be69-ad16907995c9",
@@ -1100,6 +1124,14 @@
                 "id": "6283a8ee-6913-4f75-88eb-3186d82da43c",
                 "resourcePath": "views\\c236d6d0-a57e-4d52-ba61-be07dc10adbf.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c2558058-1b62-4be4-b522-7ec8b6772ec5",
+            "Value": {
+                "id": "a0f7f413-1221-4b23-b02f-5b1dcbea9efe",
+                "resourcePath": "sounds\\Virtual_Self___ANGEL_VOICES_CUT\\Virtual_Self___ANGEL_VOICES_CUT.yy",
+                "resourceType": "GMSound"
             }
         },
         {

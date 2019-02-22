@@ -140,10 +140,10 @@ if (health <= 0)
 {
 	audio_play_sound(death_sound_effect_v2,10,false);
 	global.dead = true;
-	show_debug_message(score);
+	show_debug_message(timesHit);
 	instance_destroy();
 	
-	show_debug_message(timesHit);
+	
 }
 
 

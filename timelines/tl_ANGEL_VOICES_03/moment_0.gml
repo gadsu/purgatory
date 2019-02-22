@@ -18,23 +18,23 @@
 
 //if(instance_exists(EQ1) == true)
 //{
-	instance_deactivate_object(EQ1);
+	instance_deactivate_object(obj_equalizer);
 //}
 //if(instance_exists(EQ2) == true)
 //{
-	instance_deactivate_object(EQ2);
+	//instance_deactivate_object(EQ2);
 //}
 //if(instance_exists(EQ3) == true)
 //{
-	instance_deactivate_object(EQ3);
+	//instance_deactivate_object(EQ3);
 //}
 //if(instance_exists(EQ4) == true)
 //{
-	instance_deactivate_object(EQ4);
+	//instance_deactivate_object(EQ4);
 //}
 //if(instance_exists(EQ5) == true)
 //{
-	instance_deactivate_object(EQ5);
+	//instance_deactivate_object(EQ5);
 //}
 
 instance_deactivate_object(obj_equalizerhitbox)
@@ -63,7 +63,7 @@ global.phase = 3;
 
 
 
-enemy_bullet_vinyl(-120, 1075, 270, (bx - 193) - 40 , by + 100, 5);
+//enemy_bullet_vinyl(-120, 1075, 270, (bx - 193) - 40 , by + 100, 5);
 
 // the bx - 49 is the drum
 //enemy_bullet(oebw, 270, bx - 49, by + 40);

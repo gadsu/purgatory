@@ -14,10 +14,11 @@
 //drawing the favor bar (TESTING)
 if (instance_exists(obj_player))
 {
-	xt = 60
-	yt = 540
+	xt = 110
+	yt = 490
 	
-	draw_healthbar(xt, yt, xt + 200, yt + 50, health, c_lime, c_fuchsia, c_fuchsia, 0, true, true)
+	//draw_healthbar(xt, yt, xt + 200, yt + 50, health, c_lime, c_fuchsia, c_fuchsia, 0, true, true)
+	draw_healthbar(xt, yt-100, xt + 100, yt + 150, health, c_lime, c_fuchsia, c_fuchsia, 3, true, true)
 	
 	//drawing the player/boss icons
 	
@@ -25,8 +26,11 @@ if (instance_exists(obj_player))
 	
 	
 	
-	draw_sprite_ext(spr_D0T_icon, 0, xt + 200 + (xt/ 2) + scale, yt, scale, scale, 0, c_white, 1);
-	draw_sprite_ext(spr_player, 0, xt - (xt / 2), yt + 30, .333, .333, 0, c_white, 1);
+	//draw_sprite_ext(spr_D0T_icon, 0, xt + 200 + (xt/ 2) + scale, yt, scale, scale, 0, c_white, 1);
+	//draw_sprite_ext(spr_player, 0, xt - (xt / 2), yt + 30, .333, .333, 0, c_white, 1);
+	
+	draw_sprite_ext(spr_D0T_icon, 0, xt + 50, yt - 150, scale, scale, 0, c_white, 1);
+	draw_sprite_ext(spr_player, 0, xt+ + 50, yt + 190, .333, .333, 0, c_white, 1);
 }
 
 
@@ -59,7 +63,7 @@ if(instance_exists(obj_player))
 	draw_text(160, 220, "Phase: " + string(global.phase));
 	
 	
-	draw_text(160, 425, "Crowd Favor");
+	draw_text(160, 315, "Crowd Favor");
 	
 	//Used for changing bullet type (OUTDATED)
 	//draw_text(160, 280, "Weapon Type:");

@@ -7,7 +7,6 @@
 //L3 = global.Iarray[2];
 //L4 = global.Iarray[3];
 
-
 by = obj_enemy_boss_songtest.y;
 bx = obj_enemy_boss_songtest.x;
 oebw = obj_enemy_bullet_wonder;
