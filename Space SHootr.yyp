@@ -1375,6 +1375,14 @@
             }
         },
         {
+            "Key": "df7c87f8-f077-4e4c-950d-2d933bd0ca64",
+            "Value": {
+                "id": "f747c5d2-5ce9-43e8-b710-44f570ebcf5a",
+                "resourcePath": "objects\\obj_trail_parent\\obj_trail_parent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e14f2525-9db5-433a-a5e0-baf498b671bc",
             "Value": {
                 "id": "836b52c1-6754-46c4-bc22-b4b7ce5c6601",

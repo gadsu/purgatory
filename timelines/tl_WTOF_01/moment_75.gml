@@ -8,4 +8,6 @@ oeba = obj_enemy_bullet_acel;
 
 dir_01 = 270
 
-enemy_bullet(oebw, dir_01, bx, by + 40);
+enemy_bullet(oeba, 270, bx, by + 40);
+enemy_bullet(oeba, 268, bx, by + 40);
+enemy_bullet(oeba, 266, bx, by + 40);
