@@ -5,7 +5,7 @@ switch(menu_index)
 {
 	case 1:
 		show_debug_message("NEW MENU");
-		room_goto(1);
+		room_goto(3);
 		break;
 		
 	case 0:

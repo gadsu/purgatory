@@ -759,6 +759,14 @@
             }
         },
         {
+            "Key": "79169d1e-c923-4598-8b9b-e3531519bc9e",
+            "Value": {
+                "id": "1b81c65a-ecf0-42e0-9f5f-acf33ee7e398",
+                "resourcePath": "rooms\\room_WTOF\\room_WTOF.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "7c5d1900-a978-4628-9652-e23c92c5621e",
             "Value": {
                 "id": "3f88d241-5ba3-471a-b4aa-c2db26751ec8",

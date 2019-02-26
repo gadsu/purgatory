@@ -4,7 +4,7 @@ timer++
 //Step code is in the parent file
 event_inherited();
 
-if(timer == 5)
+if(timer == 60)
 {
 	alarm[0] = 60;
 }
