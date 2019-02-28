@@ -1,7 +1,7 @@
 /// @description Play the sound on exit of hit box
 
 // if its touching the hitbox, flag it
-if (place_meeting(x,y, obj_playergraze_hitbox))
+if (place_meeting(x,y, obj_playergraze_hitbox) && obj_player.iframes == 0)
 {
 	//show_debug_message("Touching player");
 	hit_graze = true;

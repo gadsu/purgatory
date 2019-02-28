@@ -1,87 +1,55 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Draw the Menus
 
+anim += keyboard_check_pressed(vk_up) - keyboard_check_pressed(vk_down);
 
-var i = 0;
-
-
-/*
-var j = max(menu_index - 1, 0);
-for (var k = 0; k < buttons; k++)
-	{
-		show_debug_message(j);
-		j++
-		if(j >= buttons)
-		{
-			j = 0;
-		}
-		
-	}
-*/
-var j = menu_index;
-
-
- // the move variable
-//this draws all of our menu icons
-repeat(buttons)
+if (anim > array_length_1d(menu_ids) - 1)
 {
-	draw_set_font(font_menu);
-	draw_set_halign(fa_center);
-	draw_set_valign(fa_middle);
+	anim = 0;
+}
+if (anim < 0)
+{
+	anim = array_length_1d(menu_ids) - 1;
+}
 
-	j++;
-	if(j >= buttons)
-	{
-		j = 0;
-	}
-	xx = menu_x;
-	yy = menu_y + (button_h + button_padding) * i - please * 5;
-		
-	
-	
-	
-	//draw_set_color(c_dkgray);
-	//draw_set_color(c_ltgray);
-	draw_set_color(c_white);
-	// Change the color of the menu icon we are curently on
-	/*if(menu_index == i)
+
+anim_n = scr_reach_between(anim_n, anim, 4);
+
+draw_set_font(font_menu);
+draw_set_valign(fa_middle);
+draw_set_halign(fa_left);
+for (var i = 0; i < array_length_1d(menu_ids); i++)
+{
+	if (anim == i)
 	{
 		draw_set_color(c_red);
 	}
-	*/
-	
-	if(i == 1)
+	else
 	{
-		draw_set_color(c_red);
+		draw_set_color(c_white);
 	}
-	
-	//sets the transparency of a button based on its distance from the current selection
-	switch( 1 - i)
+	//draw_text(x, y + ((i - anim_n) * 16), menu_ids[i]);
+	//show_debug_message(i - anim);
+	switch( i - anim)
 	{
 		case 0:
 			draw_set_alpha(1);
 			break;
-		case 1:
-			draw_set_alpha(.5);
-			break;
 		case -1:
-			draw_set_alpha(0.5);
+		case 1:
+			draw_set_alpha(.33);
+			break;
+		case 2:
+		case -2:
+			draw_set_alpha(0.15);
 			break;
 		default:
-			draw_set_alpha(0.25);
+			draw_set_alpha(0.01);
 	}
 	
-	// if the up key is pressed slide everything up
-	
-	
-	
-	// this draws all of the menu buttons
-	
-	
-	draw_text(xx, yy, ds_list_find_value(menu_ids, i));
-	
-	
-	i++;
-	
-	draw_set_alpha(1);
+	//Draws the text in a rotated form
+	draw_text_transformed(
+	x+lengthdir_x(length_x,(i - anim_n)* 0), // x length of an ellispes
+	y+lengthdir_y(length_y,(i - anim_n)* 25), // y length of an ellispes
+	menu_ids[i],1,1,(i - anim_n)* 10); // Word Rotation
 }
+

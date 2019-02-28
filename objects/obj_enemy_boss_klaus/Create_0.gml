@@ -4,7 +4,7 @@ blend = image_blend; // the base color of the sprite
 blendtime = 0; // how long the blending will take
 
 vspeed = 0;
-hp = 40;
+hp = 123123123123;
 timer = 0;
 i = 0;
 
