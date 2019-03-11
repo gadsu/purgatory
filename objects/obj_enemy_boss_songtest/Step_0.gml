@@ -5,6 +5,7 @@ event_inherited();
 
 if(dialogue_1 == true)
 {
+	
 	myName = "D.0.T.";
 	myPortrait = spr_dot_dialogue;
 	myText[0] = "So, the reigning champion meets her foe.";
