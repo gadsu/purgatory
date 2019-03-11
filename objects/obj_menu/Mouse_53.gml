@@ -5,7 +5,7 @@ if(clickable == true)
 	if(600<= mouse_x && mouse_x <= 700 && 120 <= mouse_y && mouse_y <= 220)
 	{
 		show_debug_message("IT WORKS (Klaus)");
-	
+		room_goto(room_WTOF);
 	}
 	//D0T
 	else if(850<= mouse_x && mouse_x <= 950 && 510 <= mouse_y && mouse_y <= 610)
