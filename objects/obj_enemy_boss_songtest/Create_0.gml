@@ -20,8 +20,8 @@ safeguard = false;
 myName = "D.0.T.";
 myPortrait = spr_dot_dialogue;
 myText[0] = "So, the reigning champion meets her foe.";
-myText[0] = "I gotta say, that takes some guts.";
-myText[0] = "Now... I truly am sorry about this... but I gotta beat you into the ground.";
+myText[1]= "I gotta say, that takes some guts.";
+myText[2] = "Now... I truly am sorry about this... but I gotta beat you into the ground.";
 mySpeaker = -1;
 
 

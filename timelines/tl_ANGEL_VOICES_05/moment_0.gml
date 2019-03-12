@@ -52,10 +52,10 @@ dir_02 = 0; // this is used for the passing in the aim for the homing bullet.
 
 if (global.spawnedlights != true)
 {
-	L1 = instance_create_layer(400, 120, "Instances", obj_Spotlight);
-	L2 = instance_create_layer(500, 50, "Instances", obj_Spotlight);
-	L3 = instance_create_layer(780, 50, "Instances", obj_Spotlight);
-	L4 = instance_create_layer(880, 120, "Instances", obj_Spotlight);
+	L1 = instance_create_layer(400, 120, "UI_Layer", obj_Spotlight);
+	L2 = instance_create_layer(500, 50, "UI_Layer", obj_Spotlight);
+	L3 = instance_create_layer(780, 50, "UI_Layer", obj_Spotlight);
+	L4 = instance_create_layer(880, 120, "UI_Layer", obj_Spotlight);
 }
 global.spawnedlights = true;
 
