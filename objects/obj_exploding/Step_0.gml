@@ -12,4 +12,19 @@ if (global.bullet_explode == true || timer <= 0)
 	}
 	instance_destroy();
 }
+if (timer <= flashing_time)
+{
+	flashing = true;
+}
+if (flashing == true)
+{
+	if (timer mod 3 == 0)
+	{
+		image_index = 1;
+	}
+	else 
+	{
+		image_index = 0;
+	}
+}
 timer--;

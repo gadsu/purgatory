@@ -5,7 +5,7 @@ global.WTOF = audio_play_sound(William_Tell_Overture, 10, false);
 timeline_index = tl_WTOF_01;
 timeline_position = 0;
 timeline_running = true;
-timeline_speed = 2.5;
+timeline_speed = 2.666666666666666666666666;
 
 
 ////Skip to second box
