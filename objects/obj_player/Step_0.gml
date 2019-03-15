@@ -63,9 +63,14 @@ if (Input.bomb_key == true && instrument_cooldown == false)
 	if(bomb_count >= 1 && bomb_cooldown == false)
 	{
 		//show_debug_message("IT WORKS")
-		
-		audio_play_sound(edm_explode,10,false);
-		
+		if(current_room == room_game)
+		{
+			audio_play_sound(edm_explode,10,false);
+		}
+		else if(current_room == room_WTOF) //CHANGE TO CLASSICAL BOMB NOISE
+		{
+			audio_play_sound(edm_explode,10,false)
+		}
 		//Destroys all bullets
 		with(obj_shot)
 		{
