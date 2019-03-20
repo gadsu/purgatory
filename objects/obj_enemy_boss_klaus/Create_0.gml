@@ -29,3 +29,6 @@ phase2 = false;
 path_started = false;
 blend = image_blend; // the base color of the sprite
 blendtime = 0; // how long the blending will take
+
+image_xscale = .13888888888;
+image_yscale = .13888888888;
