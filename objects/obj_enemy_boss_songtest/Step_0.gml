@@ -44,7 +44,7 @@ if(!instance_exists(obj_player) && dialogue_2 == true )
 	
 	if(instance_exists(obj_textbox) && text_01 == false)
 	{
-		
+		audio_sound_gain(Virtual_Self___ANGEL_VOICES_CUT, 0, 2500);
 		//alarm[2] = 5;
 		text_01 = true;
 	}

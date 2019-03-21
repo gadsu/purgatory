@@ -40,7 +40,7 @@ if (keyboard_check_pressed(vk_backspace))
 if (keyboard_check_pressed(vk_enter) && !instance_exists(obj_textbox))
 {
 	show_debug_message("pressed enter");
-	if (global.highscore == false && room == 1)
+	if (global.highscore == false && room == room_game)
 	{
 		
 		highscore_add(text, score);
