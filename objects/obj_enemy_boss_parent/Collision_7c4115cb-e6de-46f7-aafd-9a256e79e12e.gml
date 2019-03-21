@@ -22,5 +22,7 @@
 	blend = c_red;
 	blendtime = 5;
 
+	
+
 	instance_destroy(obj_shot.id);
 

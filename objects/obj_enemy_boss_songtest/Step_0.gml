@@ -5,7 +5,6 @@ event_inherited();
 
 if(dialogue_1 == true)
 {
-	
 	myName = "D.0.T.";
 	myPortrait = spr_dot_dialogue;
 	myText[0] = "So, the reigning champion meets her foe.";
@@ -35,11 +34,18 @@ if(!instance_exists(obj_player) && dialogue_2 == true )
 	myText[1] = "Not for a challenge like this.";
 	mySpeaker = -1;
 	//Needed to solve weird issue of not spawning the text box
-	keyboard_key_press(vk_enter);
 	
-	if(instance_exists(obj_textbox))
+	if(text_01 == false)
 	{
-		alarm[2] = 5;
+		show_debug_message("ENTER");
+		keyboard_key_press(vk_enter);
+	}
+	
+	if(instance_exists(obj_textbox) && text_01 == false)
+	{
+		
+		//alarm[2] = 5;
+		text_01 = true;
 	}
 }	
 if(!instance_exists(obj_textbox) && (dialogue_2 == true || dialogue_3 == true) && text_01 == true)
