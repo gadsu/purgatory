@@ -1,13 +1,15 @@
 /// @description Handles Keys Pressed/Input
-
 if (keyboard_check(vk_anykey) and string_length(text) < 10)
 {
+	if(keyboard_check(vk_enter) && i == 0)
+	{
+		
+	}
 	if(!keyboard_check(vk_enter))
 	{
 		text = text + string(keyboard_string); // makes the key you pressed add on to the string itself
 		keyboard_string = ""; //makes the keyboard reset back to nothing when you press another button
 	}
-	
 }
 if (keyboard_check(vk_backspace) and !keyboard_check_pressed(vk_backspace) and delete_timer == 2) //  makes sure its not being held down
 {
