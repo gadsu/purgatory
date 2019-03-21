@@ -39,6 +39,7 @@ if(!instance_exists(obj_player) && dialogue_2 == true )
 	{
 		show_debug_message("ENTER");
 		keyboard_key_press(vk_enter);
+		keyboard_key_release(vk_enter);
 	}
 	
 	if(instance_exists(obj_textbox) && text_01 == false)
