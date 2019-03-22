@@ -1,3 +1,2 @@
-enemy_bullet(oebt, 270, bx - 60, by + 40);
-enemy_bullet(oebt, 268, bx - 70, by + 40);
-enemy_bullet(oebt, 266, bx - 80, by + 40);
+enemy_bullet_path(oebp, 270, path_violin, VL_01.x, VL_01.y, 4);
+enemy_bullet_path(oebp, 270, path_violin, VL_02.x, VL_02.y, 4);

@@ -6,6 +6,7 @@ bx = obj_enemy_boss_klaus.x;
 oebw = obj_enemy_bullet_wonder;
 oebt = obj_enemy_bullet_turner;
 oeba = obj_enemy_bullet_acel;
+oebp = obj_enemy_bullet_path;
 
 TP_01 = instance_create_layer(380, 75, "Instances", obj_trumpet);
 TP_01.image_angle = -70;

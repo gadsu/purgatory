@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "01e39386-e029-42c9-bcde-49fadd05599a",
+            "Value": {
+                "id": "036f5801-7db2-4e70-95b6-b9e0befdedf9",
+                "resourcePath": "objects\\obj_enemy_bullet_large\\obj_enemy_bullet_large.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "01e4d12f-a291-4e8d-99f9-9496bd672b74",
             "Value": {
                 "id": "d1093481-2e0a-4398-b676-b18a3963519f",
@@ -107,6 +115,14 @@
             "Value": {
                 "id": "3d4e0c2b-47fa-475e-bb12-f9b4a527d73a",
                 "resourcePath": "sprites\\spr_portraitframe\\spr_portraitframe.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0ca80350-db13-4498-96a7-de143fe486cc",
+            "Value": {
+                "id": "47e1ed3e-bdee-439b-9e45-bd7389ad9a53",
+                "resourcePath": "sprites\\sprite64\\sprite64.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -250,7 +266,7 @@
             "Key": "22b164f1-9c33-420b-882b-513494f1edd5",
             "Value": {
                 "id": "acbf0955-7151-433e-9925-6494c4b83ef4",
-                "resourcePath": "objects\\obj_hornarea\\obj_hornarea.yy",
+                "resourcePath": "objects\\obj_violin\\obj_violin.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -420,6 +436,14 @@
                 "id": "9127b4e7-4934-41b1-aa2d-5d905a18aa23",
                 "resourcePath": "paths\\path_vinyl\\path_vinyl.yy",
                 "resourceType": "GMPath"
+            }
+        },
+        {
+            "Key": "366439dd-88c6-44ef-87f9-cf5335008e47",
+            "Value": {
+                "id": "f4ddb955-a618-4d6c-957d-7660d1a9158c",
+                "resourcePath": "sprites\\spr_tuba\\spr_tuba.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1215,6 +1239,14 @@
             }
         },
         {
+            "Key": "bcf7f051-3f1b-4eed-807d-bba23697760f",
+            "Value": {
+                "id": "da935d2f-e66f-42e1-bb87-20290cd38a3a",
+                "resourcePath": "scripts\\enemy_bullet_tuba\\enemy_bullet_tuba.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "bea1caa9-03e5-4247-ac9d-439e60fcf33e",
             "Value": {
                 "id": "8455c3f3-142b-4d00-bc3b-bc3c261c490d",
@@ -1742,6 +1774,7 @@
         "59892624-1132-4cc9-ba9b-915163c21a7c",
         "32bc170a-7b01-485f-af28-400115e3bbee",
         "d61cb9fb-ba4e-4770-a78e-4411b1f49394",
+        "bcf7f051-3f1b-4eed-807d-bba23697760f",
         "cd388d3d-cade-41e0-bb30-ae9dc7c989ac",
         "686f92b6-4907-43d3-8b6e-d5f14ae8256f",
         "cf10cd8a-6a8c-4fe7-8a02-c3bf451cb6ca",

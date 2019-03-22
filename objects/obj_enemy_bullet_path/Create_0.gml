@@ -5,7 +5,7 @@ path_set = global.spawn;
 p_speed = global.bullet_speed; // pass in the speed of the bullet
 
 path_start(path_set, p_speed, path_action_stop, 0);
-path_orientation = (270 - global.angle); // index of the path
+path_orientation = (90 - global.angle); // index of the path
 
 made_sound = false;
 hit_player = false;

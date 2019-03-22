@@ -1,10 +1,11 @@
-TP_01.image_angle += 2;
-TP_02.image_angle -= 2;
+//TP_01.image_angle += 2;
+//TP_02.image_angle -= 2;
 
-enemy_bullet(oebw, TP_01.image_angle + 4, TP_01.x, TP_01.y);
-enemy_bullet(oebw, TP_01.image_angle, TP_01.x, TP_01.y);
-enemy_bullet(oebw, TP_01.image_angle - 4, TP_01.x, TP_01.y);
+show_debug_message("Violin Created");
 
-enemy_bullet(oebw, TP_02.image_angle + 4, TP_02.x , TP_02.y);
-enemy_bullet(oebw, TP_02.image_angle, TP_02.x, TP_02.y );
-enemy_bullet(oebw, TP_02.image_angle - 4, TP_02.x, TP_02.y);
+VL_01 = instance_create_layer(room_width/2 - 150, 75, "Instances", obj_violin);
+VL_02 = instance_create_layer(room_width/2 + 150, 75, "Instances", obj_violin);
+VL_02.image_xscale = -1;
+
+enemy_bullet_path(oebp, 270, path_violin, VL_01.x, VL_01.y, 4);
+enemy_bullet_path(oebp, 270, path_violin, VL_02.x, VL_02.y, 4);

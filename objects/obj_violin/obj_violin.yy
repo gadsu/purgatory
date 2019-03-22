@@ -2,7 +2,7 @@
     "id": "22b164f1-9c33-420b-882b-513494f1edd5",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_hornarea",
+    "name": "obj_violin",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "3e4465fb-ba38-4c1c-8d3c-9da739e87f3d",
     "visible": true
 }
