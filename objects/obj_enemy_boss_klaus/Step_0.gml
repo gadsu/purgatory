@@ -25,7 +25,6 @@ if(!instance_exists(obj_player) && dialogue_2 == true ) {
 	//Needed to solve weird issue of not spawning the text box
 	
 	if(text_01 == false) {
-		show_debug_message("ENTER");
 		keyboard_key_press(vk_enter);
 		keyboard_key_release(vk_enter);
 	}
@@ -39,7 +38,7 @@ if(!instance_exists(obj_player) && dialogue_2 == true ) {
 if(!instance_exists(obj_textbox) && (dialogue_2 == true || dialogue_3 == true) && text_01 == true) {
 	par_speaker.detection_radius = 10;
 	reset_dialogue_defaults();
-	show_debug_message("please work");
+	//show_debug_message("please work");
 	instance_create_depth(room_width/2, room_height/2, -1, obj_highscoretextbox);
 	//text_01 = false;
 	dialogue_2 = false;

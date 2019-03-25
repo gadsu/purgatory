@@ -22,10 +22,11 @@ if(!instance_exists(obj_textbox) && dialogue_1 == true && timer > 1)
 }
 	
 //Text for when the player dies
-if(!instance_exists(obj_player) && dialogue_2 == true )
+if((!instance_exists(obj_player) && dialogue_2 == true) ||
+			(timeline_index == tl_ANGEL_VOICES_07a && timeline_position > 4100 && 
+			timeline_running == true && health <= 50 && text_01 != true))
 {
 	par_speaker.detection_radius = 1000;
-	
 	reset_dialogue_defaults();
 	myName = "D.0.T.";
 	myPortrait = spr_dot_dialogue;
@@ -33,11 +34,11 @@ if(!instance_exists(obj_player) && dialogue_2 == true )
 	myEffects[0] = [57,1,60,0];
 	myText[1] = "Not for a challenge like this.";
 	mySpeaker = -1;
-	//Needed to solve weird issue of not spawning the text box
 	
+	//Needed to solve weird issue of not spawning the text box
 	if(text_01 == false)
 	{
-		show_debug_message("ENTER");
+	//	show_debug_message("ENTER");
 		keyboard_key_press(vk_enter);
 		keyboard_key_release(vk_enter);
 	}
@@ -53,7 +54,7 @@ if(!instance_exists(obj_textbox) && (dialogue_2 == true || dialogue_3 == true) &
 {
 	par_speaker.detection_radius = 10;
 	reset_dialogue_defaults();
-	show_debug_message("please work");
+	//show_debug_message("please work");
 	instance_create_depth(room_width/2, room_height/2, -1, obj_highscoretextbox);
 	//text_01 = false;
 	dialogue_2 = false;
@@ -65,11 +66,13 @@ if(!instance_exists(obj_textbox) && (dialogue_2 == true || dialogue_3 == true) &
 // For some reason the top thing doesnt like it when i add a clause for dialogue_3
 
 
-if(hp <= 0 && dialogue_3 != true && text_01 == false) {
+//if(hp <= 0 && dialogue_3 != true && text_01 == false) {
+//if(timeline_index == tl_ANGEL_VOICES_07a && timeline_position > 4100 && dialogue_3 != true && text_01 == false) {
+if(timeline_index == tl_ANGEL_VOICES_07a && timeline_position > 4100 && timeline_running == true && health > 50) {
 	
 	timeline_speed = 0;
+	timeline_running = false;
 	par_speaker.detection_radius = 1000;
-	
 	
 	reset_dialogue_defaults();
 	myName = "D.0.T.";
@@ -81,11 +84,19 @@ if(hp <= 0 && dialogue_3 != true && text_01 == false) {
     myText[4] = "Make the most of it, and please, for the love of music, do not screw it up.";
 	mySpeaker = -1;
 	
+	keyboard_key_press(vk_enter);
+	keyboard_key_release(vk_enter);
 	
-	if(instance_exists(obj_textbox))
-	{
-		alarm[3] = 5;
-	}
+	//if(instance_exists(obj_textbox) && text_01 == false)
+	//{
+	//	//alarm[3] = 5;
+	//}
+	text_01 = true;
+	
+	//RETURN TO MENU
+	//
+	
+	
 }
 
 

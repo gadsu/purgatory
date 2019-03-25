@@ -21,7 +21,7 @@ safeguard = false;
 state = "IDLE";
 instance_create_depth(x,y,0,obj_playergraze_hitbox);
 
-health = 10;
+health = 60;
 alarm[0] = 5;
 timesHit = 0;
 

@@ -1,5 +1,4 @@
 ///@description Start of timeline 5
-show_debug_message("HELLO!");
 timeline_index = tl_ANGEL_VOICES_05;
 timeline_position = 0;
 timeline_running = true;
