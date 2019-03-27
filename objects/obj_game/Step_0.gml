@@ -33,13 +33,5 @@ if (keyboard_check_pressed(vk_escape))
 		layer_set_visible("Background", true);
 		audio_resume_all();
 	}
-	
-	if os_is_paused()
-	{
-		if audio_is_playing(Virtual_Self___EON_BREAK)
-		{
-			audio_pause_sound(Virtual_Self___EON_BREAK);
-		}	
-	}
 }
 

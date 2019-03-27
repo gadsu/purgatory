@@ -1,6 +1,6 @@
 
 {
-    "name": "room_WTOF",
+    "name": "room_2001R",
     "id": "79169d1e-c923-4598-8b9b-e3531519bc9e",
     "creationCodeFile": "",
     "inheritCode": false,
@@ -171,7 +171,7 @@
             "m_serialiseFrozen": false,
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "spriteId": "1d79156f-9df7-4183-b9b2-a9cd4be8847f",
+            "spriteId": "12bd1cc0-17ee-41be-98b4-00ab44b69974",
             "stretch": false,
             "userdefined_animFPS": false,
             "userdefined_depth": false,

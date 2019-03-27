@@ -23,8 +23,8 @@ if(instance_exists(obj_shot.id))
 
 blend = c_red;
 blendtime = 5;
-
-instance_create_depth(obj_shot.x,obj_shot.y - 8,0, obj_bullet_impact);
+	
+instance_create_depth(obj_shot.x,obj_shot.y+5,0, obj_bullet_impact);
 
 audio_play_sound(hit_effect,10,false);
 
@@ -37,4 +37,3 @@ if (instance_exists(obj_player) == true)
 }
 
 	instance_destroy(obj_shot.id);
-

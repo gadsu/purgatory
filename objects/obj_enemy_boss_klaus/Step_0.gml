@@ -6,7 +6,7 @@ event_inherited();
 
 if(dialogue_1 == true) {
 	myName = "Klaus";
-	myPortrait = spr_dot_dialogue;
+	myPortrait = spr_klaus_dialogue;
 	myText[0] = "Another young upstart here to attempt to take the throne?";
 	myText[1] = "I will leave everything on the stage as I always do.";
 	myText[2] = "Good luck. You’re going to need it, boy.";
@@ -19,7 +19,7 @@ if(!instance_exists(obj_player) && dialogue_2 == true ) {
 	
 	reset_dialogue_defaults();
 	myName = "Klaus";
-	myPortrait = spr_dot_dialogue;
+	myPortrait = spr_klaus_dialogue;
 	myText[0] = "Sorry, kid, looks like you didn’t have what it takes.";
 	myText[1] = "Try again next year.";
 	mySpeaker = -1;
@@ -31,7 +31,7 @@ if(!instance_exists(obj_player) && dialogue_2 == true ) {
 	}
 	
 	if(instance_exists(obj_textbox) && text_01 == false) {
-		audio_sound_gain(Virtual_Self___ANGEL_VOICES_CUT, 0, 2500);
+		audio_sound_gain(Rhapsody_2001, 0, 2500);
 		//alarm[2] = 5;
 		text_01 = true;
 	}
@@ -53,7 +53,7 @@ if(hp <= 0 && dialogue_3 != true && text_01 == false) {
 	
 	reset_dialogue_defaults();
 	myName = "D.0.T.";
-	myPortrait = spr_dot_dialogue;
+	myPortrait = spr_klaus_dialogue;
 	myText[0] = "Well, damn.";
     myText[1] = "No one was expecting some nobody to get in and take out the reigning champ the first time around, especially me.";
     myText[2] = "Good job.";

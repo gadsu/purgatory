@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "12bd1cc0-17ee-41be-98b4-00ab44b69974",
+            "Value": {
+                "id": "ee8db1e0-6e9c-4127-9fa5-35a35dcbcb2f",
+                "resourcePath": "sprites\\background_klaus\\background_klaus.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "131e869e-de75-4ff0-98fb-4c820a0ef6ad",
             "Value": {
                 "id": "710514dd-1b9e-4af4-875e-e8375cbc2788",
@@ -874,7 +882,7 @@
             "Key": "79169d1e-c923-4598-8b9b-e3531519bc9e",
             "Value": {
                 "id": "1b81c65a-ecf0-42e0-9f5f-acf33ee7e398",
-                "resourcePath": "rooms\\room_WTOF\\room_WTOF.yy",
+                "resourcePath": "rooms\\room_2001R\\room_2001R.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1123,6 +1131,14 @@
             "Value": {
                 "id": "75878a34-0c05-49d5-8336-15fedface199",
                 "resourcePath": "sprites\\spr_Green_SC_HUD\\spr_Green_SC_HUD.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a2a6aef2-d231-46ac-b42e-2733fba1cf45",
+            "Value": {
+                "id": "ce9fa147-30b2-4295-a28a-a78b2f40d37c",
+                "resourcePath": "sprites\\spr_klaus_dialogue\\spr_klaus_dialogue.yy",
                 "resourceType": "GMSprite"
             }
         },

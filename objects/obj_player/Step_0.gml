@@ -1,5 +1,4 @@
 /// @making the player move
-
 if (!keyboard_check(vk_shift))
 {
 	if (Input.up == true)

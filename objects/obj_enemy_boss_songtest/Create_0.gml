@@ -38,3 +38,6 @@ timer = 0
 hp = 10000;
 image_xscale = .13888888888;
 image_yscale = .13888888888;
+
+//Enables music
+audio_sound_gain(Virtual_Self___ANGEL_VOICES_CUT, 1, 0);

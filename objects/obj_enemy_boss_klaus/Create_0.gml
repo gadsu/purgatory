@@ -8,6 +8,7 @@ hp = 123123123123;
 timer = 0;
 i = 0;
 
+
 invul = true;
 
 spawned = false;
@@ -39,7 +40,7 @@ dialogue_3 = false;
 text_01 = false;
 
 myName = "Klaus";
-myPortrait = spr_dot_dialogue;
+myPortrait = spr_klaus_dialogue;
 myText[0] = "Another young upstart here to attempt to take the throne?";
 myText[1] = "I will leave everything on the stage as I always do.";
 myText[2] = "Good luck. You’re going to need it, boy.";

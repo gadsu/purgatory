@@ -29,7 +29,14 @@ if (instance_exists(obj_player))
 	//draw_sprite_ext(spr_D0T_icon, 0, xt + 200 + (xt/ 2) + scale, yt, scale, scale, 0, c_white, 1);
 	//draw_sprite_ext(spr_player, 0, xt - (xt / 2), yt + 30, .333, .333, 0, c_white, 1);
 	
-	draw_sprite_ext(spr_D0T_icon, 0, xt + 50, yt - 150, scale, scale, 0, c_white, 1);
+	if(room = room_game)
+	{
+		draw_sprite_ext(spr_D0T_icon, 0, xt + 50, yt - 150, scale, scale, 0, c_white, 1);
+	}
+	else if(room = room_2001R)
+	{
+		draw_sprite_ext(spr_klaus_dialogue, 0, xt + 50, yt - 150, scale, scale, 0, c_white, 1);
+	}
 	draw_sprite_ext(spr_player, 0, xt+ + 50, yt + 190, .333, .333, 0, c_white, 1);
 }
 

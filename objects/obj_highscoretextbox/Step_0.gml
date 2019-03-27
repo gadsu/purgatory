@@ -40,11 +40,11 @@ if (keyboard_check_pressed(vk_backspace))
 if (keyboard_check_pressed(vk_enter) && !instance_exists(obj_textbox))
 {
 	//show_debug_message("pressed enter");
-	if (global.highscore == false && room == room_game)
+	if (global.highscore == false && (room == room_game || room == room_2001R))
 	{
 		
 		highscore_add(text, score);
-		room_goto(0);
+		room_goto(room_menu);
 		global.highscore = true;
 		score = 0;
 		audio_stop_all();
