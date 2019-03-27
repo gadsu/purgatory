@@ -6,6 +6,6 @@ event_inherited();
 
 
 timer++;
-var i = .01;
+var i = .04;
 image_xscale = 1 + (i * timer);
 image_yscale = 1 + (i * timer);

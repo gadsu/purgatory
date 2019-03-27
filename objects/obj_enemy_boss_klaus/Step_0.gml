@@ -11,6 +11,7 @@ if(dialogue_1 == true) {
 	myText[1] = "I will leave everything on the stage as I always do.";
 	myText[2] = "Good luck. You’re going to need it, boy.";
 	mySpeaker = -1;
+	mask_index = 0;
 }
 
 if(!instance_exists(obj_player) && dialogue_2 == true ) {

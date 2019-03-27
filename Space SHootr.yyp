@@ -1503,6 +1503,14 @@
             }
         },
         {
+            "Key": "d705ef7f-1500-4278-8e3d-afc735e9bb17",
+            "Value": {
+                "id": "93baf3b4-95de-4ab5-85f0-a0ac9d3bb9a5",
+                "resourcePath": "objects\\obj_tuba\\obj_tuba.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d83e2664-6f9f-4264-8dbd-76d90eff4dc4",
             "Value": {
                 "id": "28178316-5f5c-4ce9-b62a-87cf28ce30dc",
