@@ -13,14 +13,13 @@ invul = true;
 spawned = false;
 // the second one is used if there are 2 different types of shots in the same loop
 spawned2 = false;
-
+event_inherited();
 
 //how many shots did the boss shoot
 shots1 = 0;
 shots2 = 0;
 
 dir = 0;
-
 safeguard = false;
 
 phase1 = true;
