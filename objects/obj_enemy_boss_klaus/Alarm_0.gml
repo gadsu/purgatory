@@ -1,7 +1,7 @@
 /// @description Start the Timeline
 show_debug_message("timeline started");
 globalvar WTOF;
-global.WTOF = audio_play_sound(William_Tell_Overture, 10, false);
+global.WTOF = audio_play_sound(Rhapsody_2001, 10, false);
 timeline_index = tl_WTOF_01;
 timeline_position = 0;
 timeline_running = true;
