@@ -103,26 +103,10 @@
             }
         },
         {
-            "Key": "09f12495-6c2e-499b-a1dd-7d1b732f37cc",
-            "Value": {
-                "id": "aeea122b-32f1-4777-b747-99417954ab75",
-                "resourcePath": "sprites\\spr_hornarea\\spr_hornarea.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "0c7d51c4-ce7c-4014-93d4-b3674cca2f57",
             "Value": {
                 "id": "3d4e0c2b-47fa-475e-bb12-f9b4a527d73a",
                 "resourcePath": "sprites\\spr_portraitframe\\spr_portraitframe.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "0ca80350-db13-4498-96a7-de143fe486cc",
-            "Value": {
-                "id": "47e1ed3e-bdee-439b-9e45-bd7389ad9a53",
-                "resourcePath": "sprites\\sprite64\\sprite64.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -259,6 +243,14 @@
             "Value": {
                 "id": "025350e6-fad3-4b0f-8b09-2d4b0c75e99b",
                 "resourcePath": "sprites\\background_D0T\\background_D0T.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2010f264-64cb-4600-960b-cbfae5f867dd",
+            "Value": {
+                "id": "f2c4af9b-1be3-4bc0-ab28-5f9da877f596",
+                "resourcePath": "sprites\\spr_cello\\spr_cello.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -671,6 +663,14 @@
             }
         },
         {
+            "Key": "5ae8b9ef-5f84-48a7-af0d-fc56baa39323",
+            "Value": {
+                "id": "d056e070-e48a-43bd-8d3f-5d6db680a44c",
+                "resourcePath": "objects\\obj_cello\\obj_cello.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5bb11c7d-c84f-48cb-8a4f-def8253d08cf",
             "Value": {
                 "id": "0c08555b-7680-4365-b98a-094d122231a6",
@@ -932,6 +932,14 @@
                 "id": "daa031d9-4f6c-4750-90e1-ce270aa2b0a1",
                 "resourcePath": "objects\\obj_blue_trail\\obj_blue_trail.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8402ebb5-791f-41b0-8c5c-15969de7424c",
+            "Value": {
+                "id": "ebac46fa-f849-40a5-a769-2499f36e8a78",
+                "resourcePath": "timelines\\tl_2001\\tl_2001.yy",
+                "resourceType": "GMTimeline"
             }
         },
         {
