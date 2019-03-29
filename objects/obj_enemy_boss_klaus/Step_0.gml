@@ -14,6 +14,12 @@ if(dialogue_1 == true) {
 	mask_index = 0;
 }
 
+if(timer >= 10 && !instance_exists(obj_textbox))
+{
+	par_speaker.detection_radius = 10;
+}
+
+
 if(!instance_exists(obj_player) && dialogue_2 == true ) {
 	par_speaker.detection_radius = 1000;
 	

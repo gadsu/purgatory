@@ -1647,6 +1647,14 @@
             }
         },
         {
+            "Key": "eae599f5-44c5-4db3-966f-713b4fa5ad6b",
+            "Value": {
+                "id": "9c24ce6e-7611-4fbe-a3ca-2d55ba218ff9",
+                "resourcePath": "sprites\\spr_Klaus_icon\\spr_Klaus_icon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ec9418c8-0ebc-47e8-afc7-e65595e5c1ad",
             "Value": {
                 "id": "c4b2224a-a0b9-4a1b-8750-afb3592be321",

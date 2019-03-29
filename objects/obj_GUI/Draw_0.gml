@@ -35,7 +35,7 @@ if (instance_exists(obj_player))
 	}
 	else if(room = room_2001R)
 	{
-		draw_sprite_ext(spr_klaus_dialogue, 0, xt + 50, yt - 150, scale, scale, 0, c_white, 1);
+		draw_sprite_ext(spr_Klaus_icon, 0, xt + 50 , yt - 160, scale*2.75, scale*2.75, 0, c_white, 1);
 	}
 	draw_sprite_ext(spr_player, 0, xt+ + 50, yt + 190, .333, .333, 0, c_white, 1);
 }
@@ -58,43 +58,52 @@ if(instance_exists(obj_player))
 //drawing the Text UI (TESTING)
 //if(instance_exists(obj_player))
 //{
-	draw_set_color(c_white);
-	draw_set_font(font_main);
-	draw_set_halign(fa_center);
-	//Left Side
-	draw_text(160, 50, "Current Song:");
+draw_set_color(c_white);
+draw_set_font(font_main);
+draw_set_halign(fa_center);
+
+
+
+//////////Left Side
+draw_text(160, 50, "Current Song:");
+if(room = room_game)
+{
 	draw_text(160, 100, "Virtual Self");
 	draw_text(160, 140, "ANGEL VOICES");
+}
+else if(room = room_2001R)
+{
+	draw_text_transformed(160, 100, "Jack Waldenmaier", .9, 1, 0);
+	draw_text_transformed(160, 140, "2001 Rhapsody", .9, 1, 0);
+}
+draw_text(160, 220, "Phase: " + string(global.phase));
 	
 	
-	draw_text(160, 220, "Phase: " + string(global.phase));
+draw_text(160, 315, "Crowd Favor");
+	
+//Used for changing bullet type (OUTDATED)
+//draw_text(160, 280, "Weapon Type:");
+//if (instance_exists(obj_player))
+//{
+//	draw_text(160, 320, string(obj_player.instrument));
+//}
+	
+//else
+//{
+//	draw_text(160, 320, "0");
+//}
 	
 	
-	draw_text(160, 315, "Crowd Favor");
+//Right Side
+draw_text(1120, 50, "High Score");
+draw_text(1120, 85, string(highscore_value(1)));
 	
-	//Used for changing bullet type (OUTDATED)
-	//draw_text(160, 280, "Weapon Type:");
-	//if (instance_exists(obj_player))
-	//{
-	//	draw_text(160, 320, string(obj_player.instrument));
-	//}
-	
-	//else
-	//{
-	//	draw_text(160, 320, "0");
-	//}
+draw_text(1120, 150, "Current Score");
+draw_text(1120, 185, score);
 	
 	
-	//Right Side
-	draw_text(1120, 50, "High Score");
-	draw_text(1120, 85, string(highscore_value(1)));
-	
-	draw_text(1120, 150, "Current Score");
-	draw_text(1120, 185, score);
-	
-	
-	draw_text(1120, 425, "Bomb Type: Null");
-	draw_text(1120, 475, "Bombs");
+//draw_text(1120, 425, "Bomb Type: Null"); //Outdated
+draw_text(1120, 475, "Bombs");
 //}
 
 
