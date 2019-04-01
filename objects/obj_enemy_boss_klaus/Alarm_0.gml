@@ -2,10 +2,11 @@
 show_debug_message("timeline started");
 globalvar WTOF;
 global.WTOF = audio_play_sound(Rhapsody_2001, 10, false);
-timeline_index = tl_WTOF_01;
+timeline_index = tl_2001;
 timeline_position = 0;
 timeline_running = true;
-timeline_speed = 2.666666666666666666666666;
+timeline_speed = 2.5;
+
 
 
 ////Skip to second box
