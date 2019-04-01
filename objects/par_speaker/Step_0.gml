@@ -51,41 +51,45 @@ if(dialogue_real_start) {
 	dialogue_real_start = false;
 }
 
-if(boss_name = "Klaus" && dialogue_1) {
-	if(!D0T_dead) {
-		myName = "Klaus";
-		myPortrait = spr_klaus_dialogue;
-		myText[0] = "Another young upstart here to attempt to take the throne?";
-		myText[1] = "I will leave everything on the stage as I always do.";
-		myText[2] = "Good luck. You’re going to need it, boy.";
-		mySpeaker = -1;
-	}
-	else {
-		myName = "Klaus";
-		myPortrait = spr_klaus_dialogue;
-		myText[0] = "Well, that’s a shame.";
-		myText[1] = "That girl showed promise.";
-		myText[2] = "Apparently you do too, if you were able to beat her.";
-		myText[3] = "Heh. Well, let’s see what you’ve got. Bring it on, kiddo.";
-		mySpeaker = -1;
+if(boss_name = "Klaus") {
+	if(dialogue_1) {
+		if(!D0T_dead) {
+			myName = "Klaus";
+			myPortrait = spr_klaus_dialogue;
+			myText[0] = "Another young upstart here to attempt to take the throne?";
+			myText[1] = "I will leave everything on the stage as I always do.";
+			myText[2] = "Good luck. You’re going to need it, boy.";
+			mySpeaker = -1;
+		}
+		else {
+			myName = "Klaus";
+			myPortrait = spr_klaus_dialogue;
+			myText[0] = "Well, that’s a shame.";
+			myText[1] = "That girl showed promise.";
+			myText[2] = "Apparently you do too, if you were able to beat her.";
+			myText[3] = "Heh. Well, let’s see what you’ve got. Bring it on, kiddo.";
+			mySpeaker = -1;
+		}
 	}
 }
-else if(boss_name = "D0T" && dialogue_1) {
-	if(!Klaus_dead) {
-		myName = "D.0.T.";
-		myPortrait = spr_dot_dialogue;
-		myText[0] = "So, the reigning champion meets her foe.";
-		myText[1] = "I gotta say, that takes some guts.";
-		myText[2] = "Now... I truly am sorry about this... but I gotta beat you into the ground.";
-		mySpeaker = -1;
-	}
-	else {
-		myName = "D.0.T.";
-		myPortrait = spr_dot_dialogue;
-		myText[0] = "Klaus has quite the reputation for breaking the weak ones, and yet here you are.";
-		myText[1] = "Guess you’re stronger than I thought.";
-		myText[2] = "Just don’t waste my time.";
-		mySpeaker = -1;
+else if(boss_name = "D0T") {
+	if(dialogue_1) {
+		if(!Klaus_dead) {
+			myName = "D.0.T.";
+			myPortrait = spr_dot_dialogue;
+			myText[0] = "So, the reigning champion meets her foe.";
+			myText[1] = "I gotta say, that takes some guts.";
+			myText[2] = "Now... I truly am sorry about this... but I gotta beat you into the ground.";
+			mySpeaker = -1;
+		}
+		else {
+			myName = "D.0.T.";
+			myPortrait = spr_dot_dialogue;
+			myText[0] = "Klaus has quite the reputation for breaking the weak ones, and yet here you are.";
+			myText[1] = "Guess you’re stronger than I thought.";
+			myText[2] = "Just don’t waste my time.";
+			mySpeaker = -1;
+		}
 	}
 }
 else if(boss_name = "" && dialogue_1) {
