@@ -26,7 +26,7 @@ globalvar dialogue_3;
 dialogue_3 = false;
 globalvar text_01;
 text_01 = false;
-Klaus_dead = true;
+Klaus_dead = false;
 D0T_dead = false;
 dialogue_real_start = true;
 
