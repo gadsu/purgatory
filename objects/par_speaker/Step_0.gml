@@ -80,7 +80,6 @@ else if(boss_name = "D0T" && dialogue_1) {
 		mySpeaker = -1;
 	}
 	else {
-		reset_dialogue_defaults();
 		myName = "D.0.T.";
 		myPortrait = spr_dot_dialogue;
 		myText[0] = "Klaus has quite the reputation for breaking the weak ones, and yet here you are.";
