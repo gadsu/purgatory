@@ -34,14 +34,14 @@ image_xscale = .13888888888;
 image_yscale = .13888888888;
 
 //Dialogue variables
-dialogue_1 = true;
-dialogue_2 = false;
-dialogue_3 = false;
-text_01 = false;
+//dialogue_1 = true;
+//dialogue_2 = false;
+//dialogue_3 = false;
+//text_01 = false;
 
-myName = "Klaus";
-myPortrait = spr_klaus_dialogue;
-myText[0] = "Another young upstart here to attempt to take the throne?";
-myText[1] = "I will leave everything on the stage as I always do.";
-myText[2] = "Good luck. You’re going to need it, boy.";
-mySpeaker = -1;
+//myName = "Klaus";
+//myPortrait = spr_klaus_dialogue;
+//myText[0] = "Another young upstart here to attempt to take the throne?";
+//myText[1] = "I will leave everything on the stage as I always do.";
+//myText[2] = "Good luck. You’re going to need it, boy.";
+//mySpeaker = -1;

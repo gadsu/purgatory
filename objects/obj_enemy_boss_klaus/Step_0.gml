@@ -3,17 +3,34 @@ timer++
 
 //Step code is in the parent file
 event_inherited();
-
-if(dialogue_1 == true) {
-	myName = "Klaus";
-	myPortrait = spr_klaus_dialogue;
-	myText[0] = "Another young upstart here to attempt to take the throne?";
-	myText[1] = "I will leave everything on the stage as I always do.";
-	myText[2] = "Good luck. You’re going to need it, boy.";
-	mySpeaker = -1;
-	mask_index = 0;
+//intro lines
+//if(dialogue_1 == true) {
+//	if(!D0T_dead) {
+//		myName = "Klaus";
+//		myPortrait = spr_klaus_dialogue;
+//		myText[0] = "Another young upstart here to attempt to take the throne?";
+//		myText[1] = "I will leave everything on the stage as I always do.";
+//		myText[2] = "Good luck. You’re going to need it, boy.";
+//		mySpeaker = -1;
+//	}
+//	else {
+//		myName = "Klaus";
+//		myPortrait = spr_klaus_dialogue;
+//		myText[0] = "Well, that’s a shame.";
+//		myText[1] = "That girl showed promise.";
+//		myText[2] = "Apparently you do too, if you were able to beat her.";
+//		myText[3] = "Heh. Well, let’s see what you’ve got. Bring it on, kiddo.";
+//		mySpeaker = -1;
+//	}
+//	mask_index = 0;
+//}
+if(!instance_exists(obj_textbox) && dialogue_1 == true && timer > 1) {
+	alarm[0] = 60;
+	dialogue_1 = false;
+	dialogue_2 = true;
+	par_speaker.detection_radius = -1;
 }
-
+//player death
 if(!instance_exists(obj_player) && dialogue_2 == true ) {
 	par_speaker.detection_radius = 1000;
 	
@@ -36,6 +53,7 @@ if(!instance_exists(obj_player) && dialogue_2 == true ) {
 		text_01 = true;
 	}
 }
+//boss death
 if(!instance_exists(obj_textbox) && (dialogue_2 == true || dialogue_3 == true) && text_01 == true) {
 	par_speaker.detection_radius = 10;
 	reset_dialogue_defaults();
@@ -44,7 +62,7 @@ if(!instance_exists(obj_textbox) && (dialogue_2 == true || dialogue_3 == true) &
 	//text_01 = false;
 	dialogue_2 = false;
 	dialogue_3 = false;
-
+	Klaus_dead = true;
 }
 
 if(hp <= 0 && dialogue_3 != true && text_01 == false) {
@@ -63,14 +81,6 @@ if(hp <= 0 && dialogue_3 != true && text_01 == false) {
 	
 	if(instance_exists(obj_textbox))
 		alarm[3] = 5;
-}
-
-
-if(!instance_exists(obj_textbox) && dialogue_1 == true && timer > 1)
-{
-	alarm[0] = 60;
-	dialogue_1 = false;
-	dialogue_2 = true;
 }
 
 //Turn Red when hit
