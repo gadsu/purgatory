@@ -1,5 +1,5 @@
 
-
+///@descr Spawn all the violins and 2 Cellos
 global.phase = 1;
 
 by = obj_enemy_boss_klaus.y;
@@ -20,6 +20,11 @@ V04 = instance_create_layer(810, 170, "Instances", obj_violin);
 V05 = instance_create_layer(860, 170, "Instances", obj_violin);
 V06 = instance_create_layer(910, 170, "Instances", obj_violin);
 
+C_01 = instance_create_layer(365, 285, "Instances", obj_cello);
+C_02 = instance_create_layer(915, 285, "Instances", obj_cello);
+C_02.image_xscale = -1;
+enemy_bullet_path(oebp, 180, path_violin, C_01.x, C_01.y, 4);
+enemy_bullet_path(oebp, 00, path_violin, C_02.x, C_02.y, 4);
 
 
 enemy_bullet_path(oebp, 250, path_violin, V01.x, V01.y, 4);
