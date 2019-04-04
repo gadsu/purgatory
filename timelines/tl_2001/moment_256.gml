@@ -1,6 +1,6 @@
 ///@descr Cello 3 and 4
 
-enemy_bullet(oebw, 270, bx, by);
+
 
 C_03 = instance_create_layer(365, 390, "Instances", obj_cello);
 C_04 = instance_create_layer(915, 390, "Instances", obj_cello);

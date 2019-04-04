@@ -379,6 +379,23 @@
             "moment": 896
         },
         {
+            "id": "5b533533-b04e-4957-ad97-e012d0b6ef9f",
+            "modelName": "GMMoment",
+            "mvc": "1.0",
+            "name": "",
+            "evnt": {
+                "id": "3ebdae59-4a39-4ee7-98fa-3a47000a6928",
+                "modelName": "GMEvent",
+                "mvc": "1.0",
+                "IsDnD": false,
+                "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+                "enumb": 912,
+                "eventtype": 0,
+                "m_owner": "8402ebb5-791f-41b0-8c5c-15969de7424c"
+            },
+            "moment": 912
+        },
+        {
             "id": "5b9cc12b-26d7-4b7a-89dd-c7f199e69673",
             "modelName": "GMMoment",
             "mvc": "1.0",
@@ -411,6 +428,23 @@
                 "m_owner": "8402ebb5-791f-41b0-8c5c-15969de7424c"
             },
             "moment": 960
+        },
+        {
+            "id": "13003cd2-af51-4624-9a7b-28159014eb4c",
+            "modelName": "GMMoment",
+            "mvc": "1.0",
+            "name": "",
+            "evnt": {
+                "id": "510ae0a3-e431-41e1-99f2-4f75ad18855a",
+                "modelName": "GMEvent",
+                "mvc": "1.0",
+                "IsDnD": false,
+                "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+                "enumb": 976,
+                "eventtype": 0,
+                "m_owner": "8402ebb5-791f-41b0-8c5c-15969de7424c"
+            },
+            "moment": 976
         },
         {
             "id": "a050782f-a255-4925-8cb7-e6760c1b55bf",

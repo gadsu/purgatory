@@ -11,7 +11,7 @@ oebp = obj_enemy_bullet_path;
 oebl = obj_enemy_bullet_large;
 
 
-enemy_bullet(oebw, 270, bx, by);
+
 
 V01 = instance_create_layer(370, 170, "Instances", obj_violin);
 V02 = instance_create_layer(420, 170, "Instances", obj_violin);
