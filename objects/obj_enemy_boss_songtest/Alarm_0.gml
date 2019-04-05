@@ -62,6 +62,6 @@ timeline_speed = 1;
 //audio_sound_set_track_position(global.AngelVoices, 199.127);
 //audio_play_sound(global.AngelVoices, 0, false);
 //timeline_index = tl_ANGEL_VOICES_07a;
-//timeline_position = 4100;
+//timeline_position = 0;
 //timeline_running = true;
 //timeline_speed = 1.475555555555555555555;
