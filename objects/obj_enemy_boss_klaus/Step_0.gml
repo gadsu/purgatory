@@ -4,15 +4,21 @@ timer++
 //Step code is in the parent file
 event_inherited();
 
-if(dialogue_1 == true) {
-	myName = "Klaus";
-	myPortrait = spr_klaus_dialogue;
-	myText[0] = "Another young upstart here to attempt to take the throne?";
-	myText[1] = "I will leave everything on the stage as I always do.";
-	myText[2] = "Good luck. You’re going to need it, boy.";
-	mySpeaker = -1;
-	mask_index = 0;
+//if(dialogue_1 == true) {
+//	myName = "Klaus";
+//	myPortrait = spr_klaus_dialogue;
+//	myText[0] = "Another young upstart here to attempt to take the throne?";
+//	myText[1] = "I will leave everything on the stage as I always do.";
+//	myText[2] = "Good luck. You’re going to need it, boy.";
+//	mySpeaker = -1;
+//	mask_index = 0;
+//}
+
+if(timer >= 10 && !instance_exists(obj_textbox))
+{
+	par_speaker.detection_radius = 10;
 }
+
 
 if(!instance_exists(obj_player) && dialogue_2 == true ) {
 	par_speaker.detection_radius = 1000;

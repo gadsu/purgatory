@@ -1,0 +1,6 @@
+How To Play Our Game:
+
+Move: WASD
+Shoot: Don't worry about it
+Tsar-Bomba: Z
+Move slowly: Left Shift

@@ -1,42 +1,45 @@
 /// @making the player move
-if (!keyboard_check(vk_shift))
+if(global.dead == false)
 {
-	if (Input.up == true)
+	if (!keyboard_check(vk_shift))
 	{
-		y -= player_speed;
+		if (Input.up == true)
+		{
+			y -= player_speed;
+		}
+		if (Input.down == true)
+		{
+			y += player_speed;
+		}
+		if (Input.left == true)
+		{
+			x -= player_speed;	
+		}
+		if (Input.right == true)
+		{
+			x += player_speed;
+		}
 	}
-	if (Input.down == true)
-	{
-		y += player_speed;
-	}
-	if (Input.left == true)
-	{
-		x -= player_speed;	
-	}
-	if (Input.right == true)
-	{
-		x += player_speed;
-	}
-}
 
-//Controls precision movement
-if (keyboard_check(vk_shift))
-{
-	if (Input.up == true)
+	//Controls precision movement
+	if (keyboard_check(vk_shift))
 	{
-		y -= player_speed / 2.273;
-	}
-	if (Input.down == true)
-	{
-		y += player_speed / 2.273;
-	}
-	if (Input.left == true)
-	{
-		x -= player_speed / 2.273;	
-	}
-	if (Input.right == true)
-	{
-		x += player_speed / 2.273;
+		if (Input.up == true)
+		{
+			y -= player_speed / 2.273;
+		}
+		if (Input.down == true)
+		{
+			y += player_speed / 2.273;
+		}
+		if (Input.left == true)
+		{
+			x -= player_speed / 2.273;	
+		}
+		if (Input.right == true)
+		{
+			x += player_speed / 2.273;
+		}
 	}
 }
 //Controls switching instruments (OUTDATED)
@@ -135,19 +138,22 @@ if (cooldown == false && !instance_exists(obj_textbox) && !instance_exists(obj_h
 
 
 //clamping the player to stay on the screen
-
-x = clamp(x, sprite_width/2 + room_width/4, room_width - sprite_width/2 - room_width/4);
-y = clamp(y, 200, room_height - sprite_height/2);
+if(global.dead == false)
+{
+	x = clamp(x, sprite_width/2 + room_width/4, room_width - sprite_width/2 - room_width/4);
+	y = clamp(y, 200, room_height - sprite_height/2);
+}
 
 // if you collide with any enemy, lose hp
-if (health <= 0)
+if (health <= 0 && obj_player.y < 1900)
 {
 	audio_play_sound(death_sound_effect_v2,10,false);
 	global.dead = true;
-	show_debug_message(timesHit);
-	instance_destroy();
-	
-	
+	//show_debug_message(timesHit);
+	obj_player.x = 640;
+	y = clamp(y, 200, 2500);
+	obj_player.y = 2500;
+	show_debug_message(obj_player.y);
 }
 
 
