@@ -543,6 +543,14 @@
             }
         },
         {
+            "Key": "4b364963-b6e8-4eca-8a66-eb6d3d641a1f",
+            "Value": {
+                "id": "65a946e9-5783-4ea0-8ba8-67ef68788e3b",
+                "resourcePath": "paths\\path_cello\\path_cello.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "4b76db8d-98ed-4fd5-beea-5296838d85c5",
             "Value": {
                 "id": "cc5ef5b4-dac0-4036-b7ad-ed0f3d5ca890",
