@@ -3,6 +3,13 @@
 //Main Menu
 if(clickable == false && options == false && hud_customize == false)
 {
+	obj_menu_logo.image_alpha = 1;
+	obj_back_select.image_alpha = 0;
+	obj_D0T_select.image_alpha = 0;
+	obj_klaus_select.image_alpha = 0;
+	obj_mob_select.image_alpha = 0;
+	obj_lines.image_alpha = 0;
+	
 	anim += keyboard_check_pressed(vk_up) - keyboard_check_pressed(vk_down);
 
 	if (anim > array_length_1d(menu_ids) - 1)
@@ -60,12 +67,20 @@ if(clickable == false && options == false && hud_customize == false)
 //Stage Select
 else if(clickable == true && options == false)
 {
-	draw_sprite(TempMenu, -1, 224, 0);
+	obj_menu_logo.image_alpha = 0;
+	obj_back_select.image_alpha = 1;
+	obj_D0T_select.image_alpha = 1;
+	obj_klaus_select.image_alpha = 1;
+	obj_mob_select.image_alpha = 1;
+	obj_lines.image_alpha = 1;
 }
 //--------------------------------------------------
 //Options Menu
 else if(clickable == false && options == true)
 {
+	obj_menu_logo.image_alpha = 0;
+	
+	
 	anim += keyboard_check_pressed(vk_up) - keyboard_check_pressed(vk_down);
 
 	if (anim > array_length_1d(option_ids) - 1)

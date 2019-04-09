@@ -36,3 +36,9 @@ boss_name = "";
 
 show_debug_message(length_x);
 show_debug_message(length_y);
+
+//spr_back.image_alpha = 0;
+//spr_D0T.image_alpha = 0;
+//spr_klaus.image_alpha = 0;
+//spr_MOB.image_alpha = 0;
+//spr_lines.image_alpha = 0;
