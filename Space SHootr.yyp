@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "02bc8639-4871-4378-adf5-4ed525e7a470",
+            "Value": {
+                "id": "7157c8b3-30af-49e2-865d-2f3ec6d5c429",
+                "resourcePath": "rooms\\room_MOB\\room_MOB.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "0459ccda-361d-434e-aa28-3c09c4ce896e",
             "Value": {
                 "id": "c39a27f3-ccc3-48a7-9431-91aa5d5d56d7",
@@ -1583,6 +1591,14 @@
             }
         },
         {
+            "Key": "d460b42c-8321-411b-b230-d0ddb0c0671d",
+            "Value": {
+                "id": "16e1d722-ef07-47eb-a00f-9fecb5025de4",
+                "resourcePath": "sprites\\spr_mob_dialogue\\spr_mob_dialogue.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d4f293d9-aeb2-469b-8be4-933507f0b53c",
             "Value": {
                 "id": "a7cc1275-613a-4d88-978b-2034536b79cc",
@@ -1692,6 +1708,14 @@
                 "id": "fca28352-dc60-4947-9456-a3856402f792",
                 "resourcePath": "timelines\\tl_ANGEL_VOICES_05\\tl_ANGEL_VOICES_05.yy",
                 "resourceType": "GMTimeline"
+            }
+        },
+        {
+            "Key": "dd846ae8-a522-4a5c-a05e-1638ebd543b6",
+            "Value": {
+                "id": "658c4c35-6725-4648-8226-5185326935ff",
+                "resourcePath": "objects\\obj_enemy_boss_mob\\obj_enemy_boss_mob.yy",
+                "resourceType": "GMObject"
             }
         },
         {

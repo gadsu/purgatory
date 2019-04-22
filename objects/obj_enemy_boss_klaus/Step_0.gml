@@ -32,7 +32,7 @@ if(timer >= 10 && !instance_exists(obj_textbox))
 }
 
 
-if(!instance_exists(obj_player) && dialogue_2 == true ) {
+if(obj_player.y > 1000 && dialogue_2 == true) {
 	par_speaker.detection_radius = 1000;
 	
 	reset_dialogue_defaults();
