@@ -44,7 +44,7 @@ else if(!instance_exists(obj_player) && player_dead == 0) {
 	keyboard_key_release(vk_enter);
 	player_dead++;
 }
-
+/*
 if(dialogue_real_start) {
 	keyboard_key_press(vk_enter);
 	keyboard_key_release(vk_enter);
@@ -95,3 +95,4 @@ else if(boss_name = "D0T") {
 else if(boss_name = "" && dialogue_1) {
 	show_debug_message("fucked");
 }
+*/

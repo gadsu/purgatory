@@ -17,19 +17,19 @@ dialog_start_started = false;
 safeguard = false;
 
 //setting the boss' information from the parent
-//myName = "D.0.T.";
-//myPortrait = spr_dot_dialogue;
-//myText[0] = "So, the reigning champion meets her foe.";
-//myText[1] = "I gotta say, that takes some guts.";
-//myText[2] = "Now... I truly am sorry about this... but I gotta beat you into the ground.";
-//mySpeaker = -1;
+myName = "D.0.T.";
+myPortrait = spr_dot_dialogue;
+myText[0] = "So, the reigning champion meets her foe.";
+myText[1] = "I gotta say, that takes some guts.";
+myText[2] = "Now... I truly am sorry about this... but I gotta beat you into the ground.";
+mySpeaker = -1;
 
 
 // Flag Variables
-//dialogue_1 = true;
-//text_01 = false;
-//dialogue_2 = false;
-//dialogue_3 = false;
+dialogue_1 = true;
+text_01 = false;
+dialogue_2 = false;
+dialogue_3 = false;
 
 
 timer = 0

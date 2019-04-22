@@ -17,15 +17,17 @@ boss_dead = false;
 globalvar dialogue_start;
 dialogue_start = true;
 
-//dialogue flags
-globalvar dialogue_1;
-dialogue_1 = true;
-globalvar dialogue_2;
-dialogue_2 = false;
-globalvar dialogue_3;
-dialogue_3 = false;
-globalvar text_01;
-text_01 = false;
+////dialogue flags
+//globalvar dialogue_1;
+//globalvar dialogue_2;
+//globalvar dialogue_3;
+//globalvar text_01;
+
+//dialogue_1 = true;
+//dialogue_2 = false;
+//dialogue_3 = false;
+//text_01 = false;
+
 Klaus_dead = false;
 D0T_dead = false;
 dialogue_real_start = true;
