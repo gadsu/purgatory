@@ -3,17 +3,8 @@ timer++
 //Step code is in the parent file
 event_inherited();
 //intro lines
-if(dialogue_1 == true) {
-//	if(!Klaus_dead) {
-//		//show_debug_message("klaus lives");
-		myName = "D.0.T.";
-		myPortrait = spr_dot_dialogue;
-		myText[0] = "So, the reigning champion meets her foe.";
-		myText[1] = "I gotta say, that takes some guts.";
-		myText[2] = "Now... I truly am sorry about this... but I gotta beat you into the ground.";
-		mySpeaker = -1;
-//	}
-//	else {
+//if(dialogue_1 == true) {
+//	if(Klaus_dead) {
 //		//show_debug_message("klaus ded");
 //		reset_dialogue_defaults();
 //		myName = "D.0.T.";
@@ -23,7 +14,16 @@ if(dialogue_1 == true) {
 //		myText[2] = "Just don’t waste my time.";
 //		mySpeaker = -1;
 //	}
-}
+//	else {
+//		//show_debug_message("klaus lives");
+//		myName = "D.0.T.";
+//		myPortrait = spr_dot_dialogue;
+//		myText[0] = "So, the reigning champion meets her foe.";
+//		myText[1] = "I gotta say, that takes some guts.";
+//		myText[2] = "Now... I truly am sorry about this... but I gotta beat you into the ground.";
+//		mySpeaker = -1;
+//	}
+//}
 //start timeline and music
 if(!instance_exists(obj_textbox) && dialogue_1 == true && timer > 1) {
 	alarm[0] = 60;

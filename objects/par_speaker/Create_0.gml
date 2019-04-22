@@ -27,6 +27,8 @@ dialogue_start = true;
 //dialogue_2 = false;
 //dialogue_3 = false;
 //text_01 = false;
+globalvar Klaus_dead;
+globalvar D0T_dead;
 
 Klaus_dead = false;
 D0T_dead = false;

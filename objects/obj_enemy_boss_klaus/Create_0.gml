@@ -39,9 +39,22 @@ dialogue_2 = false;
 dialogue_3 = false;
 text_01 = false;
 
-myName = "Klaus";
-myPortrait = spr_klaus_dialogue;
-myText[0] = "Another young upstart here to attempt to take the throne?";
-myText[1] = "I will leave everything on the stage as I always do.";
-myText[2] = "Good luck. You’re going to need it, boy.";
-mySpeaker = -1;
+if(D0T_dead) {
+	myName = "Klaus";
+	myPortrait = spr_klaus_dialogue;
+	myText[0] = "Well, that’s a shame.";
+	myText[1] = "That girl showed promise.";
+	myText[2] = "Apparently you do too, if you were able to beat her.";
+	myText[3] = "Heh. Well, let’s see what you’ve got. Bring it on, kiddo.";
+	mySpeaker = -1;
+	mask_index = 0;
+}
+else {
+	myName = "Klaus";
+	myPortrait = spr_klaus_dialogue;
+	myText[0] = "Another young upstart here to attempt to take the throne?";
+	myText[1] = "I will leave everything on the stage as I always do.";
+	myText[2] = "Good luck. You’re going to need it, boy.";
+	mySpeaker = -1;
+	mask_index = 0;
+}

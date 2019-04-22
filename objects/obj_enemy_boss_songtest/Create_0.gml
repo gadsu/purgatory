@@ -17,12 +17,25 @@ dialog_start_started = false;
 safeguard = false;
 
 //setting the boss' information from the parent
-myName = "D.0.T.";
-myPortrait = spr_dot_dialogue;
-myText[0] = "So, the reigning champion meets her foe.";
-myText[1] = "I gotta say, that takes some guts.";
-myText[2] = "Now... I truly am sorry about this... but I gotta beat you into the ground.";
-mySpeaker = -1;
+if(Klaus_dead) {
+	//show_debug_message("klaus ded");
+	reset_dialogue_defaults();
+	myName = "D.0.T.";
+	myPortrait = spr_dot_dialogue;
+	myText[0] = "Klaus has quite the reputation for breaking the weak ones, and yet here you are.";
+	myText[1] = "Guess you’re stronger than I thought.";
+	myText[2] = "Just don’t waste my time.";
+	mySpeaker = -1;
+}
+else {
+	//show_debug_message("klaus lives");
+	myName = "D.0.T.";
+	myPortrait = spr_dot_dialogue;
+	myText[0] = "So, the reigning champion meets her foe.";
+	myText[1] = "I gotta say, that takes some guts.";
+	myText[2] = "Now... I truly am sorry about this... but I gotta beat you into the ground.";
+	mySpeaker = -1;
+}
 
 
 // Flag Variables
