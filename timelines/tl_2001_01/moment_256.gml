@@ -1,9 +1,3 @@
-///@descr Trombone Comes in
-
-
-
-
-
 
 
 
@@ -16,11 +10,3 @@ enemy_bullet_path(oebp, dir_02, path_violin, V03.x, V03.y, 4);
 enemy_bullet_path(oebp, dir_03, path_violin, V04.x, V04.y, 4);
 enemy_bullet_path(oebp, 280, path_violin, V05.x, V05.y, 4);
 enemy_bullet_path(oebp, 270, path_violin, V06.x, V06.y, 4);
-
-
-//enemy_bullet(oebw, 270, bx + 40, by);
-
-timeline_index = tl_2001_01;
-timeline_position = 0;
-timeline_running = true;
-timeline_speed = 2.5;

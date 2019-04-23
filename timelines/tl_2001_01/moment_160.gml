@@ -1,12 +1,3 @@
-///@descr Trombone Comes in
-
-
-
-
-
-
-
-
 dir_02 = point_direction(V03.x, V03.y, obj_player.x, obj_player.y) - 2*(point_direction(V03.x, V03.y, obj_player.x, obj_player.y) - 270) ;
 dir_03 = point_direction(V03.x, V03.y, obj_player.x, obj_player.y) /*- 2*(point_direction(V03.x, V03.y, obj_player.x, obj_player.y) - 270)*/;
 enemy_bullet_path(oebp, 270, path_violin, V01.x, V01.y, 4);
@@ -18,9 +9,7 @@ enemy_bullet_path(oebp, 280, path_violin, V05.x, V05.y, 4);
 enemy_bullet_path(oebp, 270, path_violin, V06.x, V06.y, 4);
 
 
-//enemy_bullet(oebw, 270, bx + 40, by);
-
-timeline_index = tl_2001_01;
-timeline_position = 0;
-timeline_running = true;
-timeline_speed = 2.5;
+//Trumpet
+enemy_bullet(oebw, 270, bx, by);
+enemy_bullet(oebw, 270, bx+20, by);
+enemy_bullet(oebw, 270, bx-20, by);

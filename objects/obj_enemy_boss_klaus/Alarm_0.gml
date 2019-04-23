@@ -1,23 +1,25 @@
 /// @description Start the Timeline
-show_debug_message("timeline started");
-globalvar WTOF;
-global.WTOF = audio_play_sound(Rhapsody_2001, 10, false);
-timeline_index = tl_2001;
-timeline_position = 0;
-timeline_running = true;
-timeline_speed = 2.5;
+//show_debug_message("timeline started");
+//globalvar WTOF;
+//global.WTOF = audio_play_sound(Rhapsody_2001, 10, false);
+//timeline_index = tl_2001;
+//timeline_position = 0;
+//timeline_running = true;
+//timeline_speed = 2.5;
 
 
 
 ////Skip to second box
-//globalvar AngelVoices;
-//global.AngelVoices = audio_play_sound(Virtual_Self___ANGEL_VOICES, 10, false);
-//audio_sound_set_track_position(global.AngelVoices, 48.766);
-//audio_play_sound(global.AngelVoices, 0, false);
-//timeline_index = tl_ANGEL_VOICES_02;
-//timeline_position = 0;
-//timeline_running = true;
-//timeline_speed = 1.475555555555555555555;
+globalvar WTOF;
+globalvar classicalskip;
+classicalskip = true;
+global.WTOF = audio_play_sound(Rhapsody_2001, 10, false);
+audio_sound_set_track_position(global.WTOF, 22.127);
+audio_play_sound(global.WTOF, 0, false);
+timeline_index = tl_2001_01;
+timeline_position = 0;
+timeline_running = true;
+timeline_speed = 2.5;
 
 //Skip to third box
 //globalvar AngelVoices;
