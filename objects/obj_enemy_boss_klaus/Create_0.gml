@@ -58,3 +58,5 @@ else {
 	mySpeaker = -1;
 	mask_index = 0;
 }
+
+audio_sound_gain(Rhapsody_2001, 1, 0);

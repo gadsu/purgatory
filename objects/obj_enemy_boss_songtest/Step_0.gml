@@ -56,14 +56,15 @@ if((obj_player.y > 1000 && dialogue_2 == true) ||
 		keyboard_key_release(vk_enter);
 	}
 	
-	if(instance_exists(obj_textbox) && text_01 == false)
+	if(text_01 == false)
 	{
 		audio_sound_gain(Virtual_Self___ANGEL_VOICES_CUT, 0, 2500);
 		//alarm[2] = 5;
 		text_01 = true;
+		timer = 0
 	}
 }	
-if(!instance_exists(obj_textbox) && (dialogue_2 == true || dialogue_3 == true) && text_01 == true)
+if(!instance_exists(obj_textbox) && (dialogue_2 == true || dialogue_3 == true) && text_01 == true && timer > 50)
 {
 	par_speaker.detection_radius = 10;
 	reset_dialogue_defaults();

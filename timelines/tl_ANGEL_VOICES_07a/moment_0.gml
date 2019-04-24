@@ -103,5 +103,3 @@ global.phase = 7;
 dir_01 = 225;
 
 // END OF SKIP CODE
-
-
