@@ -32,7 +32,9 @@ if(timer >= 10 && !instance_exists(obj_textbox))
 }
 
 
-if(obj_player.y > 1000 && dialogue_2 == true) {
+if((obj_player.y > 1000 && dialogue_2 == true) || (timeline_index == tl_2001_01 && 
+			timeline_position > 900 && timeline_running == true && health < 50)) 
+		{
 	par_speaker.detection_radius = 1000;
 	
 	reset_dialogue_defaults();
@@ -44,15 +46,13 @@ if(obj_player.y > 1000 && dialogue_2 == true) {
 	//Needed to solve weird issue of not spawning the text box
 	
 	if(text_01 == false) {
-		keyboard_key_press(vk_enter);
-		keyboard_key_release(vk_enter);
+	//	keyboard_key_press(vk_enter);
+	//	keyboard_key_release(vk_enter);
 	}
 	
-	if(instance_exists(obj_textbox) && text_01 == false) {
-		audio_sound_gain(Rhapsody_2001, 0, 2500);
-		//alarm[2] = 5;
-		text_01 = true;
-	}
+	audio_sound_gain(Rhapsody_2001, 0, 2500);
+	//alarm[2] = 5;
+	text_01 = true;
 }
 if(!instance_exists(obj_textbox) && (dialogue_2 == true || dialogue_3 == true) && text_01 == true) {
 	par_speaker.detection_radius = 10;
@@ -65,12 +65,12 @@ if(!instance_exists(obj_textbox) && (dialogue_2 == true || dialogue_3 == true) &
 
 }
 
-if(hp <= 0 && dialogue_3 != true && text_01 == false) {
+if(timeline_index == tl_2001_01 && timeline_position > 900 && timeline_running == true && health > 50) {
 	timeline_speed = 0;
+	timeline_running = false;
 	par_speaker.detection_radius = 1000;
-	
 	reset_dialogue_defaults();
-	myName = "D.0.T.";
+	myName = "Klaus";
 	myPortrait = spr_klaus_dialogue;
 	myText[0] = "Well, damn.";
     myText[1] = "No one was expecting some nobody to get in and take out the reigning champ the first time around, especially me.";
@@ -79,8 +79,10 @@ if(hp <= 0 && dialogue_3 != true && text_01 == false) {
     myText[4] = "Make the most of it, and please, for the love of music, do not screw it up.";
 	mySpeaker = -1;
 	
-	if(instance_exists(obj_textbox))
-		alarm[3] = 5;
+	keyboard_key_press(vk_enter);
+	keyboard_key_release(vk_enter);
+	
+	text_01 = true;
 }
 
 
