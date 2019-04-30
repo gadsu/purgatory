@@ -27,6 +27,24 @@ if(Klaus_dead) {
 	myText[2] = "Just don’t waste my time.";
 	mySpeaker = -1;
 }
+else if(MOB_dead) {
+	reset_dialogue_defaults();
+	myName = "D.0.T.";
+	myPortrait = spr_dot_dialogue;
+	myText[0] = "Aww, did the angsty baby give you a tough time?";
+	myText[1] = "Wait, he wasn’t ready? Oh, that’s quite hilarious!";
+	myText[2] = "Don’t get too comfortable, though. It only gets harder from here.";
+	mySpeaker = -1;
+}
+else if(MOB_dead && Klaus_dead) {
+	reset_dialogue_defaults();
+	myName = "D.0.T.";
+	myPortrait = spr_dot_dialogue;
+	myText[0] = "And the reigning champion meets her foe.";
+	myText[1] = "How nice to finally meet you.";
+	myText[2] = "And now, I have to beat you into the ground.";
+	mySpeaker = -1;
+}
 else {
 	//show_debug_message("klaus lives");
 	myName = "D.0.T.";

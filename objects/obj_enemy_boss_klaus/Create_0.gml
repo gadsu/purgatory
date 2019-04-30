@@ -49,6 +49,26 @@ if(D0T_dead) {
 	mySpeaker = -1;
 	mask_index = 0;
 }
+else if(MOB_dead) {
+	myName = "Klaus";
+	myPortrait = spr_klaus_dialogue;
+	myText[0] = "Ah, that youngster was never prepared for anything.";
+	myText[1] = "Doesn’t surprise me that he wasn’t ready for this.";
+	myText[2] = "But now I’ve got to take you out of the gauntlet.";
+	myText[3] = "Sorry about this. I wish you luck all the same though.";
+	mySpeaker = -1;
+	mask_index = 0;
+}
+else if(D0T_dead && MOB_dead) {
+	myName = "Klaus";
+	myPortrait = spr_klaus_dialogue;
+	myText[0] = "The nerve! Leaving me until the end?";
+	myText[1] = "These old bones almost didn’t last that long!";
+	myText[2] = "No matter, let’s just get it over with.";
+	myText[3] = "My soaps are about to start.";
+	mySpeaker = -1;
+	mask_index = 0;
+}
 else {
 	myName = "Klaus";
 	myPortrait = spr_klaus_dialogue;

@@ -29,9 +29,11 @@ dialogue_start = true;
 //text_01 = false;
 globalvar Klaus_dead;
 globalvar D0T_dead;
+globalvar MOB_dead;
 
 Klaus_dead = false;
 D0T_dead = false;
+MOB_dead = false;
 dialogue_real_start = true;
 
 keyboard_key_press(vk_enter);
